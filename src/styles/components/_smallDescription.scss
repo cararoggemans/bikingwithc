@@ -1,0 +1,10 @@
+.description {
+    padding: 64px 0;
+    &__image {
+        height: 250px;
+
+        img {
+            object-fit: cover;
+        }
+    }
+}
