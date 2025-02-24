@@ -1,0 +1,91 @@
+{
+  "navigation": {
+    "home": "Home",
+    "work": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  
+  "hero": {
+    "title": "Crafting Creative Content",
+    "subtitle": "Ready to dive into my world?"
+  },
+
+  "small_description": {
+    "title": "A little bit about me",
+    "intro": "Hello there, nice to meet you! My name is Cara Roggemans, graduate of AP Hogeschool with a degree in cross-media design. Over the years, I’ve fueled my creative fire with a passion for graphic and web design, photography and social media. When I’m not lost in pixels and visuals, you’ll find me cruising on my motorcycle and capturing travel adventures.",
+    "middle": "Recently I started diving into the exciting world of content creation and advertising.",
+    "outro": "Interested? Let’s grab a tea (or a coffee if you prefer) & create something awesome together!",
+    "highlight": "(or a coffee if you prefer ;))"
+  },
+
+  "featured_projects": {
+    "title": "Selected projects",
+    "subtitle": "Take a dive in and discover how I bring visions to life.",
+    "see_more": "See More"
+  },
+  
+  "featured_blogs": {
+    "title": "Latest from the blog",
+    "subtitle": "Turning creative adventures into inspiring stories to write.",
+    "read_more": "Read more"
+  },
+
+  "pages": {
+    "projects": {
+      "hero_title": "Projects",
+      "title": "All projects",
+      "subtitle": "Discover my work",
+      "description": "Step into my creative world, where ideas turn into reality.",
+      "see_more": "View project",
+      "teaser_text": "Dive deeper into this project"
+    },
+
+    "blog": {
+      "hero_title": "Blog",
+      "title": "All Blog posts",
+      "subtitle": "Latest insights",
+      "description": "Insights, trends, and thoughts on creativity, design and digital marketing.",
+      "see_more": "Read more"
+    },
+    
+    "contact": {
+      "title": "Let's Connect",
+      "subtitle": "Excited? Let's talk!",
+      "email": "Drop me an email at ",
+      "whatsapp": "Send me a message on ",
+      "linkedin": "Let’s connect on  ",
+      "note": "Have an idea? A question? Or just want to chat about design, creativity, or motorcycles? Whether it's a quick hello or a deep dive into creative projects, I’d love to hear from you. Let’s connect!"
+    }
+  },
+
+  "project_navigation": {
+    "previous_project": "Previous project",
+    "next_project": "Next project",
+    "previous_blog": "Previous blog",
+    "next_blog": "Next blog"
+  },
+
+  "footer": {
+    "left_title": "Cara Roggemans",
+    "middle_title": "Useful links",
+    "right_title": "Get in touch",
+    "left_text": "Graphic designer and web developer with a passion for content creation and social media.",
+    "link_1": "Home",
+    "link_2": "Projects",
+    "link_3": "Blog",
+    "link_4": "Contact"
+  },
+  
+  "alt": {
+    "contact": {
+      "image_1": "Cara Roggemans – Specialized in graphic design, photography, web design & development, holding a phone and ready to connect."
+  }
+},
+
+"general": {
+  "read_more": "Read more",
+  "see_more": "Discover more"
+  } 
+}
+  

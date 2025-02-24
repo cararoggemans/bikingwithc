@@ -5,7 +5,9 @@
 $header-font: 'Trueno', sans-serif;
 $body-font:  'Libre Baskerville', serif;
 
-$primary: #16a7a9;
-$body: #282828;
-$background: #ffffff;
-$section: #f5f5f5;
+:root {
+    --green: #0c8487;
+    --darkgrey: #282828;
+    --white: #ffffff;
+    --lightgrey: #f5f5f5;
+}

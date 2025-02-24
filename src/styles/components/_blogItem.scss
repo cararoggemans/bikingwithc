@@ -1,0 +1,90 @@
+.blog-item {
+    position: relative;
+
+    &__outer-link {
+      position: relative;
+      color: var(--darkgrey);
+      display: block;
+
+      &:hover .blog-item__image {
+        transform: scale(1.1);
+      }
+  
+      &:hover .blog-item__content {
+        bottom: 8px;
+        background-color: transparent;
+        color: var(--white);
+      }
+  
+      &:hover .blog-item__link {
+        color: var(--white);
+      }
+    
+      &:hover .blog-item__overlay {
+        opacity: 1;
+      }
+    }
+   
+    &__image-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 240px;
+    }
+  
+    &__image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+  
+    &__content {
+      position: absolute;
+      width: 85%;
+      background: var(--white);
+      bottom: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 12px;
+      transition: all 0.3s ease;
+      text-align: left;
+    }
+  
+    &__overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(22, 167, 169, 0.7);
+      border: 10px solid rgba(255,255,255,0.7);
+      opacity: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: opacity 0.3s ease;
+    }
+
+    &__title, &__link {
+      text-transform: uppercase;
+    }
+
+    &__link {
+      font-family: "TruenoLight";
+      text-decoration: none;
+      color: var(--green);
+      display: inline-block;
+      text-align: right;
+      width: 100%;
+      font-size: 0.75rem;
+    }
+
+    &__title {
+      margin-bottom: 8px;
+    }
+  }
+  

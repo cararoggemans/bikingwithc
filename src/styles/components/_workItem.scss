@@ -5,7 +5,7 @@
       position: relative;
       overflow: hidden;
       width: 100%;
-      padding-top: 100%; /* This maintains the square aspect ratio */
+      padding-top: 100%;
     }
   
     &__image {
@@ -14,7 +14,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover; /* Ensures the image covers the container */
+      object-fit: cover;
       transition: transform 0.3s ease;
     }
   
@@ -25,6 +25,7 @@
       width: 100%;
       height: 100%;
       background-color: rgba(22, 167, 169, 0.7);
+      border: 10px solid rgba(255,255,255,0.7);
       opacity: 0;
       display: flex;
       justify-content: center;
@@ -34,23 +35,29 @@
   
     &__overlay-content {
       text-align: center;
-      color: white;
+      color: var(--white);
       padding: 50px;
   
-      h4 {
+      h3 {
         font-size: 1.5rem;
         text-transform: uppercase;
         font-family: 'TruenoBlack';
       }
   
-      .work-item__button {
-        color: white;
+      .work-item__link {
+        color: var(--white);
         cursor: pointer;
         transition: background-color 0.3s ease;
         text-decoration: none;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 16px;
+        text-transform: uppercase;
+        font-family: 'TruenoLight';
       }
   
-      .work-item__button:hover {
+      .work-item__link:hover {
         text-decoration: underline;
       }
     }

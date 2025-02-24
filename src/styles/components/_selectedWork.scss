@@ -1,17 +1,36 @@
 .selected-work {
     text-align: center;
-    padding: 50px 0;
-    background-color: $section;
-  
+    padding: 50px 0px 24px 0;
+    background-color: var(--lightgrey);
+
+    @media only screen and (min-width: 476px) {
+      padding: 50px 0;
+    }
+
+      li {
+        list-style: none;
+      }
   
     &__subtitle {
         margin-bottom: 42px;
+    }
+    
+    p {
+      padding: 0 16px;
+
+      @media only screen and (min-width: 476px) {
+        padding: 0;
+      }
     }
   
     &__grid {
       display: flex;
       justify-content: center;
       gap: 16px;
+    }
+
+    ul {
+      padding-left: 0;
     }
   }
   

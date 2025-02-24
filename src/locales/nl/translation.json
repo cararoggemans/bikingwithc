@@ -1,0 +1,89 @@
+{
+  "navigation": {
+    "home": "Home",
+    "work": "Projecten",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "Crafting Creative Content",
+    "subtitle": "Klaar om in mijn wereld te duiken?"
+  },
+
+  "small_description": {
+    "title": "Een beetje over mij",
+    "intro": "Hallo hallo, leuk dat je hier bent! Ik ben Cara, afgestudeerd in cross-media design met een passie voor branding, webdesign en contentcreatie. Door de jaren heen heb ik mijn creativiteit verder ontwikkeld door middel van grafisch ontwerp, fotografie en sociale media. Wanneer ik niet terug te vinden ben achter mijn laptop, ben ik hoogstwaarschijnlijk onderweg met mijn motor.",
+    "middle": "Recent ben ik me verder gaan verdiepen in de wereld van reclame en contentmarketing.",
+    "outro": "Interesse? Let's meet up voor een tasje thee (of een koffie als je dat liever hebt) & dan maken we samen iets geweldig!"
+  },
+  
+  "featured_projects": {
+    "title": "Uitgelichte projecten",
+    "subtitle": "Neem een kijkje in mijn creatieve wereld en ontdek hoe mijn projecten tot leven komen.",
+    "see_more": "Ontdek meer"
+    
+  },
+  
+  "featured_blogs": {
+    "title": "Laatste blogartikels",
+    "subtitle": "Van creatieve avonturen naar inspirerende verhalen.",
+    "read_more": "Lees meer"
+  },
+
+  "pages": {
+    "projects": {
+      "hero_title": "Projecten",
+        "title": "Alle projecten",
+        "subtitle": "Ontdek mijn werk",
+        "description": "Neem een kijkje in mijn creatieve wereld, waar ideeën werkelijkheid worden.",
+        "see_more": "Bekijk project",
+        "teaser_text": "Ontdek meer over dit project"
+    },
+    "blog": {
+      "hero_title": "Blog",
+      "title": "Alle blogartikels",
+      "subtitle": "Ontdek mijn laatste inzichten ",
+      "description": "Inzichten, trends en gedachten over creativiteit, design en digitale marketing.",
+      "see_more": "Lees meer"
+    },
+    "contact": {
+      "title": "Let's connect",
+      "subtitle": "Excited? Laten we connecteren",
+      "email": "Stuur me een mailtje op ",
+      "whatsapp": "Stuur me een berichtje op ",
+      "linkedin": "Laten we connecteren op ",
+      "note": "Heb je een idee? Een vraag? Of gewoon zin om te praten over design, creativiteit of motors? Of het nu een korte kennismaking is of een inspirerend gesprek over creatieve projecten, ik hoor graag van je!"
+  }
+  },
+
+  "project_navigation": {
+  "previous_project": "Vorig project",
+  "next_project": "Volgend project",
+  "previous_blog": "Vorige blog",
+  "next_blog": "Volgende blog"
+  },
+
+  "footer": {
+  "left_title": "Cara Roggemans",
+  "middle_title": "Nuttige links",
+  "right_title": "Contact",
+  "left_text": "Grafisch ontwerper & web developer met een passie voor contentcreatie & sociale media.",
+  "link_1": "Home",
+  "link_2": "Projects",
+  "link_3": "Blog",
+  "link_4": "Contact"
+  },
+
+  "alt": {
+    "contact": {
+    "image_1": "Cara Roggemans - Gespecialiseerd in grafisch ontwerp, fotografie, webdesign & development, met een telefoon in de hand, klaar om te connecteren."
+    }
+  },
+
+  "general": {
+    "read_more": "Lees meer",
+    "see_more": "Ontdek meer"
+  } 
+}
+  

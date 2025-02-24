@@ -1,0 +1,113 @@
+/* Basic styles for the hamburger menu */
+.hamburger {
+    position: absolute;
+    top: 22px;
+    right: 24px;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 1001;
+
+    &.is-open {
+      .hamburger__line {
+        background-color: white;
+      }
+    }
+
+    @media screen and (min-width: 476px) {
+      top: 30px;
+    }
+  }
+  
+  .hamburger__line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: all 0.4s ease;
+  }
+  
+  .hamburger.is-open .hamburger__line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  
+  .hamburger.is-open .hamburger__line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.is-open .hamburger__line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+  
+  /* Fullscreen menu styles */
+  .fullscreen-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 132, 135, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition: transform 0.4s ease, opacity 0.4s ease, visibility 0.4s ease;
+    z-index: 1000;
+  }
+  
+  .fullscreen-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+  
+  .fullscreen-menu__nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fullscreen-menu__nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fullscreen-menu__nav ul li {
+    margin: 20px 0;
+  }
+  
+  .fullscreen-menu__nav ul li a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .fullscreen-menu__nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .fullscreen-menu__language-switch {
+    margin-top: 40px;
+  }
+  
+  .lang-btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 10px;
+  }
+  
+  .lang-btn:hover,
+  .lang-btn.active {
+    background: white;
+    color: var(--green);
+  }
+  

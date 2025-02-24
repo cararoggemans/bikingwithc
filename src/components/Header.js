@@ -1,62 +1,97 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
+import HamburgerMenu from './HamburgerMenu';
+import LanguageSwitcher from './LanguageSwitcher';
 import Logo from '../img/cararoggemans.svg';
 import LogoSticky from '../img/cararoggemans-green.svg';
 
 const Header = () => {
-  const [isSticky, setIsSticky] = useState(false);
-  const location = useLocation(); // Get the current route location
+  const { t } = useTranslation();
 
-  const handleScroll = () => {
-    if (window.scrollY > 90) { // 90px is size of top nav
-      setIsSticky(true);
-    } else {
-      setIsSticky(false);
-    }
-  };
+  const [isSticky, setIsSticky] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
+  const location = useLocation();
 
   useEffect(() => {
+    const handleScroll = () => {
+      setIsSticky(window.scrollY > 90);
+    };
+
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 992);
+    };
+
     window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
-  const isActive = (path) => location.pathname === path;
+  const pathParts = location.pathname.split('/');
+  const currentLang = pathParts[1] === 'en' || pathParts[1] === 'nl' ? pathParts[1] : 'en';
 
+  const isActive = (path) => {
+    const cleanPath = '/' + pathParts.slice(2).join('/');
+    return cleanPath === path || cleanPath.startsWith(path + '/');
+  };
 
   return (
-    <header className={`header ${isSticky ? 'sticky' : ''}`}>
+    <div className={`header ${isSticky ? 'sticky' : ''}`} id="header">
       <div className="container">
         <div className="row align-items-center">
           <div className="header__logo col-2">
-              <img src={isSticky ? LogoSticky : Logo} alt="Cara Roggemans"/>
-            </div>
-            <div className="col-10">
-            <nav className="navigation" role="navigation">
-              <ul className="navigation__list ms-auto">
-              <li className ="navigation__item">
-                <Link to="/" className={`navigation__link ${isActive('/') ? 'active' : ''}`}>Home</Link>
-              </li>
-              <li className ="navigation__item">
-                <Link to="/about" className={`navigation__link ${isActive('/about') ? 'active' : ''}`}>About me</Link>
-              </li>
-              <li className ="navigation__item">
-                <Link to="/work" className={`navigation__link ${isActive('/work') ? 'active' : ''}`}>Work</Link>
-              </li>
-              <li className ="navigation__item">
-                <Link to="/blog" className={`navigation__link ${isActive('/blog') ? 'active' : ''}`}>Blog</Link>
-              </li>
-              <li className ="navigation__item">
-                <Link to="/contact" className={`navigation__link ${isActive('/contact') ? 'active' : ''}`}>Contact</Link>
-              </li>
-              </ul>
-            </nav>
+            <Link to={`/${currentLang}/`}>
+              <img src={isSticky ? LogoSticky : Logo} alt="Cara Roggemans logo" aria-label="Go to home page"/>
+            </Link>
           </div>
+
+          {/* ✅ Desktop Navigatie (alleen tonen boven 992px) */}
+          {!isMobile && (
+            <div className="col-9 nav__wrapper d-flex justify-content-end">
+              <nav className="navigation" role="navigation" aria-label="Main navigation">
+                <ul className="navigation__list ms-auto">
+                  <li className="navigation__item">
+                    <Link to={`/${currentLang}/`} className={`navigation__link ${isActive('/') ? 'active' : ''}`}>
+                      {t("navigation.home")}
+                    </Link>
+                  </li>
+                  <li className="navigation__item">
+                    <Link to={`/${currentLang}/work`} className={`navigation__link ${isActive('/work') ? 'active' : ''}`}>
+                      {t("navigation.work")}
+                    </Link>
+                  </li>
+                  <li className="navigation__item">
+                    <Link to={`/${currentLang}/blog`} className={`navigation__link ${isActive('/blog') ? 'active' : ''}`}>
+                      {t("navigation.blog")}
+                    </Link>
+                  </li>
+                  <li className="navigation__item">
+                    <Link to={`/${currentLang}/contact`} className={`navigation__link ${isActive('/contact') ? 'active' : ''}`}>
+                      {t("navigation.contact")}
+                    </Link>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          )}
+
+          {/* ✅ Taalswitcher (op desktop en in het hamburgermenu) */}
+          {!isMobile && (
+            <div className="col-1 d-flex justify-content-end align-items-center">
+              <LanguageSwitcher />
+            </div>
+          )}
+
+          {/* ✅ Hamburgermenu (alleen tonen onder 992px) */}
+          {isMobile && <HamburgerMenu />}
         </div>
       </div>
-    </header>
+    </div>
   );
-}
+};
 
 export default Header;

@@ -1,0 +1,14 @@
+.work-page {
+    &__description {
+        text-align: center;
+        margin-bottom: 42px;
+    }
+
+    &__item {
+        padding: 0;
+
+        @media screen and (min-width: 476px) {
+            padding: 0 64px 64px 64px;
+        }
+    }
+}

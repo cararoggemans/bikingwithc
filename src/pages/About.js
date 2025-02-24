@@ -7,8 +7,10 @@ import Footer from '../components/Footer';
 const About = () => {
   return (
     <div>
-       <h1>ABOUT ME</h1>
-       <Footer/>
+        <Hero />
+        <SmallDescription />
+        <Quote />
+        <Footer />
     </div>
   );
 }
