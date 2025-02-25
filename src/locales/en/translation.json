@@ -80,8 +80,30 @@
   "alt": {
     "contact": {
       "image_1": "Cara Roggemans – Specialized in graphic design, photography, web design & development, holding a phone and ready to connect."
-  }
-},
+    }
+  },
+
+  "meta": {
+      "home": {
+        "title": "CARA | Home",
+        "description": "Discover the creative world of Cara Roggemans, a graphic designer and web developer passionate about branding, web design, and content creation."
+      },
+      "projects": {
+        "title": "CARA | Projects",
+        "description": "Explore a selection of creative projects, from branding and web design to social media campaigns and visual storytelling."
+      },
+      "blog": {
+        "title": "CARA | Blog",
+        "description": "Read the latest blog posts on creativity, design, marketing, and digital trends."
+      },
+      "blog_detail": {
+        "description": "dive into insights on creativity, design, and marketing."
+      },
+      "contact": {
+        "title": "CARA | Get in touch",
+        "description": "Have a project in mind? Get in touch with Cara Roggemans for design, web development, and creative collaborations."
+      }
+  },
 
 "general": {
   "read_more": "Read more",

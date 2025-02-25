@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import workItemsDataEN from "../data/en/workData";
 import workItemsDataNL from "../data/nl/workData";
 import WorkItem from '../components/WorkItem';
+import MetaDescription from '../components/MetaDescription';
 import heroImage from '../img/work/work-hero.jpg';
 import { useTranslation } from "react-i18next";
 
@@ -13,6 +14,11 @@ const Work = () => {
 
   return (
     <div>
+      <MetaDescription
+        title={t("meta.projects.title")} 
+        description={t("meta.projects.description")} 
+        />
+
       <Hero 
         backgroundImage={heroImage}
         title={t("pages.projects.hero_title")}

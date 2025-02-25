@@ -3,6 +3,7 @@ import { useLocation, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Hero from '../../components/Hero';
 import ProjectNavigation from '../../components/ProjectNavigation';
+import MetaDescription from '../../components/MetaDescription';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
 import galleryImage from '../../img/work/wedding/wedding-hero-1.png';
@@ -28,6 +29,10 @@ const WeddingInvitation = () => {
 
   return (
     <>
+          <MetaDescription
+        title={`${currentWork.title}`} 
+        description={`${currentWork.description}`} 
+        />
       <Hero 
           backgroundImage={galleryImage} 
           title={currentWork.title}

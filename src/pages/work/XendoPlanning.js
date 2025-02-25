@@ -3,6 +3,7 @@ import { useLocation, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Hero from '../../components/Hero';
 import ProjectNavigation from '../../components/ProjectNavigation';
+import MetaDescription from '../../components/MetaDescription';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
 import backgroundImage from '../../img/work/xendo/events/hero-planning.png';
@@ -31,6 +32,10 @@ const XendoPlanning = () => {
 
   return (
     <>
+          <MetaDescription
+        title={`${currentWork.title}`} 
+        description={`${currentWork.description}`} 
+        />
       <Hero 
           backgroundImage={backgroundImage} 
           title={currentWork.title}

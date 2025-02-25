@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import blogDataEN from '../data/en/blogData';
 import blogDataNL from '../data/nl/blogData';
+import MetaDescription from '../components/MetaDescription';
 import BlogItem from '../components/BlogItem';
 import heroImage from '../img/work/work-hero.jpg';
 import { useTranslation } from "react-i18next";
@@ -14,6 +15,10 @@ const Blog = () => {
 
   return (
     <div>
+      <MetaDescription
+          title={t("meta.blog.title")} 
+          description={t("meta.blog.description")} 
+        />
       <Hero 
         backgroundImage={heroImage}
         title={t("pages.blog.hero_title")}

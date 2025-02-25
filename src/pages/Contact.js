@@ -1,6 +1,7 @@
 
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
+import MetaDescription from '../components/MetaDescription';
 import heroImage from '../img/contact/contact-hero.jpg';
 import contactPicture from '../img/contact/get-in-touch-contact-page.jpg'
 import { useTranslation } from "react-i18next";
@@ -13,6 +14,10 @@ const Contact = () => {
 
   return (
     <div>
+          <MetaDescription
+          title={t("meta.contact.title")} 
+          description={t("meta.contact.description")} 
+        />
       <Hero 
         backgroundImage={heroImage}
         title={t("pages.contact.title")}

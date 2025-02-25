@@ -81,6 +81,25 @@
     }
   },
 
+  "meta": {
+      "home": {
+        "title": "CARA | Home",
+        "description": "Ontdek de creatieve wereld van Cara Roggemans, een grafisch ontwerper en webontwikkelaar met een passie voor branding, webdesign en contentcreatie."
+      },
+      "projects": {
+        "title": "CARA | Projecten",
+        "description": "Bekijk een selectie van creatieve projecten, van branding en webdesign tot social media campagnes en visuele storytelling."
+      },
+      "blog": {
+        "title": "CARA | Blog",
+        "description": "Lees de nieuwste blogartikelen over creativiteit, design, marketing en digitale trends."
+      },
+      "contact": {
+        "title": "CARA | Neem contact op",
+        "description": "Een project in gedachten? Neem contact op met Cara Roggemans voor grafisch ontwerp, webontwikkeling en creatieve samenwerkingen."
+      }
+  },
+  
   "general": {
     "read_more": "Lees meer",
     "see_more": "Ontdek meer"

@@ -3,22 +3,22 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Hero from '../components/Hero';
 import ProjectNavigation from '../components/ProjectNavigation';
+import MetaDescription from '../components/MetaDescription';
 import blogDataEN from '../data/en/blogData';
 import blogDataNL from '../data/nl/blogData';
+
 
 const BlogDetail = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const { lang, slug } = useParams();
 
-  // ✅ Kies de juiste taalversie van de blogdata
   const blogData = lang === "nl" ? blogDataNL : blogDataEN;
   const currentBlog = blogData.find(blog => blog.slug === slug);
 
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    // ✅ Als de blog niet bestaat in de huidige taal, redirect naar de andere taal als die beschikbaar is
     if (!currentBlog) {
       const fallbackBlog = lang === "nl"
         ? blogDataEN.find(blog => blog.slug === slug) 
@@ -36,6 +36,10 @@ const BlogDetail = () => {
 
   return (
     <>
+      <MetaDescription
+          title={`${currentBlog.title}`} 
+          description={`${currentBlog.start_content}`} 
+        />
       <Hero 
         backgroundImage={currentBlog.image} 
         title={currentBlog.title} 

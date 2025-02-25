@@ -1,0 +1,29 @@
+name: Deploy Build to Hostinger
+
+on:
+  push:
+    branches:
+      - main  # Voer de workflow alleen uit als er naar de "main" branch wordt gepusht
+
+jobs:
+  deploy:
+    name: Build & upload to Hostinger
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get Repo
+        uses: actions/checkout@v3
+
+      - name: Install dependencies & build app
+        run: |
+          npm install
+          npm run build
+
+      - name: Upload build to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: build/
+          server-dir: /public_html/

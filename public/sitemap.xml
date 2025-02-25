@@ -1,83 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <!-- Hoofdpagina -->
-    <url>
-        <loc>https://cararoggemans.com/</loc>
-        <priority>1.0</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-
-    <!-- Over mij -->
-    <url>
-        <loc>https://cararoggemans.com/about</loc>
-        <priority>0.8</priority>
-        <changefreq>monthly</changefreq>
-    </url>
-
-    <!-- Werk overzicht -->
-    <url>
-        <loc>https://cararoggemans.com/work</loc>
-        <priority>0.9</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-
-    <!-- Work detailpagina's -->
-    <url>
-        <loc>https://cararoggemans.com/work/wedding-invitation</loc>
-        <priority>0.7</priority>
-        <changefreq>never</changefreq>
-    </url>
-    <url>
-        <loc>https://cararoggemans.com/work/trixxo-20-years</loc>
-        <priority>0.7</priority>
-        <changefreq>never</changefreq>
-    </url>
-    <url>
-        <loc>https://cararoggemans.com/work/xendo-socials</loc>
-        <priority>0.7</priority>
-        <changefreq>never</changefreq>
-    </url>
-    <url>
-        <loc>https://cararoggemans.com/work/xendo-planning</loc>
-        <priority>0.7</priority>
-        <changefreq>never</changefreq>
-    </url>
-    <url>
-        <loc>https://cararoggemans.com/work/xendo-bar-menu</loc>
-        <priority>0.7</priority>
-        <changefreq>never</changefreq>
-    </url>
-
-    <!-- Blog overzicht -->
-    <url>
-        <loc>https://cararoggemans.com/blog</loc>
-        <priority>0.9</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-
-    <!-- Blog detailpagina's -->
-    <url>
-        <loc>https://cararoggemans.com/blog/dont-let-ai-steal-your-voice</loc>
-        <priority>0.6</priority>
-        <changefreq>never</changefreq>
-    </url>
-    <url>
-        <loc>https://cararoggemans.com/blog/instagram-ditches-square-layout</loc>
-        <priority>0.6</priority>
-        <changefreq>never</changefreq>
-    </url>
-    <url>
-        <loc>https://cararoggemans.com/blog/slow-paced-design</loc>
-        <priority>0.6</priority>
-        <changefreq>never</changefreq>
-    </url>
-
-    <!-- Contactpagina -->
-    <url>
-        <loc>https://cararoggemans.com/contact</loc>
-        <priority>0.8</priority>
-        <changefreq>monthly</changefreq>
-    </url>
-
+  <!-- Home -->
+  <url>
+    <loc>https://cararoggemans.com/en/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Work Overview -->
+  <url>
+    <loc>https://cararoggemans.com/en/work</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/work</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Work Detail Pages -->
+  <url>
+    <loc>https://cararoggemans.com/en/work/cabin-crew-thanks</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/work/cabin-crew-thanks</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/en/work/xendo-socials</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/work/xendo-socials</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Blog Overview -->
+  <url>
+    <loc>https://cararoggemans.com/en/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Blog Detail Pages -->
+  <url>
+    <loc>https://cararoggemans.com/en/blog/dont-let-ai-steal-your-voice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/blog/dont-let-ai-steal-your-voice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/en/blog/instagram-ditches-square-layout</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/blog/instagram-ditches-square-layout</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Contact Page -->
+  <url>
+    <loc>https://cararoggemans.com/en/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>

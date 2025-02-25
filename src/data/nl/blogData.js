@@ -5,7 +5,7 @@ import blogImage3 from '../../img/blog/dont-let-ai-steal-your-voice.jpg';
 const blogData = [
   {
     id: 3,
-    slug: "laat-ai-je-stem-niet-stelen",
+    slug: "dont-let-ai-steal-your-voice",
     image: blogImage3,
     title: "Laat AI je stem niet stelen",
     alt: "Een illustratie van AI en menselijke interactie",
@@ -19,7 +19,7 @@ const blogData = [
   },
   {
     id: 2,
-    slug: "instagram-laat-vierkanten-achterwege",
+    slug: "instagram-ditches-square-layout",
     image: blogImage2,
     title: "Instagram laat vierkanten voorgoed achterwege",
     alt: "Foto van de nieuwe Instagram-layout op een smartphone",

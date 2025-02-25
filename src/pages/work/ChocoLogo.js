@@ -3,10 +3,10 @@ import { useLocation, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Hero from '../../components/Hero';
 import ProjectNavigation from '../../components/ProjectNavigation';
+import MetaDescription from '../../components/MetaDescription';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
 import backgroundImage from '../../img/work/choco/hero1.jpg';
-import galleryImage from '../../img/work/choco/choco-hero.jpg'
 import image1 from '../../img/work/choco/wip1.jpg'
 import image2 from '../../img/work/choco/wip2.jpg'
 import image3 from '../../img/work/choco/wip3.jpg'
@@ -32,6 +32,10 @@ const ChocoLogo= () => {
 
   return (
     <>
+      <MetaDescription
+        title={`${currentWork.title}`} 
+        description={`${currentWork.description}`} 
+        />
       <Hero 
           backgroundImage={backgroundImage} 
            title={currentWork.title}
