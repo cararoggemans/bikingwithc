@@ -16,8 +16,7 @@ import galleryImage6 from '../../img/work/xendo/social/xendo-socials-saturday-cl
 import galleryImage7 from '../../img/work/xendo/social/xendo-social-facebook-event.png'
 
 const XendoSocials = () => {
-  const location = useLocation();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { lang } = useParams();
 
   const workData = lang === "nl" ? workDataNL : workDataEN;
@@ -27,10 +26,6 @@ const XendoSocials = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
-
-  const handleClick = () => {
-    window.scrollTo(0, 0);
-  };
 
   return (
     <>

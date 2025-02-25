@@ -14,8 +14,7 @@ import galleryImage6 from '../../img/work/xendo/events/xendo-october-events-post
 import galleryImage7 from '../../img/work/xendo/events/xendo-overview-event-posters.png'
 
 const XendoPlanning = () => {
-  const location = useLocation();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { lang } = useParams();
 
   const workData = lang === "nl" ? workDataNL : workDataEN;
@@ -25,10 +24,6 @@ const XendoPlanning = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
-
-  const handleClick = () => {
-    window.scrollTo(0, 0);
-  };
 
   return (
     <>

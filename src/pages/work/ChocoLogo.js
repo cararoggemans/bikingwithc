@@ -14,8 +14,7 @@ import image4 from '../../img/work/choco/intern-book1.jpg'
 import image5 from '../../img/work/choco/intern-book2.jpg'
 
 const ChocoLogo= () => {
-  const location = useLocation();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { lang } = useParams();
 
   const workData = lang === "nl" ? workDataNL : workDataEN;
@@ -25,10 +24,6 @@ const ChocoLogo= () => {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
-
-  const handleClick = () => {
-    window.scrollTo(0, 0);
-  };
 
   return (
     <>

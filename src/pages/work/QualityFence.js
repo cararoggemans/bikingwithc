@@ -10,8 +10,7 @@ import backgroundImage from '../../img/work/qfg/hero.png';
 import galleryImage from '../../img/work/logo-quality-fence-gardens.jpg'
 
 const QualityFence = () => {
-  const location = useLocation();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { lang } = useParams();
 
   const workData = lang === "nl" ? workDataNL : workDataEN;
@@ -21,10 +20,6 @@ const QualityFence = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
-
-  const handleClick = () => {
-    window.scrollTo(0, 0);
-  };
 
   return (
     <>

@@ -12,8 +12,7 @@ import galleryImage5 from '../../img/work/xendo/menu/menu3.jpg'
 import backgroundImage from '../../img/work/xendo/menu/trifold-mockup-2.png'
 
 const XendoBarMenu = () => {
-  const location = useLocation();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { lang } = useParams();
 
   const workData = lang === "nl" ? workDataNL : workDataEN;
@@ -23,10 +22,6 @@ const XendoBarMenu = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
-
-  const handleClick = () => {
-    window.scrollTo(0, 0);
-  };
   
   return (
     <>

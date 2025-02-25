@@ -12,8 +12,7 @@ import galleryImage6 from '../../img/work/trixxo/trixxo-story.png'
 import galleryImage7 from '../../img/work/trixxo/trixxo-square.png'
 
 const TrixxoCampaign = () => {
-  const location = useLocation();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { lang } = useParams();
 
   const workData = lang === "nl" ? workDataNL : workDataEN;
@@ -23,10 +22,6 @@ const TrixxoCampaign = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
-
-  const handleClick = () => {
-    window.scrollTo(0, 0);
-  };
 
   return (
     <>

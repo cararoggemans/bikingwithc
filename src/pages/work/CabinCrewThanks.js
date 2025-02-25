@@ -13,8 +13,7 @@ import image2 from '../../img/work/cabincrew/finnair-thankyou.png'
 import image3 from '../../img/work/cabincrew/airasia-thankyou.png'
 
 const CabinCrewThanks = () => {
-  const location = useLocation();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { lang } = useParams();
 
   const workData = lang === "nl" ? workDataNL : workDataEN;
@@ -24,10 +23,6 @@ const CabinCrewThanks = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
-
-  const handleClick = () => {
-    window.scrollTo(0, 0);
-  };
   
   return (
     <>

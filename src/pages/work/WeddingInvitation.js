@@ -11,8 +11,7 @@ import galleryImage2 from '../../img/work/wedding/wedding2.jpg';
 import galleryImage3 from '../../img/work/wedding/wedding3.jpg';
 
 const WeddingInvitation = () => {
-  const location = useLocation();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { lang } = useParams();
 
   const workData = lang === "nl" ? workDataNL : workDataEN;
@@ -22,10 +21,6 @@ const WeddingInvitation = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
-
-  const handleClick = () => {
-    window.scrollTo(0, 0);
-  };
 
   return (
     <>

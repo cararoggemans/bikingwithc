@@ -28,7 +28,7 @@ const BlogDetail = () => {
         navigate(`/${i18n.language}/blog/${fallbackBlog.slug}`, { replace: true });
       }
     }
-  }, [lang, slug, navigate, i18n.language]);
+  }, [lang, slug, navigate, i18n.language, currentBlog]);
 
   if (!currentBlog) {
     return <p>{t("blog.not_found")}</p>;
