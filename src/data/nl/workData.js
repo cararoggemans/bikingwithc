@@ -65,7 +65,6 @@ const workItemsData = [
     image: selectedWork3,
     title: "Xendo Maandelijkse Planning",
     link: "/work/xendo-planning",
-    date: "2025-01-18",
     description: "Elke maand worden er visuals voor de eventplanning van Club Xendo ontworpen. Deze geven een helder overzicht van alle aankomende evenementen. De visuals worden gecreëerd in verschillende formaten, waaronder een flyer, poster en social media stories. Het doel is om een opvallende en gestructureerde lay-out te bieden die meteen de aandacht trekt en bezoekers informeert over alle geplande evenementen. Elk ontwerp sluit aan bij de branding van Club Xendo, waardoor er een consistente visuele identiteit wordt gewaarborgd over alle formaten heen.",
     date: "2025-01-18",
     alt: {
@@ -97,7 +96,6 @@ const workItemsData = [
     link: "/work/xendo-bar-menu",
     date: "2025-01-05",
     description: "Het ontwerp van de drankkaart voor Club Xendo moest zowel visueel aantrekkelijk als overzichtelijk zijn, met een duidelijke weergave van de prijzen. De grootste uitdaging was het presenteren van de champagneselectie, waarbij flessen in verschillende formaten en prijsklassen van diverse merken moesten worden weergegeven. Het doel was een ontwerp te creëren dat de complexe prijsstructuur begrijpelijk maakte, terwijl het geheel stijlvol en modern uitstraalde.",
-    date: "2025-01-05",
     alt: {
       image_1: "Groep vrouwen in Club Xendo die de drankkaart voor zich houden.",
       gallery_image_1: "Foto van de voor- en achterkant van de drankkaart van Club Xendo",

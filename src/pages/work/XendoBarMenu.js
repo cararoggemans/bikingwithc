@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useLocation, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ProjectNavigation from '../../components/ProjectNavigation';
 import MetaDescription from '../../components/MetaDescription';
