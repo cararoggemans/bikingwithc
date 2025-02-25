@@ -61,7 +61,7 @@ const BlogDetail = () => {
       
       <div className="container">
         <div className="row justify-content-center blog-detail__main">
-          <div className="blog-detail__text col-6">
+          <div className="blog-detail__text col-sm-6">
             {currentBlog.middle_content_1 && <p>{currentBlog.middle_content_1}</p>}
             {currentBlog.middle_content_2 && <p>{currentBlog.middle_content_2}</p>}
             
