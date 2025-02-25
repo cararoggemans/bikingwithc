@@ -7,7 +7,7 @@ const blogData = [
     id: 3,
     slug: "dont-let-ai-steal-your-voice",
     image: blogImage3,
-    title: "Don’t Let AI Steal Your Voice",
+    title: "Don’t let AI steal your voice",
     alt: "An illustration of AI and human interaction",
     description: "AI might be your ultimate sidekick, but if you’re not careful, you risk letting it steal your brand’s soul.",
     date: "2025-01-25",

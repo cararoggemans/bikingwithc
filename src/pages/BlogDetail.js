@@ -37,7 +37,7 @@ const BlogDetail = () => {
   return (
     <>
       <MetaDescription
-          title={`${currentBlog.title}`} 
+          title={`Blog | ${currentBlog.title}`} 
           description={`${currentBlog.start_content}`} 
         />
       <Hero 

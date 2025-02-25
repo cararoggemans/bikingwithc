@@ -24,7 +24,7 @@ const QualityFence = () => {
   return (
     <>
         <MetaDescription
-        title={`${currentWork.title}`} 
+        title={`Work | ${currentWork.title}`} 
         description={`${currentWork.description}`} 
         />
       <Hero 
