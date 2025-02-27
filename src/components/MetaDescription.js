@@ -15,6 +15,8 @@ const MetaDescription = ({ title, description }) => {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
+
+      <meta name="google-site-verification" content="U29TtFlBdM7ABg9w7YbEDSdQrjebwobeyP7h-3xZHf8" />
       
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
@@ -22,6 +24,15 @@ const MetaDescription = ({ title, description }) => {
       <meta property="og:type" content="website" />
       <meta property="og:image" content={image} />
       <meta property="og:image:alt" content="Cara Roggemans - Allround Digital Creative" />
+      <meta property="og:image:width" content="1367" />
+      <meta property="og:image:height" content="627" />
+
+      {/* Twitter Card */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
+      <meta name="twitter:image:alt" content="Cara Roggemans - Allround Digital Creative" />
 
       <meta name="robots" content="index, follow" />
     </Helmet>
