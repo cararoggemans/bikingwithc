@@ -32,7 +32,7 @@ const Blog = () => {
       </div>
       </section>
       <div className="blog-page__grid">
-      <div class="container">
+      <div className="container">
         <div className="row justify-content-center">
               {blogData.map((blog, index) => (
                 <div key={blog.id} className="blog-page__item col-12 col-md-6 col-lg-4 mb-4">

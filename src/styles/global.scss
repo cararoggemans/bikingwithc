@@ -102,6 +102,28 @@ body {
     cursor: pointer !important;
   }
 
+  .btn {
+    display: inline-block;
+    background: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 10px;
+    border-radius: 0;
+    transition: all 0.3s ease;
+
+    &--primary {
+      border: 2px solid var(--green);
+      color: var(--green);
+      margin-bottom: 16px;
+
+      &:hover, &:focus {
+        background: var(--green);
+        color: white;
+      }
+    }
+  }
+
   ::-moz-selection { /* Code for Firefox */
     background-color: var(--green);
     color: white;

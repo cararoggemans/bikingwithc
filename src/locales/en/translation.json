@@ -56,7 +56,17 @@
       "whatsapp": "Send me a message on ",
       "linkedin": "Let’s connect on  ",
       "note": "Have an idea? A question? Or just want to chat about design, creativity, or motorcycles? Whether it's a quick hello or a deep dive into creative projects, I’d love to hear from you. Let’s connect!"
+    },
+    "404": {
+      "hero_title": "Lost at sea",
+      "subtitle": "What now?",
+      "title": "Oops! You dived too deep",
+      "description_intro": "It looks like this page has drifted too far into the ocean.",
+      "description_outro": "Maybe it’ll wash up someday, but for now, you might want to return to shore.",
+      "home_button": "Return to home",
+      "back_button": "Go back"
     }
+    
   },
 
   "project_navigation": {
@@ -102,7 +112,11 @@
       "contact": {
         "title": "CARA | Get in touch",
         "description": "Have a project in mind? Get in touch with Cara Roggemans for design, web development, and creative collaborations."
-      }
+      },
+      "404": {
+        "title": "Page not found",
+        "description": "It looks like this page has drifted too far into the ocean. Maybe it’ll wash up someday, but for now, you might want to return to shore."
+    }
   },
 
 "general": {

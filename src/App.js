@@ -1,4 +1,4 @@
-import { Route, Routes, Navigate, useLocation } from 'react-router-dom';
+import { Route, Routes, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import ScrollToTop from './components/ScrollToTop';
@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Work from './pages/Work';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import NotFound from './pages/404';
 
 // Work detailpagina's
 import QualityFence from './pages/work/QualityFence';
@@ -19,7 +20,6 @@ import CabinCrewThanks from './pages/work/CabinCrewThanks';
 import ChocoLogo from './pages/work/ChocoLogo';
 import WeddingInvitation from './pages/work/WeddingInvitation';
 
-
 import BlogDetail from './pages/BlogDetail';
 
 import './i18n';
@@ -27,18 +27,24 @@ import './i18n';
 function App() {
   const { i18n } = useTranslation();
   const location = useLocation();
+  const navigate = useNavigate();
   
   useEffect(() => {
-    const langFromURL = location.pathname.split('/')[1]; // Haal de taal uit de URL
-    if (langFromURL && langFromURL !== i18n.language) {
-      i18n.changeLanguage(langFromURL); // Update de taal in i18n als de URL verandert
+    const langFromURL = location.pathname.split('/')[1];
+    const browserLang = navigator.language.startsWith('nl') ? 'nl' : 'en';
+
+    if (!langFromURL) {
+      navigate(`/${browserLang}`, { replace: true });
+    } else if (langFromURL !== i18n.language) {
+      i18n.changeLanguage(langFromURL);
     }
-  }, [location.pathname, i18n]);
+  }, [location.pathname, i18n, navigate]);
 
   return (
     <>
       <ScrollToTop />
       <Routes>
+        <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Navigate replace to="/en" />} />
 
         <Route path="/:lang" element={<Home />} />

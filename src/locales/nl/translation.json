@@ -54,7 +54,16 @@
       "whatsapp": "Stuur me een berichtje op ",
       "linkedin": "Laten we connecteren op ",
       "note": "Heb je een idee? Een vraag? Of gewoon zin om te praten over design, creativiteit of motors? Of het nu een korte kennismaking is of een inspirerend gesprek over creatieve projecten, ik hoor graag van je!"
-  }
+    },
+    "404": {
+      "hero_title": "Verloren op zee",
+      "subtitle": "Wat nu?",
+      "title": "Oeps! Je bent te diep gedoken",
+      "description_intro": "Sorry, maar deze pagina lijkt spoorloos verdwenen te zijn.",
+      "description_outro": "Misschien spoelt hij ooit weer aan, maar voor nu kan je beter terugkeren naar bekend terrein.",
+      "home_button": "Ga terug naar de homepage",
+      "back_button": "Ga terug"
+    }
   },
 
   "project_navigation": {
@@ -97,6 +106,10 @@
       "contact": {
         "title": "CARA | Neem contact op",
         "description": "Een project in gedachten? Neem contact op met Cara Roggemans voor grafisch ontwerp, webontwikkeling en creatieve samenwerkingen."
+      },
+      "404": {
+        "title": "Pagina niet gevonden",
+        "description": "Deze pagina lijkt spoorloos verdwenen te zijn. Misschien spoelt hij ooit weer aan, maar voor nu kan je beter terugkeren naar bekend terrein."
       }
   },
   
