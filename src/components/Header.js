@@ -45,7 +45,7 @@ const Header = () => {
         <div className="row align-items-center">
           <div className="header__logo col-2">
             <Link to={`/${currentLang}/`}>
-              <img src={isSticky ? LogoSticky : Logo} alt="Cara Roggemans logo" aria-label="Go to home page"/>
+              <img src={isSticky ? LogoSticky : Logo} alt="Cara Roggemans" aria-label="Go to home page"/>
             </Link>
           </div>
 
