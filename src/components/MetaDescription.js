@@ -15,8 +15,6 @@ const MetaDescription = ({ title, description }) => {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
-
-      <meta name="google-site-verification" content="U29TtFlBdM7ABg9w7YbEDSdQrjebwobeyP7h-3xZHf8" />
       
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
