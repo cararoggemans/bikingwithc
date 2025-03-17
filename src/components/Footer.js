@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link, useParams } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { lang } = useParams();
+  const currentLang = lang || i18n.language || "en";
   return (
     <footer className="footer">
         <div className="footer__content container">
@@ -14,10 +17,10 @@ const Footer = () => {
             <div className="footer__item offset-md-1 col-lg-2 col-md-3 col-sm-6">
               <h3>{t("footer.middle_title")}</h3>
               <ul>
-                <li><a href="/">{t("footer.link_1")}</a></li>
-                <li><a href="/work">{t("footer.link_2")}</a></li>
-                <li><a href="/blog">{t("footer.link_3")}</a></li>
-                <li><a href="/contact">{t("footer.link_4")}</a></li>
+                <li><Link to={`/${currentLang}`}>{t("footer.link_1")}</Link></li>
+                <li><Link to={`/${currentLang}/work`}>{t("footer.link_2")}</Link></li>
+                <li><Link to={`/${currentLang}/blog`}>{t("footer.link_3")}</Link></li>
+                <li><Link to={`/${currentLang}/contact`}>{t("footer.link_4")}</Link></li>
               </ul>
             </div>
             <div className="footer__item offset-md-1 col-lg-2 col-md-3 col-sm-6">

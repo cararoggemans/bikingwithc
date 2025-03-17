@@ -13,10 +13,9 @@
 
   "small_description": {
     "title": "A little bit about me",
-    "intro": "Hello there, nice to meet you! My name is Cara Roggemans, graduate of AP Hogeschool with a degree in cross-media design. Over the years, I’ve fueled my creative fire with a passion for graphic and web design, photography and social media. When I’m not lost in pixels and visuals, you’ll find me cruising on my motorcycle and capturing travel adventures.",
-    "middle": "Recently I started diving into the exciting world of content creation and advertising.",
-    "outro": "Interested? Let’s grab a tea (or a coffee if you prefer) & create something awesome together!",
-    "highlight": "(or a coffee if you prefer ;))"
+    "intro": "Hello there, nice to meet you! I'm Cara, a graphic designer, web designer and content creator from Beringen. My passion? Creating strong visual identities and building websites that are both beautiful and functional.",
+    "middle": "With a background in cross-media design and a love for branding, web design & content creation, I help businesses stand out online. I design user-friendly websites, powerful brand identities and creative visual content.",
+    "outro": "When I’m not behind my laptop, you’ll probably find me on my motorcycle: always on the lookout for new inspiration!"
   },
 
   "featured_projects": {
@@ -27,7 +26,7 @@
   
   "featured_blogs": {
     "title": "Latest from the blog",
-    "subtitle": "Turning creative adventures into inspiring stories to write.",
+    "subtitle": "Turning creative adventures into inspiring stories: discover my insights on design, social media, creativity and digital innovation.",
     "read_more": "Read more"
   },
 
@@ -80,7 +79,7 @@
     "left_title": "Cara Roggemans",
     "middle_title": "Useful links",
     "right_title": "Get in touch",
-    "left_text": "Graphic designer and web developer with a passion for content creation and social media.",
+    "left_text": "Graphic designer and web developer from Beringen, with a passion for content creation and social media.",
     "link_1": "Home",
     "link_2": "Projects",
     "link_3": "Blog",
@@ -95,8 +94,8 @@
 
   "meta": {
       "home": {
-        "title": "CARA | Home",
-        "description": "Discover the creative world of Cara Roggemans, a graphic designer and web developer passionate about branding, web design, and content creation."
+        "title": "CARA | Allround digital creative",
+        "description": "Discover the creative world of Cara Roggemans, a graphic designer and web developer passionate about branding, web design and content creation."
       },
       "projects": {
         "title": "CARA | Projects",
@@ -107,11 +106,11 @@
         "description": "Read the latest blog posts on creativity, design, marketing, and digital trends."
       },
       "blog_detail": {
-        "description": "dive into insights on creativity, design, and marketing."
+        "description": "Dive into insights on creativity, design and marketing."
       },
       "contact": {
         "title": "CARA | Get in touch",
-        "description": "Have a project in mind? Get in touch with Cara Roggemans for design, web development, and creative collaborations."
+        "description": "Have a project in mind? Get in touch with Cara Roggemans for design, web development and creative collaborations."
       },
       "404": {
         "title": "Page not found",

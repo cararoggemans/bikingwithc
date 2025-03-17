@@ -82,6 +82,20 @@ const XendoSocials = () => {
           </div>
       </section>
 
+      <div className="work-detail">
+        <section className="work-detail__description">
+        <div className="container">
+          <div className="row justify-content-center">
+              <div className="work-detail__text col-sm-6" id="small-description">
+                <p>
+                <p>{currentWork.results}</p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <ProjectNavigation
         currentItemId={currentWork?.id}
         items={workData.sort((a, b) => new Date(b.date) - new Date(a.date))}

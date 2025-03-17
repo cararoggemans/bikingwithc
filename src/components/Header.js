@@ -49,7 +49,6 @@ const Header = () => {
             </Link>
           </div>
 
-          {/* ✅ Desktop Navigatie (alleen tonen boven 992px) */}
           {!isMobile && (
             <div className="col-9 nav__wrapper d-flex justify-content-end">
               <nav className="navigation" role="navigation" aria-label="Main navigation">
