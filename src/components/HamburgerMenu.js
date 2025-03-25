@@ -6,69 +6,92 @@ const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const { lang } = useParams();
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  const currentLang = lang || i18n.language || "en"; // fallback
 
-  const closeMenu = () => {
-    setIsOpen(false);
-  };
+  const toggleMenu = () => setIsOpen(!isOpen);
+  const closeMenu = () => setIsOpen(false);
 
   const switchLanguage = (newLang) => {
-    if (newLang !== lang) {
-      i18n.changeLanguage(newLang);
+    if (newLang !== currentLang) {
       const newPath = location.pathname.replace(/^\/(en|nl)/, `/${newLang}`);
+      i18n.changeLanguage(newLang);
+      closeMenu();
       navigate(newPath, { replace: true });
-      window.location.reload(); // ✅ Force refresh for immediate language switch
+      window.location.reload(); // force reload for accurate SSR-style switch
     }
   };
 
-  const isActive = (path) => location.pathname === path;
+  const isActive = (path) => {
+    const strippedPath = location.pathname.replace(/^\/(en|nl)/, '');
+    return strippedPath === path || strippedPath.startsWith(path + '/');
+  };
 
   return (
     <>
-      {/* ✅ Hamburger Icon */}
+      {/* Hamburger Icon */}
       <div className={`hamburger ${isOpen ? 'is-open' : ''}`} onClick={toggleMenu}>
         <span className="hamburger__line"></span>
         <span className="hamburger__line"></span>
         <span className="hamburger__line"></span>
       </div>
 
-      {/* ✅ Fullscreen Menu */}
+      {/* Fullscreen Menu */}
       <div className={`fullscreen-menu ${isOpen ? 'is-open' : ''}`}>
         <nav className="fullscreen-menu__nav" role="navigation">
           <ul className="fullscreen-menu__list">
             <li className="fullscreen-menu__item">
-              <Link to={`/${lang}/`} className={`fullscreen-menu__link ${isActive('/') ? 'active' : ''}`} onClick={closeMenu}>
-                Home
+              <Link
+                to={`/${currentLang}/`}
+                className={`fullscreen-menu__link ${isActive('/') ? 'active' : ''}`}
+                onClick={closeMenu}
+              >
+                {t("navigation.home")}
               </Link>
             </li>
             <li className="fullscreen-menu__item">
-              <Link to={`/${lang}/work`} className={`fullscreen-menu__link ${isActive('/work') ? 'active' : ''}`} onClick={closeMenu}>
-                Work
+              <Link
+                to={`/${currentLang}/work`}
+                className={`fullscreen-menu__link ${isActive('/work') ? 'active' : ''}`}
+                onClick={closeMenu}
+              >
+                {t("navigation.work")}
               </Link>
             </li>
             <li className="fullscreen-menu__item">
-              <Link to={`/${lang}/blog`} className={`fullscreen-menu__link ${isActive('/blog') ? 'active' : ''}`} onClick={closeMenu}>
-                Blog
+              <Link
+                to={`/${currentLang}/blog`}
+                className={`fullscreen-menu__link ${isActive('/blog') ? 'active' : ''}`}
+                onClick={closeMenu}
+              >
+                {t("navigation.blog")}
               </Link>
             </li>
             <li className="fullscreen-menu__item">
-              <Link to={`/${lang}/contact`} className={`fullscreen-menu__link ${isActive('/contact') ? 'active' : ''}`} onClick={closeMenu}>
-                Contact
+              <Link
+                to={`/${currentLang}/contact`}
+                className={`fullscreen-menu__link ${isActive('/contact') ? 'active' : ''}`}
+                onClick={closeMenu}
+              >
+                {t("navigation.contact")}
               </Link>
             </li>
           </ul>
 
-          {/* ✅ Taalswitch als gewone links */}
+          {/* Language Switch */}
           <div className="fullscreen-menu__language-switch">
-            <button onClick={() => switchLanguage('en')} className={`lang-btn ${lang === "en" ? 'active' : ''}`}>
+            <button
+              onClick={() => switchLanguage('en')}
+              className={`lang-btn ${currentLang === "en" ? 'active' : ''}`}
+            >
               EN
             </button>
-            <button onClick={() => switchLanguage('nl')} className={`lang-btn ${lang === "nl" ? 'active' : ''}`}>
+            <button
+              onClick={() => switchLanguage('nl')}
+              className={`lang-btn ${currentLang === "nl" ? 'active' : ''}`}
+            >
               NL
             </button>
           </div>
