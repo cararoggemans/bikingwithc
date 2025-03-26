@@ -9,7 +9,7 @@ const MetaDescription = ({ title, description }) => {
   
   const currentLang = i18n.language;
   const url = `https://cararoggemans.com/${currentLang}${location.pathname}`;
-  const imageUrl = "https://cararoggemans.com/cara-roggemans-allround-digital-creative.png";
+  const imageUrl = "https://cararoggemans.com/cara-roggemans-allround-digital-creative-def.png";
 
   return (
     <Helmet>
