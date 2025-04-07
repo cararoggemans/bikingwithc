@@ -50,7 +50,7 @@ const BlogDetail = () => {
         <div className="container">
           <div className="row">
             <div className="work-detail__image offset-lg-1 col-lg-3 col-sm-5">
-              <img src={currentBlog.image} alt={currentBlog.alt} />
+              <img src={currentBlog.summary_image} alt={currentBlog.alt} />
             </div>
             <div className="work-detail__text offset-lg-1 col-lg-5 col-sm-7">
               <p>{currentBlog.start_content}</p>
@@ -63,19 +63,38 @@ const BlogDetail = () => {
         <div className="row justify-content-center blog-detail__main">
           <div className="blog-detail__text col-sm-6">
             {currentBlog.middle_content_1 && <p>{currentBlog.middle_content_1}</p>}
+
+            {currentBlog.extra_list_items && currentBlog.extra_list_items.length > 0 && (
+              <>
+                <p>{currentBlog.extra_list_intro}</p>
+                {currentBlog.extra_list_type === "ordered" ? (
+                  <ol className="blog-detail__list blog-detail__list--ordered">
+                    {currentBlog.extra_list_items.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ol>
+                ) : (
+                  <ul className="blog-detail__list blog-detail__list--unordered">
+                    {currentBlog.extra_list_items.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                )}
+              </>
+            )}
             {currentBlog.middle_content_2 && <p>{currentBlog.middle_content_2}</p>}
             
             {currentBlog.list_items && currentBlog.list_items.length > 0 && (
               <>
                 <p>{currentBlog.list_intro}</p>
                 {currentBlog.list_type === "ordered" ? (
-                  <ol>
+                  <ol className="blog-detail__list blog-detail__list--ordered">
                     {currentBlog.list_items.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
                   </ol>
                 ) : (
-                  <ul>
+                  <ul className="blog-detail__list blog-detail__list--unordered">
                     {currentBlog.list_items.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}

@@ -1,12 +1,48 @@
 import blogImage1 from '../../img/blog/slow-paced-design.jpg';
+import summaryImage1 from '../../img/blog/slow-paced-design-2.jpg';
 import blogImage2 from '../../img/blog/instagram-ditches-the-square-layout.jpg';
+import summaryImage2 from '../../img/blog/instagram-ditches-the-square-layout-2.jpg';
 import blogImage3 from '../../img/blog/dont-let-ai-steal-your-voice.jpg';
+import summaryImage3 from '../../img/blog/dont-let-ai-steal-your-voice-2.jpg';
+import blogImage4 from '../../img/blog/why-you-should-focus-on-engagement.jpg';
+import summaryImage4 from '../../img/blog/why-you-should-focus-on-engagement-2.jpg';
 
 const blogData = [
+  {
+    id: 4,
+    slug: "power-of-engagement",
+    image: blogImage4,
+    summary_image: summaryImage4,
+    title: "Waarom je als merk moet inzetten op engagement",
+    alt: "Een persoon die met haar smartphone bezig is met engagement door te reageren, liken, berichten op te slaan.",
+    description: "Engagement wordt in 2025 de kern van je sociale media strategie.",
+    date: "2025-04-07",
+    start_content: "Onlangs ontdekte ik de 5x5x5-methode, een eenvoudige techniek om dagelijks kleine, consistente acties te ondernemen. Dit principe is perfect toepasbaar op sociale media om op een haalbare manier meer engagement te creëren.",
+    middle_content_1: "De 5x5x5-methode komt oorspronkelijk uit de wereld van productiviteit. Het idee is simpel: door kleine acties dagelijks te herhalen, bouw je consistente gewoontes op die écht impact maken. En die logica is perfect toepasbaar op sociale media. Door het klein en haalbaar te houden, wordt engagement geen tijdrovende taak meer, maar een vaste gewoonte in je dag.",
+    extra_list_intro: "Zo pas je de 5x5x5-methode toe op je social media:",
+    extra_list_type: "ordered",
+    extra_list_items: [
+      "5 minuten per dag bewust tijd maken voor interactie op socials",
+      "5 échte reacties plaatsen bij posts van anderen (niet gewoon 'wauw, leuk!')",
+      "5 posts van je doelgroep of netwerk bekijken en eventueel reageren of bewaren"
+    ],
+    middle_content_2: "Je hoeft dus geen uren online te zijn om impact te maken. Door consequent vijf minuten per dag te investeren, toon je dat er een mens achter je merk zit. En dat maakt het verschil: je krijgt meer zichtbaarheid doordat het algoritme engagement beloont, je wint vertrouwen omdat je geen anonieme zender bent en je bouwt op lange termijn aan een community in plaats van gewoon een lijst volgers.",
+    list_intro: "Wil je zelf aan de slag met de 5x5x5-methode? Hier 5 slimme tips (wat had je anders verwacht?) om te starten:",
+    list_type: "unordered",
+    list_items: [
+      "Reageer met aandacht: laat merken dat je de post echt hebt gelezen of de video tot het einde hebt gekeken",
+      "Stel vragen, ga in gesprek: geen reacties zoals 'wauw, leuk!'",
+      "Vergeet de kleinere accounts niet",
+      "Keep it human: zoals je ook offline zou praten",
+      "Plan je 5 minuten op een vast moment: tijdens je koffiepauze, of net voor je zelf iets post"
+    ],
+    final_content: "Content maken blijft belangrijk. Maar als je echt verschil wil maken, draait het om engagement. Dat is de brug tussen wat jij vertelt en wat je volgers voelen. Maak van engagement een routine."
+  },
   {
     id: 3,
     slug: "dont-let-ai-steal-your-voice",
     image: blogImage3,
+    summary_image: summaryImage3,
     title: "Laat AI je stem niet stelen",
     alt: "Een illustratie van AI en menselijke interactie",
     description: "AI kan een geweldige assistent zijn, maar pas op dat het niet de ziel van je merk overneemt.",
@@ -21,6 +57,7 @@ const blogData = [
     id: 2,
     slug: "instagram-ditches-square-layout",
     image: blogImage2,
+    summary_image: summaryImage2,
     title: "Instagram laat vierkanten voorgoed achterwege",
     alt: "Foto van de nieuwe Instagram-layout op een smartphone",
     description: "Instagram neemt afscheid van zijn iconische vierkante posts en omarmt verticale uploads voor een mobile-first ervaring.",
@@ -43,6 +80,7 @@ const blogData = [
     id: 1,
     slug: "slow-paced-design",
     image: blogImage1,
+    summary_image: summaryImage1,
     title: "Slow design in een snelle wereld",
     alt: "Een ontwerper met een lege schetsboek en verf.",
     description: "Waarom ik geloof in een tragere aanpak die voor sterkere en betere ontwerpen zal zorgen.",

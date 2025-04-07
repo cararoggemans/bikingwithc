@@ -1,12 +1,48 @@
 import blogImage1 from '../../img/blog/slow-paced-design.jpg';
+import summaryImage1 from '../../img/blog/why-you-should-focus-on-engagement.jpg';
 import blogImage2 from '../../img/blog/instagram-ditches-the-square-layout.jpg';
+import summaryImage2 from '../../img/blog/why-you-should-focus-on-engagement.jpg';
 import blogImage3 from '../../img/blog/dont-let-ai-steal-your-voice.jpg';
+import summaryImage3 from '../../img/blog/dont-let-ai-steal-your-voice-2.jpg';
+import blogImage4 from '../../img/blog/why-you-should-focus-on-engagement.jpg';
+import summaryImage4 from '../../img/blog/why-you-should-focus-on-engagement-2.jpg';
 
 const blogData = [
+  {
+    id: 4,
+    slug: "power-of-engagement",
+    image: blogImage4,
+    summary_image: summaryImage4,
+    title: "Why your brand should care about engagement",
+    alt: "A person engaging with their smartphone by reacting, liking, and saving posts.",
+    description: "In 2025, engagement is no longer just a nice-to-have: it’s the core of your social strategy.",
+    date: "2025-04-07",
+    start_content: "I recently came across something called the 5x5x5 method. A simple habit-building technique meant to create small but consistent impact. And immediately, I thought: this is exactly how we should be thinking about engagement on social media.",
+    middle_content_1: "Originally designed to build productivity routines, the 5x5x5 method is all about keeping things simple and sustainable. And let’s be honest: when it comes to showing up consistently online, we could all use a little structure. This approach helps you stay present.",
+    extra_list_intro: "Here’s how you can apply 5x5x5 to your socials:",
+    extra_list_type: "ordered",
+    extra_list_items: [
+      "Spend 5 minutes a day engaging on your socials",
+      "Leave 5 meaningful comments on posts from others (not just '🔥' or 'love this')",
+      "Actually watch, read or reflect on 5 posts from your community"
+    ],
+    middle_content_2: "That small daily effort goes a long way. You’ll show your audience there’s a real human behind the brand and that makes the difference. You’ll be more visible (because algorithms reward engagement), more relatable (because you’re part of the conversation), and more connected (because you’re building community, not just counting followers).",
+    list_intro: "Want to give it a try? Here are 5 simple tips (you saw that coming, right?) to get started:",
+    list_type: "unordered",
+    list_items: [
+      "Show you actually paid attention: mention something specific from the post",
+      "Ask questions: don’t just hand out generic compliments",
+      "Show love to the smaller accounts too",
+      "Keep your tone real and human: just like you’d talk offline",
+      "Make it part of your routine: same time, every day, five minutes"
+    ],
+    final_content: "Posting content will always matter. But engagement? That’s what turns content into connection. Build it into your day and your brand will feel more human."
+  },  
   {
     id: 3,
     slug: "dont-let-ai-steal-your-voice",
     image: blogImage3,
+    summary_image: summaryImage3,
     title: "Don’t let AI steal your voice",
     alt: "An illustration of AI and human interaction",
     description: "AI might be your ultimate sidekick, but if you’re not careful, you risk letting it steal your brand’s soul.",
@@ -21,6 +57,7 @@ const blogData = [
     id: 2,
     slug: "instagram-ditches-square-layout",
     image: blogImage2,
+    summary_image: summaryImage2,
     title: "Instagram ditches the square layout",
     alt: "Photo of the new Instagram layout on a smartphone",
     description: "Instagram shifts away from its square heritage, embracing vertical uploads for mobile-first content.",
@@ -42,6 +79,7 @@ const blogData = [
     id: 1,
     slug: "slow-paced-design",
     image: blogImage1,
+    summary_image: summaryImage1,
     title: "Slow paced design in a fast world",
     alt: "A designer sketching ideas on a notebook",
     description: "Good design takes time. Here’s why slowing down can lead to better work and a better process.",
