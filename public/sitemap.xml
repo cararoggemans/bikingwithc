@@ -45,6 +45,66 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+   <url>
+    <loc>https://cararoggemans.com/en/work/trixxo-20-years</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/work/trixxo-20-years</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/en/work/xendo-planning</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/work/xendo-planning</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/en/work/quality-fence-gardens</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/work/quality-fence-gardens</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/en/work/xendo-bar-menu</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/work/xendo-bar-menu</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://cararoggemans.com/en/work/wedding-invitation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/work/wedding-invitation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://cararoggemans.com/en/work/choco-logo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/nl/work/choco-logo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   
   <!-- Blog Overview -->
   <url>
@@ -59,6 +119,17 @@
   </url>
   
   <!-- Blog Detail Pages -->
+   <url>
+    <loc>https://cararoggemans.com/nl/blog/power-of-engagement</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/en/blog/power-of-engagement</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
   <url>
     <loc>https://cararoggemans.com/en/blog/dont-let-ai-steal-your-voice</loc>
     <changefreq>monthly</changefreq>
@@ -76,6 +147,16 @@
   </url>
   <url>
     <loc>https://cararoggemans.com/nl/blog/instagram-ditches-square-layout</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://cararoggemans.com/nl/blog/slow-paced-design</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cararoggemans.com/en/blog/slow-paced-design</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
