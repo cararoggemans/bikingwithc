@@ -6,6 +6,8 @@ import selectedWork3 from '../../img/work/xendo/events/hero-planning.png';
 import selectedWork4 from '../../img/work/trixxo/trixxo-20-years.png';
 import selectedWork5 from '../../img/work/xendo/social/xendo-social-media-facebook.png';
 import selectedWork6 from '../../img/work/cabincrew/finnair-thankyou-min.png';
+import selectedWork7 from '../../img/work/birthday/birthday-card-design-1.png';
+import selectedWork8 from '../../img/work/tourette/tourette-webdesign-1.png';
 
 const workItemsData = [
 {
@@ -28,7 +30,7 @@ const workItemsData = [
     id: 8,
     slug: "xendo-socials",
     image: selectedWork5,
-    title: "Sociale media voor Xendo",
+    title: "Sociale media voor Club Xendo",
     link: "/work/xendo-socials",
     description: "In samenwerking met de eventplanner brainstormden we over creatieve ideeën om de bezoekerservaring naar een hoger niveau te tillen. Voor elk concept ontwierp ik visuals (onder andere: eventbanners, vierkante posts en storyformats voor Facebook en Instagram). Van DJ-aankondigingen en speciale acties tot ticketupdates en giveaways: alles kwam samen in een dynamische en samenhangende online aanwezigheid. Daarnaast schreef ik mee aan de social media posts en verzorgde ik de promotie achter de schermen door gerichte advertenties op te zetten en te optimaliseren. Sinds januari 2025 beheer ik de social media en visuals van Club Xendo niet meer, aangezien zij dit nu intern opnemen.",
     date: "2025-01-27",
@@ -140,7 +142,7 @@ const workItemsData = [
   {
     id: 1,
     slug: "tourette-webdesign",
-    image: selectedWork6,
+    image: selectedWork8,
     title: "Website voor Vlaamse Vereniging Tourette",
     link: "/work/tourette-webdesign",
     description: "Tijdens mijn stage bij Content Cowboys kreeg ik de kans om een volledig nieuw webdesign te maken voor de Vlaamse Vereniging Gilles de la Tourette. De focus lag op duidelijke informatievoorziening en een warme, toegankelijke uitstraling.",
@@ -155,8 +157,8 @@ const workItemsData = [
   {
     id: 0,
     slug: "birthday-card-design",
-    image: selectedWork6,
-    title: "Verjaardagskaart voor cupcake lover",
+    image: selectedWork7,
+    title: "Happy birthday kaart voor cupcake lover",
     link: "/work/birthday-card-design",
     description: "Deze kaart ontwierp ik voor iemand die niet gewoon fan is van cupcakes: ze ademt letterlijk cupcakes. Als ze er niet aan het maken is, is ze waarschijnlijk wel bezig met nieuwe topping ideeën of allerlei decoratie te verzamelen. Het kaartje is een speelse knipoog naar haar grootste passie.",
     date: "2024-08-12",

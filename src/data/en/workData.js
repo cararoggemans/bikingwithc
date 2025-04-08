@@ -6,6 +6,8 @@ import selectedWork3 from '../../img/work/xendo/events/hero-planning.png';
 import selectedWork4 from '../../img/work/trixxo/trixxo-20-years.png';
 import selectedWork5 from '../../img/work/xendo/social/xendo-social-media-facebook.png';
 import selectedWork6 from '../../img/work/cabincrew/finnair-thankyou-min.png';
+import selectedWork7 from '../../img/work/birthday/birthday-card-design-1.png';
+import selectedWork8 from '../../img/work/tourette/tourette-webdesign-1.png';
 
 const workItemsData = [
 
@@ -29,7 +31,7 @@ const workItemsData = [
     id: 8,
     image: selectedWork5,
     slug: "xendo-socials",
-    title: "Xendo Social Media",
+    title: "Social Media for Club Xendo",
     link: "/work/xendo-socials",
     description: "In collaboration with the event planner, we brainstormed over engaging event ideas to enhance the experience for guests. For each concept, I designed artwork including event banners, square posts and story formats for Facebook and Instagram. These visuals ranged from DJ announcements and special promotions to ticket sales updates and exciting giveaways to create a cohesive and vibrant online presence.  Additionally, I contributed to crafting copy for social posts and managed the promotion behind the scenes by setting up and optimizing targeted advertisements. As of January 2025, I no longer manage social media or create artwork for Club Xendo as they are now doing this in-house.",
     date: "2025-01-27",
@@ -142,7 +144,7 @@ const workItemsData = [
   {
     id: 1,
     slug: "tourette-webdesign",
-    image: selectedWork6,
+    image: selectedWork8,
     title: "Tourette Association Website",
     link: "/work/tourette-webdesign",
     description: "During my internship at Content Cowboys, I got the opportunity to create a new website design for the Vlaamse Vereniging Gilles de la Tourette. The goal was to inform clearly and make the experience feel personal, warm and accessible.",
@@ -157,7 +159,7 @@ const workItemsData = [
   {
     id: 0,
     slug: "birthday-card-design",
-    image: selectedWork6,
+    image: selectedWork7,
     title: "Birthday Cupcake Card",
     link: "/work/birthday-card-design",
     description: "This card was designed for someone who doesn’t just enjoy cupcakes — she breathes them. When she is not baking them, she's probably talking about them. The message? A sweet little reminder (with a wink) to keep celebrating her favourite treat.",

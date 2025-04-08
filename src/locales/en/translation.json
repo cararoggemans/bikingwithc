@@ -94,23 +94,23 @@
 
   "meta": {
       "home": {
-        "title": "CARA | Allround digital creative",
-        "description": "Discover the creative world of Cara Roggemans: a graphic designer and web developer passionate about branding, web design and content creation."
+        "title": "CARA | Graphic and web designer, social media strategist and content creator",
+        "description": "Step into the creative world of Cara Roggemans: designer, developer and digital storyteller with a passion for branding, web design, social media and content creation."
       }, 
       "projects": {
         "title": "CARA | Projects",
-        "description": "Explore a selection of creative projects, from branding and web design to social media campaigns and visual storytelling."
+        "description": "Browse creative projects by Cara Roggemans: from visual branding and website design to social media campaigns, digital storytelling and creative content solutions."
       },
       "blog": {
         "title": "CARA | Blog",
-        "description": "Read the latest blog posts on creativity, design, marketing, and digital trends."
+        "description": "Stay inspired with blog articles on graphic design, digital marketing, social media strategy and creative entrepreneurship."
       },
       "blog_detail": {
-        "description": "Dive into insights on creativity, design and marketing."
+        "description": "Dive into insights about design, content creation, social strategy and building a creative brand in the digital age."
       },
       "contact": {
-        "title": "CARA | Get in touch",
-        "description": "Have a project in mind? Get in touch with Cara Roggemans for design, web development and creative collaborations."
+        "title": "CARA | Let's work together on design, web & branding strategy",
+        "description": "Have a project in mind? Get in touch with Cara Roggemans for design, social media, branding, web development and creative collaborations."
       },
       "404": {
         "title": "Page not found",
