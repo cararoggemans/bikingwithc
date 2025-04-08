@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Hero from '../components/Hero';
 import ProjectNavigation from '../components/ProjectNavigation';
 import MetaDescription from '../components/MetaDescription';
+import Footer from '../components/Footer';
 import blogDataEN from '../data/en/blogData';
 import blogDataNL from '../data/nl/blogData';
 
@@ -114,6 +115,7 @@ const BlogDetail = () => {
         items={blogData} 
         type="blog" 
       />
+      <Footer />
     </>
   );
 };

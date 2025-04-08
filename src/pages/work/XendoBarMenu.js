@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ProjectNavigation from '../../components/ProjectNavigation';
 import MetaDescription from '../../components/MetaDescription';
+import Footer from '../../components/Footer';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
 import Hero from '../../components/Hero';
@@ -68,6 +69,7 @@ const XendoBarMenu = () => {
         items={workData.sort((a, b) => new Date(b.date) - new Date(a.date))}
         type="project"
       />
+      <Footer />
     </>
   );
 };

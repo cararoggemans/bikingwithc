@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Hero from '../../components/Hero';
 import ProjectNavigation from '../../components/ProjectNavigation';
 import MetaDescription from '../../components/MetaDescription';
+import Footer from '../../components/Footer';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
 import backgroundImage from '../../img/work/birthday/birthday-card-design-1.png';
@@ -63,6 +64,7 @@ const BirthdayCard = () => {
         items={workData.sort((a, b) => new Date(b.date) - new Date(a.date))}
         type="project"
       />
+      <Footer />
     </>
   );
 };
