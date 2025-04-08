@@ -19,6 +19,8 @@ import TrixxoCampaign from './pages/work/TrixxoCampaign';
 import CabinCrewThanks from './pages/work/CabinCrewThanks';
 import ChocoLogo from './pages/work/ChocoLogo';
 import WeddingInvitation from './pages/work/WeddingInvitation';
+import BirthdayCard from './pages/work/BirthdayCard';
+import TouretteWebdesign from './pages/work/TouretteWebdesign';
 
 import BlogDetail from './pages/BlogDetail';
 
@@ -61,6 +63,9 @@ function App() {
         <Route path="/:lang/work/wedding-invitation" element={<WeddingInvitation />} />
         <Route path="/:lang/work/cabin-crew-thanks" element={<CabinCrewThanks />} />
         <Route path="/:lang/work/choco-logo" element={<ChocoLogo />} />
+        <Route path="/:lang/work/birthday-card-design" element={<BirthdayCard />} />
+        <Route path="/:lang/work/tourette-webdesign" element={<TouretteWebdesign />} />
+        
 
          {/* Dynamische blog detailpagina */}
          <Route path="/:lang/blog/:slug" element={<BlogDetail />} />

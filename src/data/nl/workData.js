@@ -9,7 +9,7 @@ import selectedWork6 from '../../img/work/cabincrew/finnair-thankyou-min.png';
 
 const workItemsData = [
 {
-  id: 7,
+  id: 9,
   slug: "cabin-crew-thanks",
   image: selectedWork6,
   title: "Bedankkaartjes voor cabin crew",
@@ -25,7 +25,7 @@ const workItemsData = [
     }
   },
   {
-    id: 6,
+    id: 8,
     slug: "xendo-socials",
     image: selectedWork5,
     title: "Sociale media voor Xendo",
@@ -43,7 +43,7 @@ const workItemsData = [
     }
   },
   {
-    id: 5,
+    id: 7,
     image: selectedWork4,
     slug: "trixxo-20-years",
     title: "20 jaar TRIXXO",
@@ -60,7 +60,7 @@ const workItemsData = [
     }
   },
   {
-    id: 4,
+    id: 6,
     slug: "xendo-planning",
     image: selectedWork3,
     title: "Xendo Maandelijkse Planning",
@@ -76,7 +76,7 @@ const workItemsData = [
     }
   },
   {
-    id: 3,
+    id: 5,
     slug: "quality-fence-gardens",
     image: selectedWork2,
     title: "Quality Fence & Gardens Logo",
@@ -89,7 +89,7 @@ const workItemsData = [
     }
   },
   {
-    id: 2,
+    id: 4,
     slug: "xendo-bar-menu",
     image: selectedWork1,
     title: "Drankkaart voor Club Xendo",
@@ -104,7 +104,7 @@ const workItemsData = [
     }
   },
   {
-    id: 1,
+    id: 3,
     slug: "wedding-invitation",
     image: selectedWork,
     title: "Trouwuitnodiging",
@@ -119,7 +119,7 @@ const workItemsData = [
     }
   },
   {
-    id: 0,
+    id: 2,
     slug: "choco-logo",
     image: selectedWork0,
     title: "CHOCO Relatiebouwers afscheidscadeau",
@@ -135,8 +135,34 @@ const workItemsData = [
       gallery_image_3: "Work-in-progress: de vorm van een van de 'O's' en hoe dit is opgebouwd. Eerst een silhouet gecreëerd en dit vervolgens gevuld met blauwe lucifers",
       gallery_image_4: "Linkerpagina van het stageboek: een collage van foto's van mijn stage bij CHOCO Relatiebouwers",
       gallery_image_5: "Rechterpagina van het stageboek: de vleugels die ik tekende, origami die ik maakte en het kleine boekje dat ik schreef met herinneringen aan de stage"
-  }
-
+    }
+  },
+  {
+    id: 1,
+    slug: "tourette-webdesign",
+    image: selectedWork6,
+    title: "Website voor Vlaamse Vereniging Tourette",
+    link: "/work/tourette-webdesign",
+    description: "Tijdens mijn stage bij Content Cowboys kreeg ik de kans om een volledig nieuw webdesign te maken voor de Vlaamse Vereniging Gilles de la Tourette. De focus lag op duidelijke informatievoorziening en een warme, toegankelijke uitstraling.",
+    date: "2024-09-01",
+    start_content: "Tijdens een boeiende kick-offmeeting met de Vlaamse Tourettevereniging leerde ik hun visie kennen. Ze wilden een warme, toegankelijke website zonder foto's maar wel met illustraties: niet te cartoonachtig, maar realistisch en respectvol. Ondanks enkele beperkingen zoals een verouderde huisstijl en logo, ging ik creatief aan de slag om hun verhaal visueel sterker te brengen.",
+    alt: {
+      image_1: "Homepage van de Vlaamse Vereniging Gilles de la Tourette met een quote en illustratie van een kind",
+      gallery_image_1: "Design moodboard als inspiratie voor de branding van de nieuwe huisstijl",
+      gallery_image_2: "Overzicht van de pagina met uitleg over de symptomen van het syndroom van Gilles de la Tourette"
+    }
+  },
+  {
+    id: 0,
+    slug: "birthday-card-design",
+    image: selectedWork6,
+    title: "Verjaardagskaart voor cupcake lover",
+    link: "/work/birthday-card-design",
+    description: "Deze kaart ontwierp ik voor iemand die niet gewoon fan is van cupcakes: ze ademt letterlijk cupcakes. Als ze er niet aan het maken is, is ze waarschijnlijk wel bezig met nieuwe topping ideeën of allerlei decoratie te verzamelen. Het kaartje is een speelse knipoog naar haar grootste passie.",
+    date: "2024-08-12",
+    alt: {
+      image_1: "Ontwerp van een verjaardagskaart met cupcakes en typografie in muntgroene tinten",
+    }
   }
 ];
 

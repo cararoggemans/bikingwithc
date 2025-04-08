@@ -10,7 +10,7 @@ import selectedWork6 from '../../img/work/cabincrew/finnair-thankyou-min.png';
 const workItemsData = [
 
   {
-    id: 7,
+    id: 9,
     slug: "cabin-crew-thanks",
     image: selectedWork6,
     title: "Thank you cards for cabin crew",
@@ -26,7 +26,7 @@ const workItemsData = [
       }
   },
   {
-    id: 6,
+    id: 8,
     image: selectedWork5,
     slug: "xendo-socials",
     title: "Xendo Social Media",
@@ -45,7 +45,7 @@ const workItemsData = [
     }
   },
   {
-    id: 5,
+    id: 7,
     slug: "trixxo-20-years",
     image: selectedWork4,
     title: "TRIXXO 20 Years",
@@ -62,7 +62,7 @@ const workItemsData = [
     }
   },
   {
-    id: 4,
+    id: 6,
     slug: "xendo-planning",
     image: selectedWork3,
     title: "Xendo Monthly Planning",
@@ -78,7 +78,7 @@ const workItemsData = [
     }
   },
   {
-    id: 3,
+    id: 5,
     slug: "quality-fence-gardens",
     image: selectedWork2,
     title: "Quality Fence & Gardens Logo",
@@ -91,7 +91,7 @@ const workItemsData = [
     }
   },
   {
-    id: 2,
+    id: 4,
     slug: "xendo-bar-menu",
     image: selectedWork1,
     title: "Xendo Drinks Menu",
@@ -106,7 +106,7 @@ const workItemsData = [
     }
   },
   {
-    id: 1,
+    id: 3,
     slug: "wedding-invitation",
     image: selectedWork,
     title: "Wedding invitation",
@@ -121,7 +121,7 @@ const workItemsData = [
     }
   },
   {
-    id: 0,
+    id: 2,
     slug: "choco-logo",
     image: selectedWork0,
     title: "CHOCO Relatiebouwers farewell gift",
@@ -139,6 +139,33 @@ const workItemsData = [
       gallery_image_5: "Right page of the intern book: the wings I drew, origami I created and the small book I wrote with memories of the internship"
     }
   },
+  {
+    id: 1,
+    slug: "tourette-webdesign",
+    image: selectedWork6,
+    title: "Tourette Association Website",
+    link: "/work/tourette-webdesign",
+    description: "During my internship at Content Cowboys, I got the opportunity to create a new website design for the Vlaamse Vereniging Gilles de la Tourette. The goal was to inform clearly and make the experience feel personal, warm and accessible.",
+    date: "2024-09-01",
+    start_content: "During an inspiring kick-off meeting with the Vlaamse Vereniging Gilles de la Tourette, I gained clear insight into their vision. They preferred a warm, welcoming site with illustrations over photos: not too cartoonish, but respectful and realistic. Despite limitations like outdated branding and logo, I started to strengthen their story and digital presence.",
+    alt: {
+      image_1: "Homepage of the Vlaamse Vereniging Gilles de la Tourette with a quote and child illustration",
+      gallery_image_1: "Moodboad for design of the branding of Vlaamse Vereniging Gilles de la Tourette",
+      gallery_image_2: "Overview of the page explaining the symptoms of Tourette syndrome",
+    }
+  },  
+  {
+    id: 0,
+    slug: "birthday-card-design",
+    image: selectedWork6,
+    title: "Birthday Cupcake Card",
+    link: "/work/birthday-card-design",
+    description: "This card was designed for someone who doesn’t just enjoy cupcakes — she breathes them. When she is not baking them, she's probably talking about them. The message? A sweet little reminder (with a wink) to keep celebrating her favourite treat.",
+    date: "2024-08-12",
+    alt: {
+      image_1: "Cupcake Birthday card design displayed",
+    }
+  }
 ];
 
 export default workItemsData;

@@ -41,6 +41,10 @@
   <url><loc>https://cararoggemans.com/nl/work/wedding-invitation</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://cararoggemans.com/en/work/choco-logo</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://cararoggemans.com/nl/work/choco-logo</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cararoggemans.com/en/work/tourette-webdesign</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cararoggemans.com/nl/work/tourette-webdesign</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cararoggemans.com/en/work/birthday-card-design</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cararoggemans.com/nl/work/birthday-card-design</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- Blog Overview -->
   <url><loc>https://cararoggemans.com/en/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>

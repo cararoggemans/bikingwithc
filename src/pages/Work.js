@@ -35,7 +35,7 @@ const Work = () => {
                 <WorkItem 
                   image={work.image}
                   title={work.title}
-                  link={`/${i18n.language}${work.link}`} // ✅ Taal dynamisch toevoegen
+                  link={`/${i18n.language}${work.link}`}
                   alt={work.alt}
                   description={work.description}
                 />
