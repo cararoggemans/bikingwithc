@@ -7,15 +7,11 @@ const MetaDescription = ({ title, description }) => {
   const { i18n } = useTranslation();
   const location = useLocation();
 
-  const currentLang = i18n.language;
   const baseUrl = "https://cararoggemans.com";
   const currentPath = location.pathname;
   const url = `${baseUrl}${currentPath}`;
   const imageUrl = `${baseUrl}/cara-roggemans-allround-digital-creative-def.png`;
 
-  // Taalomschakeling tussen versies voor hreflang
-  const alternateLang = currentLang === "nl" ? "en" : "nl";
-  
   return (
     <Helmet>
       <title>{title}</title>
