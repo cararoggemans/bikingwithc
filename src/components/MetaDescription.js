@@ -6,16 +6,28 @@ import { useLocation } from "react-router-dom";
 const MetaDescription = ({ title, description }) => {
   const { i18n } = useTranslation();
   const location = useLocation();
-  
+
   const currentLang = i18n.language;
-  const url = `https://cararoggemans.com/${currentLang}${location.pathname}`;
-  const imageUrl = "https://cararoggemans.com/cara-roggemans-allround-digital-creative-def.png";
+  const baseUrl = "https://cararoggemans.com";
+  const currentPath = location.pathname;
+  const url = `${baseUrl}${currentPath}`;
+  const imageUrl = `${baseUrl}/cara-roggemans-allround-digital-creative-def.png`;
+
+  // Taalomschakeling tussen versies voor hreflang
+  const alternateLang = currentLang === "nl" ? "en" : "nl";
+  const alternatePath = currentPath.replace(`/${currentLang}`, `/${alternateLang}`);
 
   return (
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
-      
+
+      <link rel="canonical" href={url} />
+
+      <link rel="alternate" hreflang="nl" href={`${baseUrl}${currentPath.replace(/^\/(en|nl)/, '/nl')}`} />
+      <link rel="alternate" hreflang="en" href={`${baseUrl}${currentPath.replace(/^\/(en|nl)/, '/en')}`} />
+      <link rel="alternate" hreflang="x-default" href={`${baseUrl}/en`} />
+
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
@@ -26,7 +38,6 @@ const MetaDescription = ({ title, description }) => {
       <meta property="og:image:width" content="1367" />
       <meta property="og:image:height" content="627" />
 
-      {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
