@@ -15,8 +15,7 @@ const MetaDescription = ({ title, description }) => {
 
   // Taalomschakeling tussen versies voor hreflang
   const alternateLang = currentLang === "nl" ? "en" : "nl";
-  const alternatePath = currentPath.replace(`/${currentLang}`, `/${alternateLang}`);
-
+  
   return (
     <Helmet>
       <title>{title}</title>
@@ -37,6 +36,7 @@ const MetaDescription = ({ title, description }) => {
       <meta property="og:image:alt" content="Cara Roggemans - Allround Digital Creative - graphic design, web design, social media and content creation" />
       <meta property="og:image:width" content="1367" />
       <meta property="og:image:height" content="627" />
+
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
