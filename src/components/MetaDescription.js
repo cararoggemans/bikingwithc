@@ -1,10 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 
 const MetaDescription = ({ title, description }) => {
-  const { i18n } = useTranslation();
   const location = useLocation();
 
   const baseUrl = "https://cararoggemans.com";
