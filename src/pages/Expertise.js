@@ -44,6 +44,7 @@ const Expertise = () => {
         backgroundBaseName="expertise"
         title={t("pages.expertise.title")}
         teaserText={t("pages.expertise.subtitle")}
+        backgroundAlt={t("pages.expertise.hero_alt")}
       />
 
       <section className="description container" id="small-description">

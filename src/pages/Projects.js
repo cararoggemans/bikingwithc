@@ -22,6 +22,7 @@ const Projects = () => {
         backgroundBaseName="projects"
         title={t("pages.projects.hero_title")}
         teaserText={t("pages.projects.subtitle")}
+        backgroundAlt={t("pages.projects.hero_alt")}
       />
 
       <section className="description container" id="small-description">

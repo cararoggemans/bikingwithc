@@ -21,6 +21,7 @@ const Home = () => {
           backgroundBaseName="home"
           title={t("hero.title")}
           teaserText={t("hero.subtitle")}
+          backgroundAlt={t("hero.alt")}
         />
         <SmallDescription />
         <SelectedWork />

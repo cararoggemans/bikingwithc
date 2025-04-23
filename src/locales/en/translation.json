@@ -9,7 +9,8 @@
   
   "hero": {
     "title": "Crafting Creative Content",
-    "subtitle": "Ready to dive into my world?"
+    "subtitle": "Ready to dive into my world?",
+    "alt": "Creative content creator specializing in graphic design, web design, and social media strategies."
   },
 
   "small_description": {
@@ -36,6 +37,7 @@
       "hero_title": "Projects",
       "title": "All projects",
       "subtitle": "Discover my work",
+      "hero_alt": "Selection of creative projects with focus on graphic design, content creation, and social media campaigns.",
       "description": "Step into my creative world, where ideas turn into reality.",
       "see_more": "View project",
       "teaser_text": "Dive deeper into this project"
@@ -45,6 +47,7 @@
       "hero_title": "Blog",
       "title": "All Blog posts",
       "subtitle": "Latest insights",
+      "hero_alt": "Insights and tips on content creation, social media strategies, and creative design.",
       "description": "Insights, trends, and thoughts on creativity, design and digital marketing.",
       "see_more": "Read more"
     },
@@ -52,6 +55,7 @@
     "contact": {
       "title": "Let's Connect",
       "subtitle": "Excited? Let's talk!",
+      "hero_alt": "Get in touch for creative solutions in content creation, graphic design, and web design.",
       "email": "Drop me an email at ",
       "whatsapp": "Send me a message on ",
       "linkedin": "Let’s connect on  ",
@@ -62,6 +66,7 @@
       "title": "Expertise",
       "subtitle": "Discover how I can support your brand",
       "description": "What can I do for you?",
+      "hero_alt": "Expertise in content creation, graphic design, and web design across various sectors.",
       "intro": "From a low-maintenance website and a recognisable visual identity to a smart content strategy: I help you tell your brand’s story in a way that’s clear, creative and compelling. Below, you'll discover how I support brands through web design, branding, content creation and strategic planning.",
       "grid_title": "My 4 core strengths",
       "grid_intro": "No one-size-fits-all solutions here, just four areas where I can truly make a difference. With the right tools and a healthy dose of creative energy.",

@@ -22,6 +22,7 @@ const NotFound = () => {
         backgroundBaseName="404"
         title={t("pages.404.hero_title")}
         teaserText={t("pages.404.subtitle")}
+        backgroundAlt={t("pages.404.hero_alt")}
       />
 
       <section className="description container text-center" id="small-description">

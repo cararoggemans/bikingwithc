@@ -9,7 +9,8 @@
 
   "hero": {
     "title": "Crafting Creative Content",
-    "subtitle": "Klaar om in mijn wereld te duiken?"
+    "subtitle": "Klaar om in mijn wereld te duiken?",
+    "alt": "Creative content creator specialized in graphic design, web design, and social media strategies."
   },
 
   "small_description": {
@@ -35,22 +36,25 @@
   "pages": {
     "projects": {
       "hero_title": "Projecten",
-        "title": "Alle projecten",
-        "subtitle": "Ontdek mijn werk",
-        "description": "Neem een kijkje in mijn creatieve wereld, waar ideeën werkelijkheid worden.",
-        "see_more": "Bekijk project",
-        "teaser_text": "Ontdek meer over dit project"
+      "title": "Alle projecten",
+      "subtitle": "Ontdek mijn werk",
+      "hero_alt": "Selectie van creatieve projecten met focus op grafisch ontwerp, contentcreatie en social media campagnes.",
+      "description": "Neem een kijkje in mijn creatieve wereld, waar ideeën werkelijkheid worden.",
+      "see_more": "Bekijk project",
+      "teaser_text": "Ontdek meer over dit project"
     },
     "blog": {
       "hero_title": "Blog",
       "title": "Alle blogartikels",
       "subtitle": "Ontdek mijn laatste inzichten ",
+      "hero_alt": "Inzichten en tips over contentcreatie, social media strategieën en creatief ontwerp.",
       "description": "Inzichten, trends en gedachten over creativiteit, design en digitale marketing.",
       "see_more": "Lees meer"
     },
     "contact": {
       "title": "Let's connect",
       "subtitle": "Excited? Laten we connecteren",
+      "hero_alt": "Neem contact op voor creatieve oplossingen in contentcreatie, grafisch ontwerp en webdesign.",
       "email": "Stuur me een mailtje op ",
       "whatsapp": "Stuur me een berichtje op ",
       "linkedin": "Laten we connecteren op ",
@@ -61,6 +65,7 @@
       "title": "Expertise",
       "subtitle": "Ontdek wat ik voor jou kan doen",
       "description": "Wat kan ik voor jou doen?",
+      "hero_alt": "Expertise in contentcreatie, grafisch ontwerp en webdesign voor diverse sectoren.",
       "intro": "Van een onderhoudsvriendelijke website tot een herkenbare visuele huisstijl of een slimme contentstrategie: ik help je het verhaal van jouw merk krachtig en helder te vertellen. Hieronder ontdek je hoe ik jou kan versterken in webdesign, branding, contentcreatie en strategie.",
       "grid_title": "Mijn 4 core domeinen",
       "grid_intro": "Geen standaardoplossingen, wel vier focusgebieden waarin ik jou écht kan helpen. Met de juiste tools en een goede dosis creatieve energie.",

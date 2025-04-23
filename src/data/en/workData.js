@@ -25,7 +25,8 @@ const workItemsData = [
         gallery_image_1: "The thank you card created for Thai Airways. A purple and pink gradient banner at the bottom, with an airplane from Thai Airways flying in clear blue skies.",
         gallery_image_2: "The thank you card created for Finnair. A collage with 2 pictures: one of a female cabin crew member and one of the 'fin' of the airplane from Finnair.",
         gallery_image_3: "The thank you card created for AirAsia. A female cabin crew member of AirAsia making a heart shape in front of the A320 airplane from AirAsia."
-      }
+      },
+      meta_description: "Creative graphic design project celebrating cabin crew through custom thank-you cards in airline branding. A small gesture, full of impact."
   },
   {
     id: 8,
@@ -44,7 +45,8 @@ const workItemsData = [
       gallery_image_4: "Facebook banner during the summer closing",
       gallery_image_5: "Facebook event banner for 'Groovy Tunes Soundsystem invites...'",
       gallery_image_6: "Facebook event banner for the saturday clubbing event"
-    }
+    },
+    meta_description: "Creative content creation and social media visuals for Club Xendo: event design, copywriting and ad optimization across Instagram and Facebook to boost engagement."
   },
   {
     id: 7,
@@ -61,7 +63,8 @@ const workItemsData = [
       image_1: "Holding a business card with the newly created anniversary logo for TRIXXO 20 years",
       gallery_image_1: "The story format I created for the TRIXXO 20 years campaign",
       gallery_image_2: "he square format I created for the TRIXXO 20 years campaign"
-    }
+    },
+    meta_description: "Graphic design meets branding: a celebratory logo and campaign concept for TRIXXO’s 20-year milestone, reflecting connection, growth and creative identity."
   },
   {
     id: 6,
@@ -77,7 +80,8 @@ const workItemsData = [
       gallery_image_2: "Large format poster for the events in October, created for Club Xendo",
       gallery_image_3: "Picture of a woman holding her smartphone with the story format of the september planning",
       gallery_image_4: "Large format poster for the events in December, created for Club Xendo"
-    }
+    },
+    meta_description: "Branded graphic design for Club Xendo’s event planning: flyers, posters, and social media content creation that informs, aligns and stands out visually every month."
   },
   {
     id: 5,
@@ -90,7 +94,8 @@ const workItemsData = [
     alt: {
       image_1: "Quality Fence & Gardens logo on wrapped vehicle",
       gallery_image_1: "Quality Fence & Gardens Logo Creation final version",
-    }
+    },
+    meta_description: "Timeless branding through bold logo design. Graphic identity created for Quality Fence & Gardens, seen today on company vehicles and business cards."
   },
   {
     id: 4,
@@ -105,7 +110,8 @@ const workItemsData = [
       gallery_image_1: "Picture of the front and back of the menu for drinks at Club Xendo",
       gallery_image_2: "Picture of the front of the menu for drinks at Club Xendo",
       gallery_image_3: "Picture of the back of the menu for drinks at Club Xendo"
-    }
+    },
+    meta_description: "Creative menu design for Club Xendo: balancing visual appeal with clarity in pricing for a complex champagne list. Clean layout meets modern graphic design."
   },
   {
     id: 3,
@@ -120,7 +126,8 @@ const workItemsData = [
       gallery_image_1: "The first logo variant with the initials of the married couple to be, surrounded with a floral circle",
       gallery_image_2: "The second logo variant with the initials of the married couple to be, surrounded with a floral circle.",
       gallery_image_3: "Mock-up of the final design for the wedding invitation "
-    }
+    },
+    meta_description: "Elegant wedding invitation design combining romantic floral elements with a refined, minimalist style. Graphic design tailored to a couple’s unique story."
   },
   {
     id: 2,
@@ -139,7 +146,8 @@ const workItemsData = [
       gallery_image_3: "Work in progress: the shape of one of the 'O's' and how this is done. Created a silhouette and filled this up with painted blue matches",
       gallery_image_4: "Left page of the intern book: a collage of pictures from my internship at CHOCO Relatiebouwers",
       gallery_image_5: "Right page of the intern book: the wings I drew, origami I created and the small book I wrote with memories of the internship"
-    }
+    },
+    meta_description: "A heartfelt tribute project marking the end of an internship. A personal, creative print piece that reflects the identity and values of CHOCO Relatiebouwers."
   },
   {
     id: 1,
@@ -154,7 +162,8 @@ const workItemsData = [
       image_1: "Homepage of the Vlaamse Vereniging Gilles de la Tourette with a quote and child illustration",
       gallery_image_1: "Moodboad for design of the branding of Vlaamse Vereniging Gilles de la Tourette",
       gallery_image_2: "Overview of the page explaining the symptoms of Tourette syndrome",
-    }
+    },
+    meta_description: "Web design project for Tourette Association: warm, clear and accessible design to inform and support users. A creative internship project focused on identity."
   },  
   {
     id: 0,
@@ -166,7 +175,8 @@ const workItemsData = [
     date: "2024-08-12",
     alt: {
       image_1: "Cupcake Birthday card design displayed",
-    }
+    },
+    meta_description: "A sweet, playful birthday card design for a true cupcake fan. Graphic design meets personal storytelling in this fun, flavorful creative print piece."
   }
 ];
 

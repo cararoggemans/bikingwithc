@@ -45,6 +45,7 @@ const BlogDetail = () => {
         dynamicSources={currentBlog.imageSources}
         title={currentBlog.title} 
         teaserText={t("featured_blogs.read_more")} 
+        backgroundAlt={currentBlog.hero_alt}
       />
       
       <div className="blog-detail__description">

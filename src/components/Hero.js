@@ -41,7 +41,7 @@ const imageSources = {
   },
 };
 
-const Hero = ({ backgroundBaseName, dynamicSources, title, teaserText }) => {
+const Hero = ({ backgroundBaseName, dynamicSources, title, teaserText, backgroundAlt }) => {
   const scrollToSection = () => {
     const navbarHeight = document.getElementById('header')?.offsetHeight || 0;
     const element = document.getElementById('small-description');
@@ -76,7 +76,7 @@ const Hero = ({ backgroundBaseName, dynamicSources, title, teaserText }) => {
         <source media="(min-width: 476px)" srcSet={sources['768']} />
         <img
           src={sources['476']}
-          alt=""
+          alt={backgroundAlt}
           aria-hidden="true"
           className="hero__background"
         />

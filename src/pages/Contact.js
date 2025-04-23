@@ -21,6 +21,7 @@ const Contact = () => {
         backgroundBaseName="contact"
         title={t("pages.contact.title")}
         teaserText={t("pages.contact.subtitle")}
+        backgroundAlt={t("pages.contact.hero_alt")}
       />
 
       <section className="description container" id="small-description">
