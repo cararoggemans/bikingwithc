@@ -29,7 +29,7 @@ const Footer = () => {
               <p><a href="mailto:cararoggemans@gmail.com">cararoggemans@gmail.com</a><br/>
               <a href="https://wa.me/+32479428601">+32 479 42 86 01</a></p><br/>
               <h3>{t("footer.right_below_title")}</h3>
-              <a target="_blank" href="https://www.linkedin.com/in/cararoggemans/">LinkedIn</a>
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/cararoggemans/">LinkedIn</a>
             </div>
           </div>
           </div>

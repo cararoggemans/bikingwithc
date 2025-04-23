@@ -1,6 +1,5 @@
 import React from 'react';
 import MetaDescription from '../components/MetaDescription';
-import heroImage from '../img/skills/hero-skills-expertise.jpg';
 import Footer from '../components/Footer';
 import { useTranslation } from "react-i18next";
 import Hero from '../components/Hero';
