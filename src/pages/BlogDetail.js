@@ -39,7 +39,7 @@ const BlogDetail = () => {
     <>
       <MetaDescription
           title={`Blog | ${currentBlog.title}`} 
-          description={`${currentBlog.start_content}`} 
+          description={`${currentBlog.meta_description}`} 
         />
       <Hero 
         dynamicSources={currentBlog.imageSources}
