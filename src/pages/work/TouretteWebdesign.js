@@ -11,6 +11,11 @@ import backgroundImage from '../../img/work/tourette/tourette-webdesign-1.png';
 import galleryImage from '../../img/work/tourette/tourette-webdesign-2.png'
 import galleryImage1 from '../../img/work/tourette/moodboard-design-tourette.jpg'
 
+import project600 from '../../img/hero/tourette-600.jpg';
+import project1024 from '../../img/hero/tourette-1024.jpg';
+import project1280 from '../../img/hero/tourette-1280.jpg';
+import project1920 from '../../img/hero/tourette-1920.jpg';
+
 const TouretteWebdesign = () => {
   const { t } = useTranslation();
   const { lang } = useParams();
@@ -18,6 +23,13 @@ const TouretteWebdesign = () => {
   const workData = lang === "nl" ? workDataNL : workDataEN;
 
   const currentWork = workData.find(work => work.slug === "tourette-webdesign");
+
+  const heroImages = {
+    '476': project600,
+    '768': project1024,
+    '1280': project1280,
+    '1920': project1920,
+  };
 
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -30,7 +42,7 @@ const TouretteWebdesign = () => {
         description={`${currentWork.description}`} 
         />
       <Hero 
-          backgroundImage={backgroundImage} 
+          dynamicSources={heroImages}
           title={currentWork.title}
           teaserText={t("pages.projects.teaser_text")}
         />

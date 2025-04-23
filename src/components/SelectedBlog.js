@@ -33,7 +33,7 @@ const SelectedBlog = () => {
                 title={blog.title}
                 description={blog.description}
                 alt={blog.alt}
-                link={`/${i18n.language}/blog/${blog.slug}`} // ✅ Correct language prefix
+                link={`/${i18n.language}/blog/${blog.slug}`}
               />
             </li>
           ))}

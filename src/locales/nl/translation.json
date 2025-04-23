@@ -2,6 +2,7 @@
   "navigation": {
     "home": "Home",
     "work": "Projecten",
+    "expertise": "Expertise",
     "blog": "Blog",
     "contact": "Contact"
   },
@@ -55,6 +56,31 @@
       "linkedin": "Laten we connecteren op ",
       "note": "Heb je een idee? Een vraag? Of gewoon zin om te praten over design, creativiteit of motors? Of het nu een korte kennismaking is of een inspirerend gesprek over creatieve projecten, ik hoor graag van je!"
     },
+    "expertise": {
+      "hero_title": "Expertise",
+      "title": "Expertise",
+      "subtitle": "Ontdek wat ik voor jou kan doen",
+      "description": "Wat kan ik voor jou doen?",
+      "intro": "Van een onderhoudsvriendelijke website tot een herkenbare visuele huisstijl of een slimme contentstrategie: ik help je het verhaal van jouw merk krachtig en helder te vertellen. Hieronder ontdek je hoe ik jou kan versterken in webdesign, branding, contentcreatie en strategie.",
+      "grid_title": "Mijn 4 core domeinen",
+      "grid_intro": "Geen standaardoplossingen, wel vier focusgebieden waarin ik jou écht kan helpen. Met de juiste tools en een goede dosis creatieve energie.",
+      "web": {
+        "title": "Webdesign, development & onderhoud",
+        "description": "Van wireframes tot levende websites: ik bouw gebruiksvriendelijke, responsive websites in platformen zoals Wordpress en Drupal. Inclusief SEO-optimalisatie. Verder heb ik ervaring met React."
+      },
+      "branding": {
+        "title": "Branding & grafisch ontwerp",
+        "description": "Design dat een verhaal vertelt. Van logo’s tot flyers, visitekaartjes en campagnemateriaal: ik geef merken een sterke visuele identiteit."
+      },
+      "content": {
+        "title": "Content creatie, social media & community management",
+        "description": "Ik werk contentstrategieën en visuals uit. Van posts tot reels, advertenties tot community interactie: ik help merken online verbinden."
+      },
+      "strategy": {
+        "title": "Strategie & marketingplanning",
+        "description": "Van idee tot actieplan. Ik vertaal bedrijfsdoelen naar marketingstrategieën, contentkalenders en campagnes."
+      }
+    },
     "404": {
       "hero_title": "Verloren op zee",
       "subtitle": "Wat nu?",
@@ -77,11 +103,13 @@
   "left_title": "Cara Roggemans",
   "middle_title": "Nuttige links",
   "right_title": "Contact",
+  "right_below_title": "Socials",
   "left_text": "Grafisch ontwerper en web developer uit Beringen, met een passie voor content creatie en social media.",
   "link_1": "Home",
-  "link_2": "Projects",
-  "link_3": "Blog",
-  "link_4": "Contact"
+  "link_2": "Projecten",
+  "link_3": "Expertise",
+  "link_4": "Blog",
+  "link_5": "Contact"
   },
 
   "alt": {
@@ -98,6 +126,10 @@
       "projects": {
         "title": "CARA | Projecten",
         "description": "Bekijk een selectie van creatieve projecten, van branding strategie en webdesign tot sociale media campagnes en visuele storytelling."
+      },
+      "expertise": {
+        "title": "CARA | Jouw expert in webdesign, branding, content & strategie",
+        "description": "Ontdek hoe ik jou kan versterken met doordacht webdesign, een sterke visuele identiteit, slimme content en een heldere strategie. Geen standaardaanpak, wel creatieve oplossingen op maat van jouw merk."
       },
       "blog": {
         "title": "CARA | Blog",

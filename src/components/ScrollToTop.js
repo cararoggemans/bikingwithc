@@ -8,7 +8,7 @@ const ScrollToTop = () => {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "instant", // Zorgt ervoor dat het direct gebeurt zonder scroll-effect
+      behavior: "instant",
     });
   }, [pathname]);
 

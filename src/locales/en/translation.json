@@ -2,6 +2,7 @@
   "navigation": {
     "home": "Home",
     "work": "Projects",
+    "expertise": "Expertise",
     "blog": "Blog",
     "contact": "Contact"
   },
@@ -56,6 +57,31 @@
       "linkedin": "Let’s connect on  ",
       "note": "Have an idea? A question? Or just want to chat about design, creativity, or motorcycles? Whether it's a quick hello or a deep dive into creative projects, I’d love to hear from you. Let’s connect!"
     },
+    "expertise": {
+      "hero_title": "Expertise",
+      "title": "Expertise",
+      "subtitle": "Discover how I can support your brand",
+      "description": "What can I do for you?",
+      "intro": "From a low-maintenance website and a recognisable visual identity to a smart content strategy: I help you tell your brand’s story in a way that’s clear, creative and compelling. Below, you'll discover how I support brands through web design, branding, content creation and strategic planning.",
+      "grid_title": "My 4 core strengths",
+      "grid_intro": "No one-size-fits-all solutions here, just four areas where I can truly make a difference. With the right tools and a healthy dose of creative energy.",
+      "web": {
+        "title": "Web design, development & maintenance",
+        "description": "From wireframes to fully functional websites: I design responsive, user-friendly platforms using tools like WordPress and Drupal with SEO in mind. I also have experience working with React."
+      },
+      "branding": {
+        "title": "Branding & graphic design",
+        "description": "Design that tells a story. From logos and business cards to flyers and campaign visuals: I help brands express who they are through strong visual identities."
+      },
+      "content": {
+        "title": "Content creation, social media & community management",
+        "description": "I create strategies and visual content that connect. From Instagram reels to ad campaigns and community interaction: I help brands engage their audience online."
+      },
+      "strategy": {
+        "title": "Strategy & marketing planning",
+        "description": "From idea to execution. I translate business goals into creative strategies, detailed content calendars and campaigns that get things moving."
+      }
+    },
     "404": {
       "hero_title": "Lost at sea",
       "subtitle": "What now?",
@@ -79,11 +105,13 @@
     "left_title": "Cara Roggemans",
     "middle_title": "Useful links",
     "right_title": "Get in touch",
+    "right_below_title": "Socials",
     "left_text": "Graphic designer and web developer from Beringen, with a passion for content creation and social media.",
     "link_1": "Home",
     "link_2": "Projects",
-    "link_3": "Blog",
-    "link_4": "Contact"
+    "link_3": "Expertise",
+    "link_4": "Blog",
+    "link_5": "Contact"
   },
   
   "alt": {
@@ -100,6 +128,10 @@
       "projects": {
         "title": "CARA | Projects",
         "description": "Browse creative projects by Cara Roggemans: from visual branding and website design to social media campaigns, digital storytelling and creative content solutions."
+      },
+      "expertise": {
+        "title": " CARA | Your expert in web design, branding, content & strategy",
+        "description": "Explore how I can help your brand grow with smart web design, a strong visual identity, engaging content and creative strategy. No one-size-fits-all, just tailor-made solutions with impact."
       },
       "blog": {
         "title": "CARA | Blog",

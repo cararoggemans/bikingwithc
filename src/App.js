@@ -2,15 +2,15 @@ import { Route, Routes, Navigate, useLocation, useNavigate } from 'react-router-
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import ScrollToTop from './components/ScrollToTop';
+import LanguageGuard from './components/LanguageGuard';
 
-// Pagina's importeren
 import Home from './pages/Home';
-import Work from './pages/Work';
+import Work from './pages/Projects';
+import Expertise from './pages/Expertise';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import NotFound from './pages/404';
 
-// Work detailpagina's
 import QualityFence from './pages/work/QualityFence';
 import XendoBarMenu from './pages/work/XendoBarMenu';
 import XendoPlanning from './pages/work/XendoPlanning';
@@ -30,6 +30,11 @@ function App() {
   const { i18n } = useTranslation();
   const location = useLocation();
   const navigate = useNavigate();
+
+  const AutoRedirect404 = () => {
+    const browserLang = navigator.language.startsWith('nl') ? 'nl' : 'en';
+    return <Navigate to={`/${browserLang}/404`} replace />;
+  };
   
   useEffect(() => {
     const langFromURL = location.pathname.split('/')[1];
@@ -46,29 +51,32 @@ function App() {
     <>
       <ScrollToTop />
       <Routes>
-        <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Navigate replace to="/en" />} />
 
-        <Route path="/:lang" element={<Home />} />
-        <Route path="/:lang/work" element={<Work />} />
-        <Route path="/:lang/blog" element={<Blog />} />
-        <Route path="/:lang/contact" element={<Contact />} />
+        <Route path="/:lang" element={<LanguageGuard />}>
+          <Route index element={<Home />} />
+          <Route path="work" element={<Work />} />
+          <Route path="expertise" element={<Expertise />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="blog/:slug" element={<BlogDetail />} />
 
-        {/* Work detailpagina's */}
-        <Route path="/:lang/work/quality-fence-gardens" element={<QualityFence />} />
-        <Route path="/:lang/work/xendo-bar-menu" element={<XendoBarMenu />} />
-        <Route path="/:lang/work/xendo-planning" element={<XendoPlanning />} />
-        <Route path="/:lang/work/xendo-socials" element={<XendoSocials />} />
-        <Route path="/:lang/work/trixxo-20-years" element={<TrixxoCampaign />} />
-        <Route path="/:lang/work/wedding-invitation" element={<WeddingInvitation />} />
-        <Route path="/:lang/work/cabin-crew-thanks" element={<CabinCrewThanks />} />
-        <Route path="/:lang/work/choco-logo" element={<ChocoLogo />} />
-        <Route path="/:lang/work/birthday-card-design" element={<BirthdayCard />} />
-        <Route path="/:lang/work/tourette-webdesign" element={<TouretteWebdesign />} />
-        
-
-         {/* Dynamische blog detailpagina */}
-         <Route path="/:lang/blog/:slug" element={<BlogDetail />} />
+          {/* Work detailpagina's */}
+          <Route path="work/quality-fence-gardens" element={<QualityFence />} />
+          <Route path="work/xendo-bar-menu" element={<XendoBarMenu />} />
+          <Route path="work/xendo-planning" element={<XendoPlanning />} />
+          <Route path="work/xendo-socials" element={<XendoSocials />} />
+          <Route path="work/trixxo-20-years" element={<TrixxoCampaign />} />
+          <Route path="work/wedding-invitation" element={<WeddingInvitation />} />
+          <Route path="work/cabin-crew-thanks" element={<CabinCrewThanks />} />
+          <Route path="work/choco-logo" element={<ChocoLogo />} />
+          <Route path="work/birthday-card-design" element={<BirthdayCard />} />
+          <Route path="work/tourette-webdesign" element={<TouretteWebdesign />} />
+        </Route>
+  
+        <Route path="/en/404" element={<NotFound />} />
+        <Route path="/nl/404" element={<NotFound />} />
+        <Route path="*" element={<AutoRedirect404 />} />
       </Routes>
     </>
   );

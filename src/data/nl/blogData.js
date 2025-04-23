@@ -12,6 +12,12 @@ const blogData = [
     id: 4,
     slug: "power-of-engagement",
     image: blogImage4,
+    imageSources: {
+      '476': require('../../img/hero/power-of-engagement-600.jpg'),
+      '768': require('../../img/hero/power-of-engagement-1024.jpg'),
+      '1280': require('../../img/hero/power-of-engagement-1280.jpg'),
+      '1920': require('../../img/hero/power-of-engagement-1920.jpg')
+    },
     summary_image: summaryImage4,
     title: "Waarom je als merk moet inzetten op engagement",
     alt: "Een persoon die met haar smartphone bezig is met engagement door te reageren, liken, berichten op te slaan.",
@@ -42,6 +48,12 @@ const blogData = [
     id: 3,
     slug: "dont-let-ai-steal-your-voice",
     image: blogImage3,
+    imageSources: {
+      '476': require('../../img/hero/dont-let-ai-steal-your-voice-600.jpg'),
+      '768': require('../../img/hero/dont-let-ai-steal-your-voice-1024.jpg'),
+      '1280': require('../../img/hero/dont-let-ai-steal-your-voice-1280.jpg'),
+      '1920': require('../../img/hero/dont-let-ai-steal-your-voice-1920.jpg')
+    },
     summary_image: summaryImage3,
     title: "Laat AI je stem niet stelen",
     alt: "Een illustratie van AI en menselijke interactie",
@@ -57,6 +69,12 @@ const blogData = [
     id: 2,
     slug: "instagram-ditches-square-layout",
     image: blogImage2,
+    imageSources: {
+      '476': require('../../img/hero/instagram-ditches-the-square-layout-600.jpg'),
+      '768': require('../../img/hero/instagram-ditches-the-square-layout-1024.jpg'),
+      '1280': require('../../img/hero/instagram-ditches-the-square-layout-1280.jpg'),
+      '1920': require('../../img/hero/instagram-ditches-the-square-layout-1920.jpg')
+    },
     summary_image: summaryImage2,
     title: "Instagram laat vierkanten voorgoed achterwege",
     alt: "Foto van de nieuwe Instagram-layout op een smartphone",
@@ -80,6 +98,12 @@ const blogData = [
     id: 1,
     slug: "slow-paced-design",
     image: blogImage1,
+    imageSources: {
+      '476': require('../../img/hero/slow-paced-design-600.jpg'),
+      '768': require('../../img/hero/slow-paced-design-1024.jpg'),
+      '1280': require('../../img/hero/slow-paced-design-1280.jpg'),
+      '1920': require('../../img/hero/slow-paced-design-1920.jpg')
+    },
     summary_image: summaryImage1,
     title: "Slow design in een snelle wereld",
     alt: "Een ontwerper met een lege schetsboek en verf.",

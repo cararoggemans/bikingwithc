@@ -7,12 +7,16 @@ import MetaDescription from '../../components/MetaDescription';
 import Footer from '../../components/Footer';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
-import backgroundImage from '../../img/work/choco/hero1.jpg';
 import image1 from '../../img/work/choco/wip1.jpg'
 import image2 from '../../img/work/choco/wip2.jpg'
 import image3 from '../../img/work/choco/wip3.jpg'
 import image4 from '../../img/work/choco/intern-book1.jpg'
 import image5 from '../../img/work/choco/intern-book2.jpg'
+
+import project600 from '../../img/hero/choco-600.jpg';
+import project1024 from '../../img/hero/choco-1024.jpg';
+import project1280 from '../../img/hero/choco-1280.jpg';
+import project1920 from '../../img/hero/choco-1920.jpg';
 
 const ChocoLogo= () => {
   const { t } = useTranslation();
@@ -21,6 +25,13 @@ const ChocoLogo= () => {
   const workData = lang === "nl" ? workDataNL : workDataEN;
 
   const currentWork = workData.find(work => work.slug === "choco-logo");
+
+  const heroImages = {
+    '476': project600,
+    '768': project1024,
+    '1280': project1280,
+    '1920': project1920,
+  };
 
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -33,7 +44,7 @@ const ChocoLogo= () => {
         description={`${currentWork.description}`} 
         />
       <Hero 
-          backgroundImage={backgroundImage} 
+           dynamicSources={heroImages}
            title={currentWork.title}
           teaserText={t("pages.projects.teaser_text")}
         />

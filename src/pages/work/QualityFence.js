@@ -10,6 +10,11 @@ import workDataNL from '../../data/nl/workData';
 import backgroundImage from '../../img/work/qfg/hero.png';
 import galleryImage from '../../img/work/logo-quality-fence-gardens.jpg'
 
+import project600 from '../../img/hero/qf-600.jpg';
+import project1024 from '../../img/hero/qf-1024.jpg';
+import project1280 from '../../img/hero/qf-1280.jpg';
+import project1920 from '../../img/hero/qf-1920.jpg';
+
 const QualityFence = () => {
   const { t } = useTranslation();
   const { lang } = useParams();
@@ -17,6 +22,13 @@ const QualityFence = () => {
   const workData = lang === "nl" ? workDataNL : workDataEN;
 
   const currentWork = workData.find(work => work.slug === "quality-fence-gardens");
+
+  const heroImages = {
+    '476': project600,
+    '768': project1024,
+    '1280': project1280,
+    '1920': project1920,
+  };
 
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -29,7 +41,7 @@ const QualityFence = () => {
         description={`${currentWork.description}`} 
         />
       <Hero 
-          backgroundImage={backgroundImage} 
+          dynamicSources={heroImages}
           title={currentWork.title}
           teaserText={t("pages.projects.teaser_text")}
         />

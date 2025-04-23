@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 import { FaBackwardStep } from "react-icons/fa6";
 import { IoHome } from "react-icons/io5";
 import { GiTropicalFish } from "react-icons/gi";
-import heroImage from '../img/404-hero.jpg';
 
 const NotFound = () => {
   const { t, i18n } = useTranslation();
@@ -20,7 +19,7 @@ const NotFound = () => {
       />
 
       <Hero
-        backgroundImage={heroImage}
+        backgroundBaseName="404"
         title={t("pages.404.hero_title")}
         teaserText={t("pages.404.subtitle")}
       />

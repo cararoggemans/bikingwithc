@@ -62,6 +62,15 @@ const HamburgerMenu = () => {
             </li>
             <li className="fullscreen-menu__item">
               <Link
+                to={`/${currentLang}/expertise`}
+                className={`fullscreen-menu__link ${isActive('/expertise') ? 'active' : ''}`}
+                onClick={closeMenu}
+              >
+                {t("navigation.expertise")}
+              </Link>
+            </li>
+            <li className="fullscreen-menu__item">
+              <Link
                 to={`/${currentLang}/blog`}
                 className={`fullscreen-menu__link ${isActive('/blog') ? 'active' : ''}`}
                 onClick={closeMenu}

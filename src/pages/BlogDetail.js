@@ -42,7 +42,7 @@ const BlogDetail = () => {
           description={`${currentBlog.start_content}`} 
         />
       <Hero 
-        backgroundImage={currentBlog.image} 
+        dynamicSources={currentBlog.imageSources}
         title={currentBlog.title} 
         teaserText={t("featured_blogs.read_more")} 
       />

@@ -46,6 +46,10 @@
   <url><loc>https://cararoggemans.com/en/work/birthday-card-design</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://cararoggemans.com/nl/work/birthday-card-design</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
+    <!-- Expertise -->
+  <url><loc>https://cararoggemans.com/en/expertise</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cararoggemans.com/nl/expertise</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
   <!-- Blog Overview -->
   <url><loc>https://cararoggemans.com/en/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://cararoggemans.com/nl/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>

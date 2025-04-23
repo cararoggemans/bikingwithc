@@ -7,12 +7,16 @@ import MetaDescription from '../../components/MetaDescription';
 import Footer from '../../components/Footer';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
-import backgroundImage from '../../img/work/xendo/events/hero-planning.png';
 import galleryImage from '../../img/work/xendo/events/oktober-flyer.png'
 import galleryImage2 from '../../img/work/xendo/events/december-poster.png'
 import galleryImage5 from '../../img/work/xendo/events/september-story-smartphone.png'
 import galleryImage6 from '../../img/work/xendo/events/xendo-october-events-poster.png'
 import galleryImage7 from '../../img/work/xendo/events/xendo-overview-event-posters.png'
+
+import project600 from '../../img/hero/planning-600.jpg';
+import project1024 from '../../img/hero/planning-1024.jpg';
+import project1280 from '../../img/hero/planning-1280.jpg';
+import project1920 from '../../img/hero/planning-1920.jpg';
 
 const XendoPlanning = () => {
   const { t } = useTranslation();
@@ -22,18 +26,25 @@ const XendoPlanning = () => {
 
   const currentWork = workData.find(work => work.slug === "xendo-planning");
 
+  const heroImages = {
+    '476': project600,
+    '768': project1024,
+    '1280': project1280,
+    '1920': project1920,
+  };
+
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
 
   return (
     <>
-          <MetaDescription
+      <MetaDescription
         title={`Work | ${currentWork.title}`} 
         description={`${currentWork.description}`} 
         />
       <Hero 
-          backgroundImage={backgroundImage} 
+          dynamicSources={heroImages} 
           title={currentWork.title}
           teaserText={t("pages.projects.teaser_text")}
         />

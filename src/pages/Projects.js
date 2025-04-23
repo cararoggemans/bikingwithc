@@ -5,10 +5,9 @@ import workItemsDataEN from "../data/en/workData";
 import workItemsDataNL from "../data/nl/workData";
 import WorkItem from '../components/WorkItem';
 import MetaDescription from '../components/MetaDescription';
-import heroImage from '../img/work/work-hero.jpg';
 import { useTranslation } from "react-i18next";
 
-const Work = () => {
+const Projects = () => {
   const { t, i18n } = useTranslation();
   const workData = i18n.language === "nl" ? workItemsDataNL : workItemsDataEN;
 
@@ -20,7 +19,7 @@ const Work = () => {
         />
 
       <Hero 
-        backgroundImage={heroImage}
+        backgroundBaseName="projects"
         title={t("pages.projects.hero_title")}
         teaserText={t("pages.projects.subtitle")}
       />
@@ -50,4 +49,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;

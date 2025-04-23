@@ -7,10 +7,14 @@ import MetaDescription from '../../components/MetaDescription';
 import Footer from '../../components/Footer';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
-import backgroundImage from '../../img/work/trixxo/trixxo-20-years.png';
 import galleryImage from '../../img/work/trixxo/trixxo-namecard.png'
 import galleryImage6 from '../../img/work/trixxo/trixxo-story.png'
 import galleryImage7 from '../../img/work/trixxo/trixxo-square.png'
+
+import project600 from '../../img/hero/trixxo-600.jpg';
+import project1024 from '../../img/hero/trixxo-1024.jpg';
+import project1280 from '../../img/hero/trixxo-1280.jpg';
+import project1920 from '../../img/hero/trixxo-1920.jpg';
 
 const TrixxoCampaign = () => {
   const { t } = useTranslation();
@@ -19,6 +23,13 @@ const TrixxoCampaign = () => {
   const workData = lang === "nl" ? workDataNL : workDataEN;
 
   const currentWork = workData.find(work => work.slug === "trixxo-20-years");
+
+  const heroImages = {
+    '476': project600,
+    '768': project1024,
+    '1280': project1280,
+    '1920': project1920,
+  };
 
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -31,7 +42,7 @@ const TrixxoCampaign = () => {
         description={`${currentWork.description}`} 
         />
       <Hero 
-          backgroundImage={backgroundImage} 
+          dynamicSources={heroImages}
           title={currentWork.title}
           teaserText={t("pages.projects.teaser_text")}
         />

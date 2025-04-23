@@ -7,9 +7,14 @@ import MetaDescription from '../../components/MetaDescription';
 import Footer from '../../components/Footer';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
-import galleryImage from '../../img/work/wedding/wedding-hero-1.png';
+import galleryImage4 from '../../img/work/wedding/wedding-hero.png';
 import galleryImage2 from '../../img/work/wedding/wedding2.jpg';
 import galleryImage3 from '../../img/work/wedding/wedding3.jpg';
+
+import project600 from '../../img/hero/wedding-600.jpg';
+import project1024 from '../../img/hero/wedding-1024.jpg';
+import project1280 from '../../img/hero/wedding-1280.jpg';
+import project1920 from '../../img/hero/wedding-1920.jpg';
 
 const WeddingInvitation = () => {
   const { t } = useTranslation();
@@ -18,6 +23,13 @@ const WeddingInvitation = () => {
   const workData = lang === "nl" ? workDataNL : workDataEN;
 
   const currentWork = workData.find(work => work.slug === "wedding-invitation");
+
+  const heroImages = {
+    '476': project600,
+    '768': project1024,
+    '1280': project1280,
+    '1920': project1920,
+  };
 
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -30,7 +42,7 @@ const WeddingInvitation = () => {
         description={`${currentWork.description}`} 
         />
       <Hero 
-          backgroundImage={galleryImage} 
+          dynamicSources={heroImages}
           title={currentWork.title}
           teaserText={t("pages.projects.teaser_text")}
         />
@@ -61,7 +73,7 @@ const WeddingInvitation = () => {
           </div>
            <div className="row justify-content-center">
           <div className="col-md-8 d-flex justify-content-center align-items-center work-detail__top-image">
-              <img src={galleryImage} alt={currentWork.alt.gallery_image_3} />
+              <img src={galleryImage4} alt={currentWork.alt.gallery_image_3} />
           </div>
         </div>
           </div>

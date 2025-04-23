@@ -7,7 +7,6 @@ import MetaDescription from '../../components/MetaDescription';
 import Footer from '../../components/Footer';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
-import backgroundImage from '../../img/work/xendo/social/xendo-social-media.png';
 import galleryImage from '../../img/work/xendo/social/xendo-social-media-facebook.png'
 import galleryImage2 from '../../img/work/xendo/social/xendo-halloween-last-early-bird.png'
 import galleryImage3 from '../../img/work/xendo/social/xendo-social-90s.png'
@@ -16,6 +15,11 @@ import galleryImage5 from '../../img/work/xendo/social/xendo-socials-end-of-seas
 import galleryImage6 from '../../img/work/xendo/social/xendo-socials-saturday-clubbing.png'
 import galleryImage7 from '../../img/work/xendo/social/xendo-social-facebook-event.png'
 
+import project600 from '../../img/hero/xendo-socials-600.jpg';
+import project1024 from '../../img/hero/xendo-socials-1024.jpg';
+import project1280 from '../../img/hero/xendo-socials-1280.jpg';
+import project1920 from '../../img/hero/xendo-socials-1920.jpg';
+
 const XendoSocials = () => {
   const { t } = useTranslation();
   const { lang } = useParams();
@@ -23,6 +27,13 @@ const XendoSocials = () => {
   const workData = lang === "nl" ? workDataNL : workDataEN;
 
   const currentWork = workData.find(work => work.slug === "xendo-socials");
+
+  const heroImages = {
+    '476': project600,
+    '768': project1024,
+    '1280': project1280,
+    '1920': project1920,
+  };
 
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -35,7 +46,7 @@ const XendoSocials = () => {
         description={`${currentWork.description}`} 
         />
       <Hero 
-          backgroundImage={backgroundImage} 
+          dynamicSources={heroImages}
           title={currentWork.title}
           teaserText={t("pages.projects.teaser_text")}
         />

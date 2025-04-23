@@ -7,11 +7,15 @@ import MetaDescription from '../../components/MetaDescription'
 import Footer from '../../components/Footer';
 import workDataEN from '../../data/en/workData';
 import workDataNL from '../../data/nl/workData';
-import backgroundImage from '../../img/work/cabincrew/finnair-thankyou-min.png';
 import galleryImage from '../../img/work/cabincrew/airasia-thankyou-mockup.png'
 import image1 from '../../img/work/cabincrew/thaiairways-thank-you.png'
 import image2 from '../../img/work/cabincrew/finnair-thankyou.png'
 import image3 from '../../img/work/cabincrew/airasia-thankyou.png'
+
+import project600 from '../../img/hero/cabin-600.jpg';
+import project1024 from '../../img/hero/cabin-1024.jpg';
+import project1280 from '../../img/hero/cabin-1280.jpg';
+import project1920 from '../../img/hero/cabin-1920.jpg';
 
 const CabinCrewThanks = () => {
   const { t } = useTranslation();
@@ -20,6 +24,13 @@ const CabinCrewThanks = () => {
   const workData = lang === "nl" ? workDataNL : workDataEN;
 
   const currentWork = workData.find(work => work.slug === "cabin-crew-thanks");
+
+  const heroImages = {
+    '476': project600,
+    '768': project1024,
+    '1280': project1280,
+    '1920': project1920,
+  };
 
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -32,7 +43,7 @@ const CabinCrewThanks = () => {
         description={`${currentWork.description}`} 
         />
       <Hero 
-          backgroundImage={backgroundImage} 
+          dynamicSources={heroImages}
           title={currentWork.title}
           teaserText={t("pages.projects.teaser_text")}
         />

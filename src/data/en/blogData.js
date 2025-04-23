@@ -12,6 +12,12 @@ const blogData = [
     id: 4,
     slug: "power-of-engagement",
     image: blogImage4,
+    imageSources: {
+      '476': require('../../img/hero/power-of-engagement-600.jpg'),
+      '768': require('../../img/hero/power-of-engagement-1024.jpg'),
+      '1280': require('../../img/hero/power-of-engagement-1280.jpg'),
+      '1920': require('../../img/hero/power-of-engagement-1920.jpg')
+    },
     summary_image: summaryImage4,
     title: "Why your brand should care about engagement",
     alt: "A person engaging with their smartphone by reacting, liking, and saving posts.",
@@ -42,6 +48,12 @@ const blogData = [
     id: 3,
     slug: "dont-let-ai-steal-your-voice",
     image: blogImage3,
+    imageSources: {
+      '476': require('../../img/hero/dont-let-ai-steal-your-voice-600.jpg'),
+      '768': require('../../img/hero/dont-let-ai-steal-your-voice-1024.jpg'),
+      '1280': require('../../img/hero/dont-let-ai-steal-your-voice-1280.jpg'),
+      '1920': require('../../img/hero/dont-let-ai-steal-your-voice-1920.jpg')
+    },
     summary_image: summaryImage3,
     title: "Don’t let AI steal your voice",
     alt: "An illustration of AI and human interaction",
@@ -57,6 +69,12 @@ const blogData = [
     id: 2,
     slug: "instagram-ditches-square-layout",
     image: blogImage2,
+    imageSources: {
+      '476': require('../../img/hero/instagram-ditches-the-square-layout-600.jpg'),
+      '768': require('../../img/hero/instagram-ditches-the-square-layout-1024.jpg'),
+      '1280': require('../../img/hero/instagram-ditches-the-square-layout-1280.jpg'),
+      '1920': require('../../img/hero/instagram-ditches-the-square-layout-1920.jpg')
+    },
     summary_image: summaryImage2,
     title: "Instagram ditches the square layout",
     alt: "Photo of the new Instagram layout on a smartphone",
@@ -79,6 +97,12 @@ const blogData = [
     id: 1,
     slug: "slow-paced-design",
     image: blogImage1,
+    imageSources: {
+      '476': require('../../img/hero/slow-paced-design-600.jpg'),
+      '768': require('../../img/hero/slow-paced-design-1024.jpg'),
+      '1280': require('../../img/hero/slow-paced-design-1280.jpg'),
+      '1920': require('../../img/hero/slow-paced-design-1920.jpg')
+    },
     summary_image: summaryImage1,
     title: "Slow paced design in a fast world",
     alt: "A designer sketching ideas on a notebook",

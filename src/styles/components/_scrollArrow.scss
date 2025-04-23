@@ -4,14 +4,15 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 20px; /* Position this based on where you want it on the hero banner */
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    z-index: 3;
 
     p {
-        font-size: 1.5rem; /* Adjust size as needed */
-        color: white; /* Adjust color as needed */
+        font-size: 1.5rem;
+        color: white;
     }
 
     &__text {

@@ -5,7 +5,6 @@ import blogDataEN from '../data/en/blogData';
 import blogDataNL from '../data/nl/blogData';
 import MetaDescription from '../components/MetaDescription';
 import BlogItem from '../components/BlogItem';
-import heroImage from '../img/work/work-hero.jpg';
 import { useTranslation } from "react-i18next";
 
 const Blog = () => {
@@ -19,8 +18,8 @@ const Blog = () => {
           title={t("meta.blog.title")} 
           description={t("meta.blog.description")} 
         />
-      <Hero 
-        backgroundImage={heroImage}
+      <Hero
+        backgroundBaseName="blog"
         title={t("pages.blog.hero_title")}
         teaserText={t("pages.blog.subtitle")}
       />

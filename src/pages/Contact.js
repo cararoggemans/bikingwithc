@@ -2,7 +2,6 @@
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import MetaDescription from '../components/MetaDescription';
-import heroImage from '../img/contact/contact-hero.jpg';
 import contactPicture from '../img/contact/get-in-touch-contact-page.jpg'
 import { useTranslation } from "react-i18next";
 import { MdEmail } from "react-icons/md";
@@ -19,7 +18,7 @@ const Contact = () => {
           description={t("meta.contact.description")} 
         />
       <Hero 
-        backgroundImage={heroImage}
+        backgroundBaseName="contact"
         title={t("pages.contact.title")}
         teaserText={t("pages.contact.subtitle")}
       />

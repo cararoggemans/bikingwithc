@@ -6,7 +6,6 @@ import Footer from '../components/Footer';
 import SelectedWork from '../components/SelectedWork';
 import SelectedBlog from '../components/SelectedBlog';
 import MetaDescription from '../components/MetaDescription';
-import homepageImage from '../img/craftingcreativecontent-header.png';
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
@@ -19,7 +18,7 @@ const Home = () => {
           description={t("meta.home.description")} 
         />
         <Hero 
-          backgroundImage={homepageImage} 
+          backgroundBaseName="home"
           title={t("hero.title")}
           teaserText={t("hero.subtitle")}
         />

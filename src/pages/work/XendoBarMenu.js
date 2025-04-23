@@ -12,6 +12,11 @@ import galleryImage4 from '../../img/work/xendo/menu/trifold-mockup.png'
 import galleryImage5 from '../../img/work/xendo/menu/menu3.jpg'
 import backgroundImage from '../../img/work/xendo/menu/trifold-mockup-2.png'
 
+import project600 from '../../img/hero/bar-600.jpg';
+import project1024 from '../../img/hero/bar-1024.jpg';
+import project1280 from '../../img/hero/bar-1280.jpg';
+import project1920 from '../../img/hero/bar-1920.jpg';
+
 const XendoBarMenu = () => {
   const { t } = useTranslation();
   const { lang } = useParams();
@@ -20,18 +25,25 @@ const XendoBarMenu = () => {
 
   const currentWork = workData.find(work => work.slug === "xendo-bar-menu");
 
+  const heroImages = {
+    '476': project600,
+    '768': project1024,
+    '1280': project1280,
+    '1920': project1920,
+  };
+
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
   
   return (
     <>
-          <MetaDescription
+      <MetaDescription
         title={`Work | ${currentWork.title}`} 
         description={`${currentWork.description}`} 
         />
       <Hero 
-          backgroundImage={backgroundImage} 
+          dynamicSources={heroImages}
           title={currentWork.title}
           teaserText={t("pages.projects.teaser_text")}
         />

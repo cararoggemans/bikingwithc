@@ -10,6 +10,11 @@ import workDataNL from '../../data/nl/workData';
 import backgroundImage from '../../img/work/birthday/birthday-card-design-1.png';
 import galleryImage from '../../img/work/birthday/birthday-card-design-2.png'
 
+import project600 from '../../img/hero/birthday-600.jpg';
+import project1024 from '../../img/hero/birthday-1024.jpg';
+import project1280 from '../../img/hero/birthday-1280.jpg';
+import project1920 from '../../img/hero/birthday-1920.jpg';
+
 const BirthdayCard = () => {
   const { t } = useTranslation();
   const { lang } = useParams();
@@ -18,6 +23,13 @@ const BirthdayCard = () => {
 
   const currentWork = workData.find(work => work.slug === "birthday-card-design");
 
+  const heroImages = {
+    '476': project600,
+    '768': project1024,
+    '1280': project1280,
+    '1920': project1920,
+  };
+  
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
@@ -29,7 +41,7 @@ const BirthdayCard = () => {
         description={`${currentWork.description}`} 
         />
       <Hero 
-          backgroundImage={backgroundImage} 
+          dynamicSources={heroImages} 
           title={currentWork.title}
           teaserText={t("pages.projects.teaser_text")}
         />

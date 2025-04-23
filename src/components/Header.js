@@ -64,6 +64,11 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="navigation__item">
+                    <Link to={`/${currentLang}/expertise`} className={`navigation__link ${isActive('/expertise') ? 'active' : ''}`}>
+                      {t("navigation.expertise")}
+                    </Link>
+                  </li>
+                  <li className="navigation__item">
                     <Link to={`/${currentLang}/blog`} className={`navigation__link ${isActive('/blog') ? 'active' : ''}`}>
                       {t("navigation.blog")}
                     </Link>
