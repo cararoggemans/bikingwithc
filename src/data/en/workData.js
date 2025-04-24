@@ -26,7 +26,7 @@ const workItemsData = [
         gallery_image_2: "The thank you card created for Finnair. A collage with 2 pictures: one of a female cabin crew member and one of the 'fin' of the airplane from Finnair.",
         gallery_image_3: "The thank you card created for AirAsia. A female cabin crew member of AirAsia making a heart shape in front of the A320 airplane from AirAsia."
       },
-      meta_description: "Creative graphic design project celebrating cabin crew through custom thank-you cards in airline branding. A small gesture, full of impact."
+      meta_description: "Custom thank you cards for cabin crew, designed in each airline’s signature branding. A small creative gesture with a heartfelt visual identity."
   },
   {
     id: 8,
@@ -46,7 +46,7 @@ const workItemsData = [
       gallery_image_5: "Facebook event banner for 'Groovy Tunes Soundsystem invites...'",
       gallery_image_6: "Facebook event banner for the saturday clubbing event"
     },
-    meta_description: "Creative content creation and social media visuals for Club Xendo: event design, copywriting and ad optimization across Instagram and Facebook to boost engagement."
+    meta_description: "Creative social media visuals and content design for Club Xendo: events, ads, and stories for Facebook & Instagram, all with a strong, branded aesthetic."
   },
   {
     id: 7,
@@ -64,7 +64,7 @@ const workItemsData = [
       gallery_image_1: "The story format I created for the TRIXXO 20 years campaign",
       gallery_image_2: "he square format I created for the TRIXXO 20 years campaign"
     },
-    meta_description: "Graphic design meets branding: a celebratory logo and campaign concept for TRIXXO’s 20-year milestone, reflecting connection, growth and creative identity."
+    meta_description: "Creative branding and campaign design for TRIXXO’s 20-year anniversary. Visual storytelling focused on growth, connection, and celebration."
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ const workItemsData = [
       gallery_image_3: "Picture of a woman holding her smartphone with the story format of the september planning",
       gallery_image_4: "Large format poster for the events in December, created for Club Xendo"
     },
-    meta_description: "Branded graphic design for Club Xendo’s event planning: flyers, posters, and social media content creation that informs, aligns and stands out visually every month."
+    meta_description: "Monthly flyers and social media visuals for Club Xendo. Clear, on-brand design that visually highlights upcoming events with strong visual consistency."
   },
   {
     id: 5,
@@ -95,7 +95,7 @@ const workItemsData = [
       image_1: "Quality Fence & Gardens logo on wrapped vehicle",
       gallery_image_1: "Quality Fence & Gardens Logo Creation final version",
     },
-    meta_description: "Timeless branding through bold logo design. Graphic identity created for Quality Fence & Gardens, seen today on company vehicles and business cards."
+    meta_description: "Timeless logo design reflecting the identity of Quality Fence & Gardens. A strong, bold visual used across business cards, vehicles and branding."
   },
   {
     id: 4,
@@ -111,7 +111,7 @@ const workItemsData = [
       gallery_image_2: "Picture of the front of the menu for drinks at Club Xendo",
       gallery_image_3: "Picture of the back of the menu for drinks at Club Xendo"
     },
-    meta_description: "Creative menu design for Club Xendo: balancing visual appeal with clarity in pricing for a complex champagne list. Clean layout meets modern graphic design."
+    meta_description: "Stylish and clear menu design for Club Xendo, combining champagne variety and pricing with sleek graphic design in line with their branding."
   },
   {
     id: 3,
@@ -127,7 +127,7 @@ const workItemsData = [
       gallery_image_2: "The second logo variant with the initials of the married couple to be, surrounded with a floral circle.",
       gallery_image_3: "Mock-up of the final design for the wedding invitation "
     },
-    meta_description: "Elegant wedding invitation design combining romantic floral elements with a refined, minimalist style. Graphic design tailored to a couple’s unique story."
+    meta_description: "Minimalist and romantic wedding invitation design. A floral-inspired piece that balances elegance and personality in a timeless graphic layout."
   },
   {
     id: 2,
@@ -147,7 +147,7 @@ const workItemsData = [
       gallery_image_4: "Left page of the intern book: a collage of pictures from my internship at CHOCO Relatiebouwers",
       gallery_image_5: "Right page of the intern book: the wings I drew, origami I created and the small book I wrote with memories of the internship"
     },
-    meta_description: "A heartfelt tribute project marking the end of an internship. A personal, creative print piece that reflects the identity and values of CHOCO Relatiebouwers."
+    meta_description: "Creative farewell project for CHOCO: a handmade logo using matchsticks, paired with illustrated memories and original visual storytelling."
   },
   {
     id: 1,
@@ -163,7 +163,7 @@ const workItemsData = [
       gallery_image_1: "Moodboad for design of the branding of Vlaamse Vereniging Gilles de la Tourette",
       gallery_image_2: "Overview of the page explaining the symptoms of Tourette syndrome",
     },
-    meta_description: "Web design project for Tourette Association: warm, clear and accessible design to inform and support users. A creative internship project focused on identity."
+    meta_description: "User-friendly and visually warm website for the Flemish Tourette Association. Custom design with clear content and accessible, illustrative branding."
   },  
   {
     id: 0,
@@ -176,7 +176,7 @@ const workItemsData = [
     alt: {
       image_1: "Cupcake Birthday card design displayed",
     },
-    meta_description: "A sweet, playful birthday card design for a true cupcake fan. Graphic design meets personal storytelling in this fun, flavorful creative print piece."
+    meta_description: "Playful birthday card for a cupcake lover. Personalized illustration and graphic design with a sweet tone, ideal for dessert fans and celebration vibes."
   }
 ];
 

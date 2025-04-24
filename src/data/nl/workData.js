@@ -17,6 +17,7 @@ const workItemsData = [
   title: "Bedankkaartjes voor cabin crew",
   link: "/work/cabin-crew-thanks",
   description: "Vliegen draait niet alleen om de bestemming, maar ook om de ervaring aan boord: gecreëerd door de vriendelijkheid en inzet van het personeel. Als klein gebaar van waardering ben ik begonnen met het ontwerpen van bedankkaartjes voor het personeel, elke keer dat ik reis. Elk kaartje sluit perfect aan bij de huisstijl en uitstraling van de betreffende luchtvaartmaatschappij.",
+  meta_description: "Unieke bedankkaartjes voor cabin crew, ontworpen in de huisstijl van elke luchtvaartmaatschappij. Een klein design project met veel gevoel en impact.",
   date: "2025-02-19",
   alt:
     {
@@ -25,7 +26,6 @@ const workItemsData = [
       gallery_image_2: "Het bedankkaartje ontworpen voor Finnair. Een collage met twee afbeeldingen: een vrouwelijke stewardess en de staartvin van een Finnair-vliegtuig.",
       gallery_image_3: "Het bedankkaartje ontworpen voor AirAsia. Een vrouwelijke stewardess van AirAsia maakt een hartvorm met haar handen voor een A320-vliegtuig van AirAsia."
     },
-    meta_description: "Unieke bedankkaartjes voor cabin crew, ontworpen in huisstijl van de luchtvaartmaatschappij. Een klein creatief gebaar met een grote impact."
   },
   {
     id: 8,
@@ -44,7 +44,7 @@ const workItemsData = [
       gallery_image_5: "Facebook eventbanner voor 'Groovy Tunes Soundsystem invites...'.",
       gallery_image_6: "Facebook eventbanner voor het zaterdagse clubbing-event."
     },
-    meta_description: "Content creatie en social media visuals voor Club Xendo: event design, advertenties en copywriting voor Facebook & Instagram. Creatief, doelgericht en visueel sterk."
+    meta_description: "Creatieve content en social media visuals voor Club Xendo. Event design, advertenties en copywriting voor Facebook en Instagram."
   },
   {
     id: 7,
@@ -62,7 +62,7 @@ const workItemsData = [
       gallery_image_1: "Het story-formaat dat ik heb ontworpen voor de TRIXXO 20 jaar campagne",
       gallery_image_2: "Het vierkante formaat dat ik heb ontworpen voor de TRIXXO 20 jaar campagne"
     },
-    meta_description: "Creatief campagneconcept en logo-ontwerp voor het jubileum van TRIXXO. Een visuele viering van verbinding, groei en merkidentiteit."
+    meta_description: "Creatief campagneconcept en logo voor 20 jaar TRIXXO. Branding die inzet op connectie, groei en visuele identiteit."
   },
   {
     id: 6,
@@ -79,7 +79,7 @@ const workItemsData = [
       gallery_image_3: "Foto van een vrouw die haar smartphone vasthoudt met het story format van de planning voor september",
       gallery_image_4: "Grote poster met de evenementen in december, gemaakt voor Club Xendo"
     },
-    meta_description: "Maandelijkse flyers, affiches en social media visuals voor Club Xendo. Opvallend grafisch ontwerp in lijn met de branding en huisstijl voor een duidelijke en aantrekkelijke communicatie."
+    meta_description: "Maandelijkse flyers en social media visuals voor Club Xendo. Grafisch ontwerp dat merkconsistentie en visuele impact samenbrengt."
   },
   {
     id: 5,
@@ -93,7 +93,7 @@ const workItemsData = [
       image_1: "Quality Fence & Gardens-logo op hun voertuigen",
       gallery_image_1: "Definitieve versie van het Quality Fence & Gardens-logo",
     },
-    meta_description: "Sterke visuele identiteit via een tijdloos logo-ontwerp. Gepersonaliseerd branding project voor Quality Fence & Gardens: zichtbaar op wagens en drukwerk."
+    meta_description: "Tijdloos logo design voor Quality Fence & Gardens. Visuele identiteit zichtbaar op voertuigen en drukwerk. Branding met karakter."
   },
   {
     id: 4,
@@ -109,7 +109,7 @@ const workItemsData = [
       gallery_image_2: "Foto van de voorkant van de drankkaart van Club Xendo",
       gallery_image_3: "Foto van de achterkant van de drankkaart van Club Xendo"
     },
-    meta_description: "Heldere, luxueuze en stijlvolle menukaart met focus op het champagne aanbod. Grafisch ontwerp dat overzicht en esthetiek combineert in lijn met de huisstijl van Club Xendo."
+    meta_description: "Heldere en stijlvolle menukaart. Grafisch ontwerp dat overzichtelijkheid combineert met de huisstijl van Club Xendo."
   },
   {
     id: 3,
@@ -125,7 +125,7 @@ const workItemsData = [
       gallery_image_2: "De tweede logovariant met de initialen van het toekomstige bruidspaar, omringd door een bloemenkrans",
       gallery_image_3: "Mock-up van het definitieve ontwerp voor de trouwuitnodiging"
     },
-    meta_description: "Minimalistisch en romantisch ontwerp voor een huwelijksuitnodiging. Een perfect evenwicht tussen elegantie, floral vibes en persoonlijke visuele storytelling."
+    meta_description: "Minimalistisch en romantisch ontwerp voor een trouwuitnodiging. Een perfect evenwicht tussen elegantie en persoonlijke visuele storytelling."
   },
   {
     id: 2,
@@ -145,7 +145,7 @@ const workItemsData = [
       gallery_image_4: "Linkerpagina van het stageboek: een collage van foto's van mijn stage bij CHOCO Relatiebouwers",
       gallery_image_5: "Rechterpagina van het stageboek: de vleugels die ik tekende, origami die ik maakte en het kleine boekje dat ik schreef met herinneringen aan de stage"
     },
-    meta_description: "Een creatief en persoonlijk eindproject voor CHOCO Relatiebouwers. Handgemaakt grafisch ontwerp dat de identiteit van het communicatiebureau op een originele manier vertaalt."
+    meta_description: "Creatief eindproject voor CHOCO Relatiebouwers. Handgemaakt logo en grafisch ontwerp als persoonlijk afscheidscadeau vol betekenis."
   },
   {
     id: 1,
@@ -161,7 +161,7 @@ const workItemsData = [
       gallery_image_1: "Design moodboard als inspiratie voor de branding van de nieuwe huisstijl",
       gallery_image_2: "Overzicht van de pagina met uitleg over de symptomen van het syndroom van Gilles de la Tourette"
     },
-    meta_description: "Gebruiksvriendelijk web design voor Vlaamse Vereniging Gilles de la Tourette. Een warme, toegankelijk design ontworpen tijdens stage met oog voor branding en identiteit."
+    meta_description: "Gebruiksvriendelijke en warme website voor de Vlaamse Tourettevereniging. Grafisch ontwerp met illustraties en heldere structuur."
   },
   {
     id: 0,
@@ -174,7 +174,7 @@ const workItemsData = [
     alt: {
       image_1: "Ontwerp van een verjaardagskaart met cupcakes en typografie in muntgroene tinten",
     },
-    meta_description: "Grappig en persoonlijk kaartontwerp voor een cupcake-fanaat. Een visueel speelse reminder om haar favoriete lekkernij nooit te vergeten."
+    meta_description: "Speelse verjaardagskaart voor cupcake lover. Persoonlijk en grafisch ontwerp met knipoog, perfect voor fans van taart en typografie."
   }
 ];
 
