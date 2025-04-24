@@ -25,6 +25,8 @@
   </url>
 
   <!-- Work Detail Pages -->
+   <url><loc>https://cararoggemans.com/nl/work/studio-bloom-socials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cararoggemans.com/en/work/studio-bloom-socials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://cararoggemans.com/en/work/cabin-crew-thanks</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://cararoggemans.com/nl/work/cabin-crew-thanks</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://cararoggemans.com/en/work/xendo-socials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
