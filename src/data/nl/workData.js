@@ -8,8 +8,28 @@ import selectedWork5 from '../../img/work/xendo/social/xendo-social-media-facebo
 import selectedWork6 from '../../img/work/cabincrew/finnair-thankyou-min.png';
 import selectedWork7 from '../../img/work/birthday/birthday-card-design-1.png';
 import selectedWork8 from '../../img/work/tourette/tourette-webdesign-1.png';
+import selectedWork9 from '../../img/work/bloom/posts-studio-bloom-instagram-facebook.jpg';
 
 const workItemsData = [
+{
+  id: 10,
+  slug: "studio-bloom-socials",
+  image: selectedWork9,
+  title: "Sociale media voor Studio Bloom",
+  link: "/work/studio-bloom-socials",
+  description: "Studio Bloom is een babyspa en welzijnsconcept in Bornem dat jonge gezinnen ondersteunt van tijdens de zwangerschap tot na de geboorte. De tone of voice is warm, geruststellend en een tikkeltje speels. Als opdracht voor mijn examen sociale media creërde ik 6 uitwerkingen van sociale media posts. Deze werden in een contentplanning van 2 weken gegoten.",
+  date: "2025-04-24",
+  start_content: "De Instagram carrousel focust op selfcare voor nieuwe mama’s en sluit aan bij de zachte, pastelkleurige branding van Studio Bloom. Carrousel posts zijn bewezen effectief op Instagram: ze zorgen voor meer engagement omdat gebruikers vaak blijven swipen tot het einde. De visuals zijn opgemaakt in een reeks van 5 kalmerende tips die inspelen op herkenbare emoties na de bevalling.",
+  middle_content: "De Facebook posts sluiten visueel en inhoudelijk aan bij de missie van Studio Bloom. De eerste post focust op klantgetuigenis en toont Julie & Vik tijdens een bezoek aan de babyspa – ideaal om vertrouwen op te bouwen en conversies te stimuleren. De tweede post deelt een liefdevolle reminder voor nieuwe mama’s: 'je doet het geweldig'. Deze post nodigt volgers uit om andere mama’s te taggen – perfect voor community building en meer bereik.",
+  end_content: "Verder maakte ik ook nog een script voor een TikTok: Quality time = Bloom time, een 'waar of niet' Instagram Story Poll en een Instagram Story 'this or that'. Het doel van de content was om een emotionele connectie te creëren én relevante tips aan te reiken voor de doelgroep. Visueel een oase van rust, inhoudelijk warm en afgestemd op moderne mama’s.",
+  alt: {
+    image_1: "Overzicht van visuele posts voor Studio Bloom",
+    gallery_image_1: "Instagram carrousel met 5 selfcare-tips voor nieuwe mama’s.",
+    gallery_image_2: "Facebookpost met klantgetuigenis van Julie & Vik in de babyspa.",
+    gallery_image_3: "Facebookpost met reminder: ‘Mama, je doet het geweldig’."
+  },
+  meta_description: "Social media concepten voor babyspa Studio Bloom: Instagram carrousel en Facebook visuals afgestemd op jonge mama’s en hun beleving."
+},  
 {
   id: 9,
   slug: "cabin-crew-thanks",

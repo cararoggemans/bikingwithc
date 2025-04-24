@@ -18,6 +18,36 @@
     }
   }
 
+  &__content-first {
+    margin-bottom: 64px;
+  }
+
+  &__middle-content {
+    order: 1;
+
+    @media only screen and (min-width: 476px) {
+      order: 3;
+    }
+  }
+
+  &__facebook-image-first {
+    margin-top: 16px;
+    order: 2;
+    
+    @media only screen and (min-width: 476px) {
+      margin-top: 0;
+      order: 1;
+    }
+  }
+
+  &__facebook-image-second {
+    order: 3;
+
+    @media only screen and (min-width: 476px) {
+      order: 2;
+    }
+  }
+
   &__top-image, &__center-image {
     img {
       height: auto;

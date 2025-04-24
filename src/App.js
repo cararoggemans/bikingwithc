@@ -21,6 +21,7 @@ import ChocoLogo from './pages/work/ChocoLogo';
 import WeddingInvitation from './pages/work/WeddingInvitation';
 import BirthdayCard from './pages/work/BirthdayCard';
 import TouretteWebdesign from './pages/work/TouretteWebdesign';
+import StudioBloomSocials from './pages/work/StudioBloomSocials';
 
 import BlogDetail from './pages/BlogDetail';
 
@@ -62,6 +63,7 @@ function App() {
           <Route path="blog/:slug" element={<BlogDetail />} />
 
           {/* Work detailpagina's */}
+          <Route path="work/studio-bloom-socials" element={<StudioBloomSocials />} />
           <Route path="work/quality-fence-gardens" element={<QualityFence />} />
           <Route path="work/xendo-bar-menu" element={<XendoBarMenu />} />
           <Route path="work/xendo-planning" element={<XendoPlanning />} />
@@ -71,7 +73,8 @@ function App() {
           <Route path="work/cabin-crew-thanks" element={<CabinCrewThanks />} />
           <Route path="work/choco-logo" element={<ChocoLogo />} />
           <Route path="work/birthday-card-design" element={<BirthdayCard />} />
-          <Route path="work/tourette-webdesign" element={<TouretteWebdesign />} />
+          <Route path="work/tourette-webdesign" element={<TouretteWebdesign />}
+           />
         </Route>
   
         <Route path="/en/404" element={<NotFound />} />

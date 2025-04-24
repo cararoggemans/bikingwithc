@@ -8,9 +8,28 @@ import selectedWork5 from '../../img/work/xendo/social/xendo-social-media-facebo
 import selectedWork6 from '../../img/work/cabincrew/finnair-thankyou-min.png';
 import selectedWork7 from '../../img/work/birthday/birthday-card-design-1.png';
 import selectedWork8 from '../../img/work/tourette/tourette-webdesign-1.png';
+import selectedWork9 from '../../img/work/bloom/posts-studio-bloom-instagram-facebook.jpg';
 
 const workItemsData = [
-
+  {
+    id: 10,
+    slug: "studio-bloom-socials",
+    image: selectedWork9,
+    title: "Social Media for Studio Bloom",
+    link: "/work/studio-bloom-socials",
+    description: "Studio Bloom is a baby spa and wellness concept in Bornem that supports young families from pregnancy through postpartum. Their tone of voice is warm, reassuring, and slightly playful. For my social media exam, I created 6 unique content pieces structured into a two-week content calendar.",
+    date: "2025-04-23",
+    start_content: "The Instagram carousel focuses on self-care for new moms and aligns with Studio Bloom’s soft pastel visual identity. Carousel posts are proven to increase engagement on Instagram, as users often swipe through to the final slide. The series includes five gentle and relatable self-care tips tailored to the emotional needs of new moms.",
+    middle_content: "The Facebook posts reflect Studio Bloom’s visual identity and mission. The first post highlights a customer testimonial from Julie & Vik visiting the baby spa—great for building trust and encouraging bookings. The second post shares a loving reminder: 'Mama, you're doing amazing.' It invites followers to tag another mom—a perfect way to strengthen community and boost reach.",
+    end_content: "I also created a TikTok script called 'Quality time = Bloom time', an Instagram Story 'True or False' poll, and a 'This or That' story format. The overall goal was to build emotional connection and offer meaningful content to the target audience. Visually peaceful, emotionally supportive, and perfectly tuned to modern moms.",
+    alt: {
+      image_1: "Overview of visual posts for Studio Bloom",
+      gallery_image_1: "Instagram carousel with 5 self-care tips for new moms.",
+      gallery_image_2: "Facebook post featuring client testimonial from Julie & Vik in the baby spa.",
+      gallery_image_3: "Facebook post with loving reminder: 'Mama, you’re doing amazing.'"
+    },
+    meta_description: "Social media concepts for baby spa Studio Bloom: Instagram carousel and Facebook visuals designed for modern moms and their daily experience."
+  },  
   {
     id: 9,
     slug: "cabin-crew-thanks",
