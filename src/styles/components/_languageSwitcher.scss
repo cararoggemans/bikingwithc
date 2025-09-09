@@ -19,7 +19,7 @@
   }
   
   .language-switcher__button:hover {
-    color: var(--green);
+    color: var(--secondary);
   }
   
   .language-switcher__dropdown {
@@ -38,7 +38,7 @@
   .language-switcher__dropdown li {
     padding: 5px 10px;
     cursor: pointer;
-    color: var(--darkgrey);
+    color: var(--primary);
     text-align: left;
     list-style: none;
     transition: background 0.3s ease;
@@ -50,6 +50,6 @@
   
   .language-switcher__dropdown .active {
     font-weight: bold;
-    color: var(--green);
+    color: var(--secondary);
   }
   

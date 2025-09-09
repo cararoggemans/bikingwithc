@@ -3,7 +3,6 @@ import SmallDescription from '../components/SmallDescription';
 import Hero from '../components/Hero';
 import Quote from '../components/Quote';
 import Footer from '../components/Footer';
-import SelectedWork from '../components/SelectedWork';
 import SelectedBlog from '../components/SelectedBlog';
 import MetaDescription from '../components/MetaDescription';
 import { useTranslation } from "react-i18next";
@@ -24,7 +23,6 @@ const Home = () => {
           backgroundAlt={t("hero.alt")}
         />
         <SmallDescription />
-        <SelectedWork />
         <Quote />
         <SelectedBlog />
         <Footer />

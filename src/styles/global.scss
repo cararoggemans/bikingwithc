@@ -42,7 +42,7 @@
 body {
     margin: 0;
     background-color: var(--white);
-    color: var(--darkgrey);
+    color: var(--primary);
     font-family: $body-font;
     font-size: 0.875rem;
     text-align: left;
@@ -56,7 +56,7 @@ body {
   }
 
   h2 {
-    color: var(--green);
+    color: var(--secondary);
     font-size: 1.5rem;
     text-transform: uppercase;
     text-align: center;
@@ -96,7 +96,7 @@ body {
   }
 
   a {
-    color: var(--green);
+    color: var(--secondary);
   }
 
   a, button {
@@ -114,34 +114,34 @@ body {
     transition: all 0.3s ease;
 
     &--primary {
-      border: 2px solid var(--green);
-      color: var(--green);
+      border: 2px solid var(--secondary);
+      color: var(--secondary);
       margin-bottom: 16px;
 
       &:hover, &:focus {
-        background: var(--green);
+        background: var(--secondary);
         color: white;
       }
     }
   }
 
   ::-moz-selection { /* Code for Firefox */
-    background-color: var(--green);
+    background-color: var(--secondary);
     color: white;
   }
   
   ::selection {
-    background-color: var(--green);
+    background-color: var(--secondary);
     color: white;
   }
 
   .footer ::selection {
     background-color: white; /* Of een kleur die beter contrasteert */
-    color: var(--green); /* Optioneel: pas de tekstkleur aan */
+    color: var(--secondary); /* Optioneel: pas de tekstkleur aan */
 }
 
 .footer ::-moz-selection { /* Voor Firefox */
     background-color: white;
-    color: var(--green);
+    color: var(--secondary);
 }
   

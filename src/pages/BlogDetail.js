@@ -64,7 +64,10 @@ const BlogDetail = () => {
       <div className="container">
         <div className="row justify-content-center blog-detail__main">
           <div className="blog-detail__text col-sm-6">
+
             {currentBlog.middle_content_1 && <p>{currentBlog.middle_content_1}</p>}
+
+            {currentBlog.subtitle_1 && <h3>{currentBlog.subtitle_1}</h3>}
 
             {currentBlog.extra_list_items && currentBlog.extra_list_items.length > 0 && (
               <>
@@ -85,6 +88,8 @@ const BlogDetail = () => {
               </>
             )}
             {currentBlog.middle_content_2 && <p>{currentBlog.middle_content_2}</p>}
+
+            {currentBlog.subtitle_2 && <h3>{currentBlog.subtitle_2}</h3>}
             
             {currentBlog.list_items && currentBlog.list_items.length > 0 && (
               <>
@@ -105,8 +110,40 @@ const BlogDetail = () => {
               </>
             )}
 
+            {currentBlog.subtitle_3 && <h3>{currentBlog.subtitle_3}</h3>}
+
+            {currentBlog.middle_content_3 && <p>{currentBlog.middle_content_3}</p>}
+
+            {currentBlog.subtitle_4 && <h3>{currentBlog.subtitle_4}</h3>}
+
+            {currentBlog.middle_content_4 && <p>{currentBlog.middle_content_4}</p>}
+
+            {currentBlog.list_2_items && currentBlog.list_2_items.length > 0 && (
+              <>
+                {currentBlog.list_2_type === "ordered" ? (
+                  <ol className="blog-detail__list blog-detail__list--ordered">
+                    {currentBlog.list_2_itemss.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ol>
+                ) : (
+                  <ul className="blog-detail__list blog-detail__list--unordered">
+                    {currentBlog.list_2_items.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                )}
+              </>
+            )}
+
+            {currentBlog.subtitle_5 && <h3>{currentBlog.subtitle_5}</h3>}
+
+            {currentBlog.middle_content_5 && <p>{currentBlog.middle_content_5}</p>}
+
             {currentBlog.end_content && <p>{currentBlog.end_content}</p>}
-            {currentBlog.final_content && <p>{currentBlog.final_content}</p>}
+            <br/>
+            {currentBlog.end_salutation && <p>{currentBlog.end_salutation}</p>}
+            {currentBlog.bye && <p>{currentBlog.bye}</p>}
           </div>
         </div>
       </div>

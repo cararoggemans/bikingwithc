@@ -20,11 +20,15 @@ const SelectedBlog = () => {
 
   return (
     <section className="selected-blog">
-      <h2 className="selected-blog__title">{t("featured_blogs.title")}</h2>
-      <p className="selected-blog__subtitle" aria-hidden="true">
-        {t("featured_blogs.subtitle")}
-      </p>
-      <div className="container">
+    <div className="container">
+      <div className="row d-flex justify-content-center align-items-center">
+        <div className="col-md-6">
+          <h2 className="selected-blog__title">{t("featured_blogs.title")}</h2>
+          <p className="selected-blog__subtitle" aria-hidden="true">
+            {t("featured_blogs.subtitle")}
+          </p>
+        </div>
+      </div>
         <ul className="selected-blog__articles row">
           {sortedBlogs.slice(0, 2).map((blog, index) => (
             <li key={blog.id} className={blogClasses[index] || "selected-blog__item col-lg-4 col-md-6"}>

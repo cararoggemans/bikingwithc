@@ -1,34 +1,26 @@
 {
   "navigation": {
     "home": "Home",
-    "work": "Projects",
-    "expertise": "Expertise",
     "blog": "Blog",
     "contact": "Contact"
   },
   
   "hero": {
-    "title": "Crafting Creative Content",
-    "subtitle": "Ready to dive into my world?",
+    "title": "Your go-to place for motorcycle inspiration",
+    "subtitle": "This is where the ride begins. Ready to go?",
     "alt": "Creative content creator specializing in graphic design, web design, and social media strategies."
   },
 
   "small_description": {
     "title": "A little bit about me",
-    "intro": "Hello there, nice to meet you! I'm Cara, a graphic designer, web designer and content creator from Beringen. My passion? Creating strong visual identities and building websites that are both beautiful and functional.",
-    "middle": "With a background in cross-media design and a love for branding, web design & content creation, I help businesses stand out online. I design user-friendly websites, powerful brand identities and creative visual content.",
-    "outro": "When I’m not behind my laptop, you’ll probably find me on my motorcycle: always on the lookout for new inspiration!"
-  },
-
-  "featured_projects": {
-    "title": "Selected projects",
-    "subtitle": "Take a dive in and discover how I bring visions to life.",
-    "see_more": "See More"
+    "intro": "Hi there, nice to meet you! I’m Cara — content creator and graphic designer with a huge passion for motorcycling. As a kid, I often rode along with my dad, watching my parents take long trips together and thinking: “One day, I want that too.” Years later I got my own license, and that’s when the real adventure started.",
+    "middle": "My first solo ride felt like coming home — but also a little like being lost. What I missed? Someone who understands what it’s like to ride alone. Someone to ask: Is this normal? Do you feel that too?",
+    "outro": "That’s why I started BikingWithC. I want to be that person for others, and create a space where you can ask questions, have doubts, and just ride at your own pace."
   },
   
   "featured_blogs": {
     "title": "Latest from the blog",
-    "subtitle": "Turning creative adventures into inspiring stories: discover my insights on design, social media, creativity and digital innovation.",
+    "subtitle": "BikingWithC is all about discovery: not just the world, but yourself on two wheels. Here you’ll find stories about planning my first rides, what I pack for trips, and how it feels to be out there solo.",
     "read_more": "Read more"
   },
 
@@ -53,13 +45,13 @@
     },
     
     "contact": {
-      "title": "Let's Connect",
-      "subtitle": "Excited? Let's talk!",
-      "hero_alt": "Get in touch for creative solutions in content creation, graphic design, and web design.",
-      "email": "Drop me an email at ",
-      "whatsapp": "Send me a message on ",
-      "linkedin": "Let’s connect on  ",
-      "note": "Have an idea? A question? Or just want to chat about design, creativity, or motorcycles? Whether it's a quick hello or a deep dive into creative projects, I’d love to hear from you. Let’s connect!"
+      "title": "Got something to share?",
+      "subtitle": "Mijn inbox is always open",
+      "hero_alt": "Neem contact op voor creatieve oplossingen in contentcreatie, grafisch ontwerp en webdesign.",
+      "email": "Send me an e-mail at ",
+      "instagram": "DM me on",
+      "tiktok": " or ",
+      "note": "Got a question, a tip, a “this is so me” moment, or just want to say hi? Feel free to send me a DM on any of my social channels. Email works too. I reply as quickly as I can, but sometimes there’s a ride in between."
     },
     "expertise": {
       "hero_title": "Expertise",
@@ -100,8 +92,6 @@
   },
 
   "project_navigation": {
-    "previous_project": "Previous project",
-    "next_project": "Next project",
     "previous_blog": "Previous blog",
     "next_blog": "Next blog"
   },
@@ -111,12 +101,10 @@
     "middle_title": "Useful links",
     "right_title": "Get in touch",
     "right_below_title": "Socials",
-    "left_text": "Graphic designer and web developer from Beringen, with a passion for content creation and social media.",
+    "left_text": "I share what I wish I had known during my first kilometers: tips, stories, and unfiltered motorcycle inspiration. Real, raw, and always on the road.",
     "link_1": "Home",
-    "link_2": "Projects",
-    "link_3": "Expertise",
-    "link_4": "Blog",
-    "link_5": "Contact"
+    "link_2": "Blog",
+    "link_3": "Contact"
   },
   
   "alt": {

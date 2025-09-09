@@ -5,7 +5,6 @@ import MetaDescription from '../components/MetaDescription';
 import contactPicture from '../img/contact/get-in-touch-contact-page.jpg'
 import { useTranslation } from "react-i18next";
 import { MdEmail } from "react-icons/md";
-import { FaLinkedin } from "react-icons/fa";
 import { RiMessage2Fill } from "react-icons/ri";
 
 const Contact = () => {
@@ -47,19 +46,14 @@ const Contact = () => {
             <span className="contact__icon contact__icon--email">
             <MdEmail /> 
             </span>
-            {t("pages.contact.email")} <a href="mailto:cararoggemans@gmail.com">cararoggemans@gmail.com</a>
+            {t("pages.contact.email")} <a href="mailto:hello@bikingwithc.com">hello@bikingwithc.com</a>
           </p>
           <p>
             <span className="contact__icon contact__icon--whatsapp">
                  <RiMessage2Fill />
             </span>
-            {t("pages.contact.whatsapp")} <a href="https://wa.me/+32479428601" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-          </p>
-          <p>
-            <span className="contact__icon contact__icon--linkedin">
-                 <FaLinkedin />
-            </span>
-            {t("pages.contact.linkedin")} <a href="https://www.linkedin.com/in/cararoggemans/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            {t("pages.contact.instagram")} <a href="https://www.instagram.com/bikingwithc" target="_blank" rel="noopener noreferrer">Instagram</a>
+            {t("pages.contact.tiktok")} <a href="https://www.youtube.com/@BikingWithC" target="_blank" rel="noopener noreferrer">TikTok</a>
           </p>
         </div>
       </div>

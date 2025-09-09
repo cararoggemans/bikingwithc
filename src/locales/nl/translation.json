@@ -1,48 +1,30 @@
 {
   "navigation": {
     "home": "Home",
-    "work": "Projecten",
-    "expertise": "Expertise",
     "blog": "Blog",
     "contact": "Contact"
   },
 
   "hero": {
-    "title": "Crafting Creative Content",
-    "subtitle": "Klaar om in mijn wereld te duiken?",
+    "title": "De plek voor motorinspiratie",
+    "subtitle": "Hier begint jouw rit. Klaar voor vertrek?",
     "alt": "Creative content creator specialized in graphic design, web design, and social media strategies."
   },
 
   "small_description": {
     "title": "Een beetje over mij",
-    "intro": "Hallo hallo, leuk dat je hier bent! Ik ben Cara, een grafisch ontwerper, webdesigner en content creator uit Beringen. Mijn passie? Sterke visuele identiteiten creëren en websites bouwen die niet alleen mooi, maar ook functioneel zijn.",
-    "middle": "Met een achtergrond in cross-media design en een liefde voor branding, webdesign & content creatie help ik bedrijven om online op te vallen. Ik ontwerp gebruiksvriendelijke websites, krachtige merkidentiteiten en creatieve visuele content.",
-    "outro": "Wanneer ik niet achter mijn laptop zit, ben ik waarschijnlijk onderweg met mijn motor: steeds op zoek naar nieuwe inspiratie!"
-  },
-  
-  "featured_projects": {
-    "title": "Uitgelichte projecten",
-    "subtitle": "Neem een kijkje in mijn creatieve wereld en ontdek hoe mijn projecten tot leven komen.",
-    "see_more": "Ontdek meer"
-    
+    "intro": "Hallo hallo, leuk dat je hier bent! Ik ben Cara, content creator en grafisch ontwerper met een enorme passie voor motorrijden. Als kind zat ik vaak achterop bij mijn papa op de motor. Ik zag mijn ouders samen lange ritten maken en dacht: “Dat wil ik later ook.” Jaren later haalde ik zelf mijn rijbewijs en toen begon het avontuur pas echt.",
+    "middle": "Mijn eerste solo-rit voelde als thuiskomen, maar ook een beetje als verdwalen... Wat ik miste? Iemand die begrijpt hoe het is om alleen te rijden. Iemand om aan te vragen: Is dit normaal? Heb jij dat ook?",
+    "outro": "BikingWithC is ontstaan vanuit dat gevoel. Ik wil die persoon zijn voor anderen. En een plek creëren waar je mag vragen, twijfelen en gewoon onderweg mag zijn op je eigen tempo."
   },
   
   "featured_blogs": {
     "title": "Laatste blogartikels",
-    "subtitle": "Van creatieve avonturen naar inspirerende verhalen: ontdek mijn inzichten over design, social media, creativiteit en digitale innovatie.",
+    "subtitle": "BikingWithC draait rond ontdekken: niet alleen de wereld, maar ook jezelf op de moto. Hier lees je onder andere hoe ik mijn eerste rit plande, wat ik meeneem op reis en hoe het voelt om alleen onderweg te zijn.",
     "read_more": "Lees meer"
   },
 
   "pages": {
-    "projects": {
-      "hero_title": "Projecten",
-      "title": "Alle projecten",
-      "subtitle": "Ontdek mijn werk",
-      "hero_alt": "Selectie van creatieve projecten met focus op grafisch ontwerp, contentcreatie en social media campagnes.",
-      "description": "Neem een kijkje in mijn creatieve wereld, waar ideeën werkelijkheid worden.",
-      "see_more": "Bekijk project",
-      "teaser_text": "Ontdek meer over dit project"
-    },
     "blog": {
       "hero_title": "Blog",
       "title": "Alle blogartikels",
@@ -52,39 +34,13 @@
       "see_more": "Lees meer"
     },
     "contact": {
-      "title": "Let's connect",
-      "subtitle": "Excited? Laten we connecteren",
+      "title": "Wil je iets kwijt?",
+      "subtitle": "Mijn inbox staat altijd open",
       "hero_alt": "Neem contact op voor creatieve oplossingen in contentcreatie, grafisch ontwerp en webdesign.",
       "email": "Stuur me een mailtje op ",
-      "whatsapp": "Stuur me een berichtje op ",
-      "linkedin": "Laten we connecteren op ",
-      "note": "Heb je een idee? Een vraag? Of gewoon zin om te praten over design, creativiteit of motors? Of het nu een korte kennismaking is of een inspirerend gesprek over creatieve projecten, ik hoor graag van je!"
-    },
-    "expertise": {
-      "hero_title": "Expertise",
-      "title": "Expertise",
-      "subtitle": "Ontdek wat ik voor jou kan doen",
-      "description": "Wat kan ik voor jou doen?",
-      "hero_alt": "Expertise in contentcreatie, grafisch ontwerp en webdesign voor diverse sectoren.",
-      "intro": "Van een onderhoudsvriendelijke website tot een herkenbare visuele huisstijl of een slimme contentstrategie: ik help je het verhaal van jouw merk krachtig en helder te vertellen. Hieronder ontdek je hoe ik jou kan versterken in webdesign, branding, contentcreatie en strategie.",
-      "grid_title": "Mijn 4 core domeinen",
-      "grid_intro": "Geen standaardoplossingen, wel vier focusgebieden waarin ik jou écht kan helpen. Met de juiste tools en een goede dosis creatieve energie.",
-      "web": {
-        "title": "Webdesign, development & onderhoud",
-        "description": "Van wireframes tot levende websites: ik bouw gebruiksvriendelijke, responsive websites in platformen zoals Wordpress en Drupal. Inclusief SEO-optimalisatie. Verder heb ik ervaring met React."
-      },
-      "branding": {
-        "title": "Branding & grafisch ontwerp",
-        "description": "Design dat een verhaal vertelt. Van logo’s tot flyers, visitekaartjes en campagnemateriaal: ik geef merken een sterke visuele identiteit. Ik werk voornamelijk met Adobe Creative Suite (InDesign, Illustrator & Photoshop), maar heb ook ervaring met Canva."
-      },
-      "content": {
-        "title": "Content creatie, social media & community management",
-        "description": "Ik werk contentstrategieën en visuals uit. Van posts tot reels, advertenties tot community interactie: ik help merken online verbinden. Ik heb ervaring met CapCut, Wondershare Filmora en heb ook een basiskennis van After Effects en Premiere Pro."
-      },
-      "strategy": {
-        "title": "Strategie & marketingplanning",
-        "description": "Van idee tot actieplan. Ik vertaal bedrijfsdoelen naar marketingstrategieën, contentkalenders en campagnes."
-      }
+      "instagram": "Stuur me een DM op ",
+      "tiktok": " of ",
+      "note": "Solo rijden wil niet zeggen dat je er alleen voor staat! Heb je een vraag, een tip, een herkenbaar momentje of gewoon zin om eventjes hallo te zeggen? Stuur gerust een DM op 1 van mijn social media kanalen. Of een mailtje kan natuurlijk ook. Ik antwoord altijd zo snel mogelijk — soms zit er alleen een motorritje tussen"
     },
     "404": {
       "hero_title": "Verloren op zee",
@@ -96,25 +52,15 @@
       "back_button": "Ga terug"
     }
   },
-
-  "project_navigation": {
-  "previous_project": "Vorig project",
-  "next_project": "Volgend project",
-  "previous_blog": "Vorige blog",
-  "next_blog": "Volgende blog"
-  },
-
   "footer": {
-  "left_title": "Cara Roggemans",
+  "left_title": "BikingWithC",
   "middle_title": "Nuttige links",
   "right_title": "Contact",
   "right_below_title": "Socials",
-  "left_text": "Grafisch ontwerper en web developer uit Beringen, met een passie voor content creatie en social media.",
+  "left_text": "Hier deel ik wat ik zelf had willen weten voor mijn eerste kilometers: tips, verhalen en motorinspiratie zonder filter. Gewoon echt. Gewoon onderweg.",
   "link_1": "Home",
-  "link_2": "Projecten",
-  "link_3": "Expertise",
-  "link_4": "Blog",
-  "link_5": "Contact"
+  "link_2": "Blog",
+  "link_3": "Contact"
   },
 
   "alt": {
@@ -128,14 +74,6 @@
         "title": "Allround digital creative: Grafisch ontwerp, webdesign & content creation",
         "description": "Ontdek de creatieve wereld van Cara Roggemans, een grafisch ontwerper en web developer met een passie voor branding, strategie; digitale communicatie, webdesign en content creatie."
       },
-      "projects": {
-        "title": "CARA | Projecten",
-        "description": "Bekijk een selectie van creatieve projecten, van branding strategie en webdesign tot sociale media campagnes en visuele storytelling."
-      },
-      "expertise": {
-        "title": "CARA | Jouw expert in webdesign, branding, content & strategie",
-        "description": "Ontdek hoe ik jou kan versterken met doordacht webdesign, een sterke visuele identiteit, slimme content en een heldere strategie. Geen standaardaanpak, wel creatieve oplossingen op maat van jouw merk."
-      },
       "blog": {
         "title": "CARA | Blog",
         "description": "Lees de nieuwste blogartikelen over creativiteit, design, marketing en digitale trends."
@@ -148,6 +86,11 @@
         "title": "Pagina niet gevonden",
         "description": "Deze pagina lijkt spoorloos verdwenen te zijn. Misschien spoelt hij ooit weer aan, maar voor nu kan je beter terugkeren naar bekend terrein."
       }
+  },
+
+  "project_navigation": {
+    "previous_blog": "Vorige blog",
+    "next_blog": "Volgende blog"
   },
   
   "general": {

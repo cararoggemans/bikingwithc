@@ -1,130 +1,144 @@
-import blogImage1 from '../../img/blog/slow-paced-design.jpg';
-import summaryImage1 from '../../img/blog/why-you-should-focus-on-engagement.jpg';
-import blogImage2 from '../../img/blog/instagram-ditches-the-square-layout.jpg';
-import summaryImage2 from '../../img/blog/why-you-should-focus-on-engagement.jpg';
-import blogImage3 from '../../img/blog/dont-let-ai-steal-your-voice.jpg';
-import summaryImage3 from '../../img/blog/dont-let-ai-steal-your-voice-2.jpg';
-import blogImage4 from '../../img/blog/why-you-should-focus-on-engagement.jpg';
-import summaryImage4 from '../../img/blog/why-you-should-focus-on-engagement-2.jpg';
+import blogImage1 from '../../img/hero/blog-start-zomer-600.jpg';
+import summaryImage1 from '../../img/blog/start-van-de-zomer.jpg';
+import blogImage2 from '../../img/hero/blog-meenemen-op-solotrip-600.jpg';
+import summaryImage2 from '../../img/blog/wat-meenemen-solotrip.jpg';
+import blogImage3 from '../../img/hero/motortrip-plannen-600.jpg';
+import summaryImage3 from '../../img/blog/motortrip-plannen.jpg';
 
-const blogData = [
-  {
-    id: 4,
-    slug: "power-of-engagement",
-    image: blogImage4,
-    imageSources: {
-      '476': require('../../img/hero/power-of-engagement-600.jpg'),
-      '768': require('../../img/hero/power-of-engagement-1024.jpg'),
-      '1280': require('../../img/hero/power-of-engagement-1280.jpg'),
-      '1920': require('../../img/hero/power-of-engagement-1920.jpg')
-    },
-    summary_image: summaryImage4,
-    title: "Why your brand should care about engagement",
-    alt: "A person engaging with their smartphone by reacting, liking, and saving posts.",
-    description: "In 2025, engagement is no longer just a nice-to-have: it’s the core of your social strategy.",
-    meta_description: "Engagement isn't optional: it's the key to social media success. Explore a simple method to build real connections and boost your online presence.",
-    date: "2025-04-07",
-    start_content: "I recently came across something called the 5x5x5 method. A simple habit-building technique meant to create small but consistent impact. And immediately, I thought: this is exactly how we should be thinking about engagement on social media.",
-    middle_content_1: "Originally designed to build productivity routines, the 5x5x5 method is all about keeping things simple and sustainable. And let’s be honest: when it comes to showing up consistently online, we could all use a little structure. This approach helps you stay present.",
-    extra_list_intro: "Here’s how you can apply 5x5x5 to your socials:",
-    extra_list_type: "ordered",
-    extra_list_items: [
-      "Spend 5 minutes a day engaging on your socials",
-      "Leave 5 meaningful comments on posts from others (not just '🔥' or 'love this')",
-      "Actually watch, read or reflect on 5 posts from your community"
-    ],
-    middle_content_2: "That small daily effort goes a long way. You’ll show your audience there’s a real human behind the brand and that makes the difference. You’ll be more visible (because algorithms reward engagement), more relatable (because you’re part of the conversation), and more connected (because you’re building community, not just counting followers).",
-    list_intro: "Want to give it a try? Here are 5 simple tips (you saw that coming, right?) to get started:",
-    list_type: "unordered",
-    list_items: [
-      "Show you actually paid attention: mention something specific from the post",
-      "Ask questions: don’t just hand out generic compliments",
-      "Show love to the smaller accounts too",
-      "Keep your tone real and human: just like you’d talk offline",
-      "Make it part of your routine: same time, every day, five minutes"
-    ],
-    final_content: "Posting content will always matter. But engagement? That’s what turns content into connection. Build it into your day and your brand will feel more human."
-  },  
+const blogDataEn = [
   {
     id: 3,
-    slug: "dont-let-ai-steal-your-voice",
+    slug: "planning-next-motorcycle-trip",
     image: blogImage3,
     imageSources: {
-      '476': require('../../img/hero/dont-let-ai-steal-your-voice-600.jpg'),
-      '768': require('../../img/hero/dont-let-ai-steal-your-voice-1024.jpg'),
-      '1280': require('../../img/hero/dont-let-ai-steal-your-voice-1280.jpg'),
-      '1920': require('../../img/hero/dont-let-ai-steal-your-voice-1920.jpg')
+      '476': require('../../img/hero/motortrip-plannen-600.jpg'),
+      '768': require('../../img/hero/motortrip-plannen-1024.jpg'),
+      '1280': require('../../img/hero/motortrip-plannen-1280.jpg'),
+      '1920': require('../../img/hero/motortrip-plannen-1920.jpg')
     },
     summary_image: summaryImage3,
-    title: "Don’t let AI steal your voice",
-    alt: "An illustration of AI and human interaction",
-    description: "AI might be your ultimate sidekick, but if you’re not careful, you risk letting it steal your brand’s soul.",
-    meta_description: "AI can support your content creation,but don't let it take over. Learn how to keep your brand voice authentic in a world of generated content.",
-    date: "2025-01-25",
-    start_content: "You can’t avoid it anymore: AI is everywhere. From perfectly captioned Instagram posts to blogs that seem to write themselves, Facebook events promising unforgettable nights and the sudden explosion of digital e-books. It’s clear: AI is conquering the digital world. Everyone’s experimenting with prompts, image generation and endless possibilities. And honestly? I get it. Tools like ChatGPT can be an incredible help: they save time, spark ideas and even act as top-tier spell-checkers.",
-    middle_content_1: "But here’s the problem: most people open ChatGPT, type in a vague prompt and copy-paste the output without a second thought. If that’s your approach, it’s like letting a robot take over your dating profile. Sure, it’ll send messages and keep up with small talk, but will it truly capture your voice, values and personality?",
-    middle_content_2: "When it comes to your brand, authenticity is everything. AI can generate amazing headlines and full blog posts, but if you just let it do all the work without adding your own unique touch, your content will feel empty. It won’t stand out. It won’t connect. Your audience might read it, but they won’t feel it.",
-    end_content: "So, what’s the secret? Collaboration. Don’t let AI replace you, but let it assist you. Start by crafting strong, specific prompts. Add your own voice and perspective and don’t hesitate to tweak the final result to make it unmistakably you. Let your personality, or your brand’s identity, shine through. People crave connection and authenticity and that’s something AI simply can’t replicate.",
-    final_content: "Your audience is here for YOU. Keep that personal touch alive and never let the robots steal the show. Craft content that feels human."
+    title: "How I prepare my next motorcycle trip",
+    alt: "Notebook and map used for planning a motorcycle route",
+    description: "Winter is my planning season: picking destinations, mapping routes and booking stays for the next ride.",
+    meta_description: "Winter means planning: considering Switzerland, Croatia or Slovenia; max 500 km/day; scenic vs. fast days; mapping routes in TomTom; hotels with parking, breakfast and free cancellation.",
+    date: "2025-09-09",
+    start_content: "The days are shorter, the evenings colder. For many riders that means winter break. For me, it’s the start of something new: planning next summer’s adventure. Last vacation I chose a long-haul flight, but next year I’m going back to a proper motorcycle trip. And this time, not solo—my partner is working on his A license and will join me.",
+    middle_content_1: "For me the adventure begins at the planning table. First I look at possible destinations, then I sketch out a rough day-by-day plan, and finally I dive into the detailed route work. It takes patience, but I love it. It already feels like the first kilometers of the trip.",
+    subtitle_1: "Destinations we’re considering",
+    list_intro: "Some favorites on our wishlist:",
+    list_type: "unordered",
+    list_items: [
+      "Switzerland: icons like Grimsel, Furka, and Susten (and many more)",
+      "Croatia: further to reach, but stunning coastlines and countryside",
+      "Slovenia: compact, green, and full of curves"
+    ],
+    middle_content_2: "Croatia and Slovenia are further away. We’re debating whether to use a trailer to start closer, or simply plan a longer journey. Both are on the table.",
+    subtitle_2: "Planning day by day",
+    middle_content_3: "From my two previous solo trips I learned a hard rule: 500 km a day is my absolute maximum. And that’s with a lot of highway. Riding a bike is far more intense than driving a car—after 500 km you’re physically and mentally done. That’s why I mix ‘fast days’ (motorway, covering distance) with ‘scenic days’ (slower, twistier, more rewarding).",
+    subtitle_3: "Mapping routes",
+    middle_content_4: "I get inspiration from blogs and route apps, but the real work happens in TomTom’s planner. That’s where I draw the routes myself: start and finish, fun detours, and timing for the overnight stop. It takes time, but I see it as part of the fun—my mind is already riding while I plan.",
+    subtitle_4: "Stays: safe, simple and flexible",
+    list_2_type: "unordered",
+    list_2_items: [
+      "Private parking: I want the bikes locked away safely",
+      "Breakfast included: a full stomach makes the first stretch easier",
+      "Free cancellation: essential on a bike—weather and routes can change anytime"
+    ],
+    middle_content_5: "I usually book through Booking.com: it’s given me peace of mind for years. Flexibility is a must when traveling by bike: sometimes local weather forces a change, sometimes you just want to squeeze in one more pass. Being able to adjust your stay is a relief.",
+    end_content: "So winter doesn’t feel like an ending, but a quiet beginning. While the rain taps on the window, I’m already building the trip we’ll enjoy to the fullest.",
+    end_salutation: "Safe travels,",
+    bye: "Cara from BikingWithC"
   },
   {
     id: 2,
-    slug: "instagram-ditches-square-layout",
+    slug: "packing-for-motorcycle-trip",
     image: blogImage2,
     imageSources: {
-      '476': require('../../img/hero/instagram-ditches-the-square-layout-600.jpg'),
-      '768': require('../../img/hero/instagram-ditches-the-square-layout-1024.jpg'),
-      '1280': require('../../img/hero/instagram-ditches-the-square-layout-1280.jpg'),
-      '1920': require('../../img/hero/instagram-ditches-the-square-layout-1920.jpg')
+      '476': require('../../img/hero/blog-meenemen-op-solotrip-600.jpg'),
+      '768': require('../../img/hero/blog-meenemen-op-solotrip-1024.jpg'),
+      '1280': require('../../img/hero/blog-meenemen-op-solotrip-1280.jpg'),
+      '1920': require('../../img/hero/blog-meenemen-op-solotrip-1920.jpg')
     },
     summary_image: summaryImage2,
-    title: "Instagram ditches the square layout",
-    alt: "Photo of the new Instagram layout on a smartphone",
-    description: "Instagram shifts away from its square heritage, embracing vertical uploads for mobile-first content.",
-    meta_description: "Instagram moves beyond the square! Learn how this shift to vertical content changes the game for social media creators and mobile-first design.",
-    date: "2025-01-23",
-    start_content: "Instagram is stepping away from its iconic square format, marking a bold move away from its heritage. Over the years, vertical uploads have taken over, fueled by the popularity of Reels and the shift to full-screen mobile experiences. This change addresses a long-standing frustration: users having to crop their photos to fit the square, often cutting out important details in the process.",
-    middle_content_1: "The square is no longer the default, with vertical images now taking center stage. While many users are embracing this modern update, others are nostalgic for the simplicity that made Instagram unique when it launched.",
-    list_type: "ordered",
-    list_intro: "As a transition period, it is still possible—for now—to crop your photos back to the classic square format. Here’s how:",
-    list_items: [
-      "Go to your profile and select the post you want to adjust.",
-      "Tap the menu (three dots) in the top right corner of the post.",
-      "Choose 'Edit Grid' (or its localized equivalent).",
-      "Select 'Crop to Fit', and your photo will return to its square form."
+    title: "What to pack for a motorcycle trip?",
+    alt: "Packed bike with saddlebags and mountain view",
+    description: "My checklist for 13 days of solo travel on a bike: light, smart, and without sacrificing comfort.",
+    meta_description: "Packing guide for solo motorcycle trips: first aid, layers, chain lube, ziplocks and other essentials.",
+    date: "2025-07-14",
+    start_content: "Last summer I set off on a road trip through Europe. 13 days, two small saddlebags, one backpack, and a whole lot of excitement. I wanted to travel light, without giving up comfort. And above all, without cursing my shoulders every day from overpacking.",
+    middle_content_1: "Planning? That I can do. Choosing essentials? That took some practice. Here’s what I’ve learned along the way and the tips I wish I’d had earlier.",
+    subtitle_1: "My luggage system",
+    extra_list_intro: "I was looking for saddlebags that were:",
+    extra_list_type: "unordered",
+    extra_list_items: [
+      "lightweight",
+      "waterproof",
+      "easy to remove"
     ],
-    end_content: "Reactions to this change have been mixed. Some users praise the move as a step forward for creative freedom, while others feel it dilutes Instagram’s identity. Whether you’re team vertical or a square purist, one thing is clear: Instagram is evolving, and its users are evolving with it.",
-    final_content: "What’s your take on the change? Are you embracing vertical uploads, or do you miss the iconic squares?"
+    middle_content_2: "I ended up choosing the SW-Motech Blaze Pro. Sturdy, neat, and convenient: you can pull the inner bags out when you stay somewhere. And if, like me, you sometimes want to be packed up in seconds, you just click off the whole system.",
+    subtitle_2: "Essentials that always come along",
+    list_intro: "When you want to pack compact, everything has to earn its place. These items made the cut and always come with me:",
+    list_type: "ordered",
+    list_items: [
+      "First aid kit: small ziplock with plasters, disinfectant, painkillers. Tiny things that make a big difference",
+      "Chaft tire repair kit: hopefully you’ll never need it, but better safe than sorry. I watched a tutorial beforehand, just in case",
+      "Chain lube: every 500 km I lube my chain. I carry a small or medium can depending on trip length. Favorite brand: Muc-Off",
+      "Travel size toiletry bag: toothbrush, sunscreen, deodorant, skincare in mini sizes (HEMA/Kruidvat are great). Electronics? They stay at home",
+      "Clothing in layers: crucial. You may leave in 20°C and end up near freezing in the mountains. I always pack a thin legging, thermals, and spare gloves",
+      "Helmet cleaner: always a mini spray in my bag for the bugs. I use Muc-Off’s visor & goggle spray. Plus tissues in my jacket pocket"
+    ],
+    subtitle_3: "My secret? Ziplocks",
+    middle_content_3: "Open my saddlebags and you’ll see: ziplocks everywhere. Underwear, clothes, toiletries—they’re all in them. I even reuse the ones from online shopping. Why the obsession? They’re compact, waterproof, and everything is easy to find.",
+    subtitle_4: "Less luggage = more freedom",
+    middle_content_4: "For me, traveling light doesn’t feel like a compromise. It feels like breathing room. Less thinking, less searching, less hauling. More riding, more enjoying, more living.",
+    subtitle_5: "",
+    middle_content_5: "Bonus: on Instagram you’ll find a pinned post with this packing checklist. Super easy to save for your next trip!",
+    end_content: "Have fun out there (and don’t forget your ziplocks 😉)",
+    end_salutation: "Safe travels,",
+    bye: "Cara from BikingWithC"
   },
   {
     id: 1,
-    slug: "slow-paced-design",
+    slug: "start-of-summer",
     image: blogImage1,
     imageSources: {
-      '476': require('../../img/hero/slow-paced-design-600.jpg'),
-      '768': require('../../img/hero/slow-paced-design-1024.jpg'),
-      '1280': require('../../img/hero/slow-paced-design-1280.jpg'),
-      '1920': require('../../img/hero/slow-paced-design-1920.jpg')
+      '476': require('../../img/hero/blog-start-zomer-600.jpg'),
+      '768': require('../../img/hero/blog-start-zomer-1024.jpg'),
+      '1280': require('../../img/hero/blog-start-zomer-1280.jpg'),
+      '1920': require('../../img/hero/blog-start-zomer-1920.jpg')
     },
     summary_image: summaryImage1,
-    title: "Slow paced design in a fast world",
-    alt: "A designer sketching ideas on a notebook",
-    description: "Good design takes time. Here’s why slowing down can lead to better work and a better process.",
-    meta_description: "Discover why slowing down your design process can boost creativity, improve results and bring more intention to your graphic and content creation.",
-    date: "2025-01-15",
-    start_content: "We live in a world where everything is about being faster. Deadlines are tight, trends change quickly and clients expect results right away. As a designer, it’s so easy to get caught up in this rush, trying to finish projects as quickly as possible. But here’s the question: when did speed become more important than creating something truly great?",
-    middle_content_1: "I’ve realized that good design, design that really makes an impact, takes time. Time to think, to try different ideas and to make it better. Rushing often leads to work that’s just okay. It might do the job, but it won’t stand out or leave a lasting impression..",
-    middle_content_2: "That’s why I’ve started slowing down with my design process. It’s not about wasting time: it’s about being thoughtful. It’s about asking the right questions, giving ideas time to grow and focusing on the details that make a design unique.",
-    list_intro: "Here’s what slow design means to me:",
+    title: "Start of summer: time for curves and mountain passes",
+    alt: "Mountain pass at sunrise",
+    description: "Summer is here and the mountains are calling. Here’s how I prepare for my first passes of the season.",
+    meta_description: "First mountain passes, useful websites and checklists for solo motorcycle trips. Start your summer with excitement and preparation.",
+    date: "2025-07-01",
+    start_content: "Finally. The first truly warm days: the sun sneaking through your visor at 8 a.m. and the pull of the bike louder than your computer.",
+    middle_content_1: "The summer holidays have officially begun and that means one thing: the mountains are waiting. Time for hairpins, passes, and breathtaking views.",
+    middle_content_2: "But before you hop on the bike, a quick reality check: what’s already open? Which roads are clear? And what should you keep in mind? Here are the preparations I always make before setting off on a trip.",
+    subtitle_2: "Summer doesn’t mean every pass is open",
+    list_intro: "The calendar may say summer, but snow at altitude doesn’t always agree. Some passes open only late June or July, depending on snowmelt and sun exposure. A few reliable sites to check:",
+    list_type: "unordered",
     list_items: [
-      "Sketching ideas by hand before opening my laptop",
-      "Taking time to research the story behind a project or brand",
-      "Trying out different versions, even if the first one seems good",
-      "Stepping out for a while and coming back with fresh eyes"
+      "alpen-paesse.ch: Swiss mountain passes",
+      "bormio.eu: Stelvio, Gavia and Umbrail info",
+      "cols-cyclisme.com: French mountain passes"
     ],
-    end_content: "I know it’s not always easy to slow down. There’s often pressure to deliver fast, especially in a world where trends come and go so quickly. But when I take my time, not only is the final result better, but I also enjoy the process so much more. Design is more than just finishing tasks. It’s about creating something meaningful, telling a story, and connecting with people. That can’t happen in a rush. So, let’s stop thinking faster is always better. Great ideas take time, and they’re worth it.",
-    final_content: "Slow design has helped me create better work and enjoy my creativity more. Could slowing down help you too?"
+    subtitle_3: "Routes are gold, but stay flexible",
+    middle_content_3: "On paper everything looks perfect: pass A, coffee in B, overnight in C. In reality there are detours (rockfall or roadworks), events blocking roads (hello, Tour de France), or snow at 2,200 meters. That’s why I pack layers, plan extra time, and always keep a plan B in mind. And a GPS.",
+    subtitle_4: "Do I need a vignette?",
+    list_2_type: "unordered",
+    list_2_items: [
+      "Austria: required on highways",
+      "Switzerland: required on highways",
+      "France: Crit’Air eco vignette required in some zones"
+    ],
+    subtitle_5: "Last but not least",
+    middle_content_5: "There’s no better feeling than riding your first pass of the year. For me personally? That moment it gets colder as you climb. When you see snow by the roadside and realize you’re above the clouds. That feeling of: I’m alive and wouldn’t want it any other way.",
+    end_content: "Have fun out there—and let me know which passes you’ve already ridden this summer. I’d love to hear your adventures!",
+    end_salutation: "Safe travels,",
+    bye: "Cara from BikingWithC"
   }
 ];
 
-export default blogData;
+export default blogDataEn;

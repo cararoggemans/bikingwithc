@@ -3,8 +3,8 @@ import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import HamburgerMenu from './HamburgerMenu';
 import LanguageSwitcher from './LanguageSwitcher';
-import Logo from '../img/cararoggemans.svg';
-import LogoSticky from '../img/cararoggemans-green.svg';
+import Logo from '../img/bikingwithc-default.svg';
+import LogoSticky from '../img/bikingwithc-variant.svg';
 
 const Header = () => {
   const { t } = useTranslation();
@@ -56,16 +56,6 @@ const Header = () => {
                   <li className="navigation__item">
                     <Link to={`/${currentLang}/`} className={`navigation__link ${isActive('/') ? 'active' : ''}`}>
                       {t("navigation.home")}
-                    </Link>
-                  </li>
-                  <li className="navigation__item">
-                    <Link to={`/${currentLang}/work`} className={`navigation__link ${isActive('/work') ? 'active' : ''}`}>
-                      {t("navigation.work")}
-                    </Link>
-                  </li>
-                  <li className="navigation__item">
-                    <Link to={`/${currentLang}/expertise`} className={`navigation__link ${isActive('/expertise') ? 'active' : ''}`}>
-                      {t("navigation.expertise")}
                     </Link>
                   </li>
                   <li className="navigation__item">

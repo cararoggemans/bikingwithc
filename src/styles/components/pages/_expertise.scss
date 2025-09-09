@@ -16,7 +16,7 @@
   
   &__intro {
     grid-column: span 6;
-    background-color: var(--green);
+    background-color: var(--secondary);
     color: #fff;
     padding: 2rem;
     display: flex;
@@ -83,16 +83,16 @@
       .expertise__overlay {
         background: none;
         border: none;
-        color: var(--darkgrey);
+        color: var(--primary);
         text-shadow: none;
         padding: 2rem;
   
         h3 {
-          color: var(--darkgrey);
+          color: var(--primary);
         }
   
         p {
-          color: var(--darkgrey);
+          color: var(--primary);
         }
       }
     }

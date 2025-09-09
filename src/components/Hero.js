@@ -41,7 +41,7 @@ const imageSources = {
   },
 };
 
-const Hero = ({ backgroundBaseName, dynamicSources, title, teaserText, backgroundAlt }) => {
+const Hero = ({ backgroundBaseName, dynamicSources, title, subtitle, title_2, teaserText, backgroundAlt }) => {
   const scrollToSection = () => {
     const navbarHeight = document.getElementById('header')?.offsetHeight || 0;
     const element = document.getElementById('small-description');

@@ -6,8 +6,8 @@ function Quote() {
         <div className="quote__background {blacktext}"></div>
             <div className="container">
                 <div className="offset-md-1 col-md-10">
-                    <blockquote>The only way to do great work <br></br>
-                    is to love what you do.</blockquote>
+                    <blockquote> Riding solo doesn’t mean<br></br>
+                    you’re on your own. </blockquote>
                 </div>
             </div>
     </section>
