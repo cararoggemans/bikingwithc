@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://cararoggemans.com/sitemap.xml
+Sitemap: https://bikingwithc.com/sitemap.xml

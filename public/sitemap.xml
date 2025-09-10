@@ -1,72 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Home -->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- HOME -->
   <url>
-    <loc>https://cararoggemans.com/en/</loc>
+    <loc>https://bikingwithc.com/nl/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://cararoggemans.com/nl/</loc>
+    <loc>https://bikingwithc.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Work Overview -->
+  <!-- BLOG OVERVIEW -->
   <url>
-    <loc>https://cararoggemans.com/en/work</loc>
+    <loc>https://bikingwithc.com/nl/blog</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/blog"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cararoggemans.com/nl/work</loc>
+    <loc>https://bikingwithc.com/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/blog"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Work Detail Pages -->
-   <url><loc>https://cararoggemans.com/nl/work/studio-bloom-socials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/studio-bloom-socials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/cabin-crew-thanks</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/work/cabin-crew-thanks</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/xendo-socials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/work/xendo-socials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/trixxo-20-years</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/work/trixxo-20-years</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/xendo-planning</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/work/xendo-planning</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/quality-fence-gardens</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/work/quality-fence-gardens</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/xendo-bar-menu</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/work/xendo-bar-menu</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/wedding-invitation</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/work/wedding-invitation</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/choco-logo</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/work/choco-logo</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/tourette-webdesign</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/work/tourette-webdesign</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/work/birthday-card-design</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/work/birthday-card-design</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- BLOG DETAIL: NL -->
+  <url>
+    <loc>https://bikingwithc.com/nl/blog/winterstop-plannen-motorreis</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/blog/winterstop-plannen-motorreis"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/blog/planning-next-motorcycle-trip"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bikingwithc.com/nl/blog/start-van-de-zomer</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/blog/start-van-de-zomer"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/blog/start-of-summer"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bikingwithc.com/nl/blog/wat-meenemen-op-motorreis</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/blog/wat-meenemen-op-motorreis"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/blog/packing-for-motorcycle-trip"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
-    <!-- Expertise -->
-  <url><loc>https://cararoggemans.com/en/expertise</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://cararoggemans.com/nl/expertise</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <!-- BLOG DETAIL: EN -->
+  <url>
+    <loc>https://bikingwithc.com/en/blog/planning-next-motorcycle-trip</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/blog/winterstop-plannen-motorreis"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/blog/planning-next-motorcycle-trip"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bikingwithc.com/en/blog/start-of-summer</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/blog/start-van-de-zomer"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/blog/start-of-summer"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bikingwithc.com/en/blog/packing-for-motorcycle-trip</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/blog/wat-meenemen-op-motorreis"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/blog/packing-for-motorcycle-trip"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
-  <!-- Blog Overview -->
-  <url><loc>https://cararoggemans.com/en/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://cararoggemans.com/nl/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <!-- CONTACT -->
+  <url>
+    <loc>https://bikingwithc.com/nl/contact</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/contact"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://bikingwithc.com/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bikingwithc.com/nl/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bikingwithc.com/en/contact"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
 
-  <!-- Blog Detail Pages -->
-  <url><loc>https://cararoggemans.com/nl/blog/power-of-engagement</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/blog/power-of-engagement</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/blog/dont-let-ai-steal-your-voice</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/blog/dont-let-ai-steal-your-voice</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/blog/instagram-ditches-square-layout</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/blog/instagram-ditches-square-layout</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/nl/blog/slow-paced-design</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cararoggemans.com/en/blog/slow-paced-design</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- Contact -->
-  <url><loc>https://cararoggemans.com/en/contact</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cararoggemans.com/nl/contact</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

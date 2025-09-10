@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://cararoggemans.com",
+  "homepage": "https://bikingwithc.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.8",
