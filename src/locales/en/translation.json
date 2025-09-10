@@ -8,7 +8,7 @@
   "hero": {
     "title": "Your go-to place for motorcycle inspiration",
     "subtitle": "This is where the ride begins. Ready to go?",
-    "alt": "Creative content creator specializing in graphic design, web design, and social media strategies."
+    "alt": "Hairpin bend in the Dolomites, perfect for motorcyclists."
   },
 
   "small_description": {
@@ -25,70 +25,33 @@
   },
 
   "pages": {
-    "projects": {
-      "hero_title": "Projects",
-      "title": "All projects",
-      "subtitle": "Discover my work",
-      "hero_alt": "Selection of creative projects with focus on graphic design, content creation, and social media campaigns.",
-      "description": "Step into my creative world, where ideas turn into reality.",
-      "see_more": "View project",
-      "teaser_text": "Dive deeper into this project"
-    },
-
     "blog": {
       "hero_title": "Blog",
       "title": "All Blog posts",
-      "subtitle": "Latest insights",
-      "hero_alt": "Insights and tips on content creation, social media strategies, and creative design.",
-      "description": "Insights, trends, and thoughts on creativity, design and digital marketing.",
+      "subtitle": "Discover my latest adventures",
+      "hero_alt": "Motorcycle stories and inspiration.",
+      "description": "For riders who want to learn, ride and share: practical tips, personal stories and a lot of adventures.",
       "see_more": "Read more"
     },
     
     "contact": {
       "title": "Got something to share?",
-      "subtitle": "Mijn inbox is always open",
-      "hero_alt": "Neem contact op voor creatieve oplossingen in contentcreatie, grafisch ontwerp en webdesign.",
-      "email": "Send me an e-mail at ",
-      "instagram": "DM me on",
+      "subtitle": "My inbox is always open",
+      "hero_alt": "Get in touch with Cara from BikingWithC.",
+      "email": "Email me at ",
+      "instagram": "DM me on ",
       "tiktok": " or ",
-      "note": "Got a question, a tip, a “this is so me” moment, or just want to say hi? Feel free to send me a DM on any of my social channels. Email works too. I reply as quickly as I can, but sometimes there’s a ride in between."
-    },
-    "expertise": {
-      "hero_title": "Expertise",
-      "title": "Expertise",
-      "subtitle": "Discover how I can support your brand",
-      "description": "What can I do for you?",
-      "hero_alt": "Expertise in content creation, graphic design, and web design across various sectors.",
-      "intro": "From a low-maintenance website and a recognisable visual identity to a smart content strategy: I help you tell your brand’s story in a way that’s clear, creative and compelling. Below, you'll discover how I support brands through web design, branding, content creation and strategic planning.",
-      "grid_title": "My 4 core strengths",
-      "grid_intro": "No one-size-fits-all solutions here, just four areas where I can truly make a difference. With the right tools and a healthy dose of creative energy.",
-      "web": {
-        "title": "Web design, development & maintenance",
-        "description": "From wireframes to fully functional websites: I design responsive, user-friendly platforms using tools like WordPress and Drupal with SEO in mind. I also have experience working with React."
-      },
-      "branding": {
-        "title": "Branding & graphic design",
-        "description": "Design that tells a story. From logos and business cards to flyers and campaign visuals: I help brands express who they are through strong visual identities I work primarily with Adobe Creative Suite (InDesign, Illustrator & Photoshop), but I also have experience with Canva."
-      },
-      "content": {
-        "title": "Content creation, social media & community management",
-        "description": "I create strategies and visual content that connect. From Instagram reels to ad campaigns and community interaction: I help brands engage their audience online. I have experience with CapCut and Wondershare Filmora and have a basic knowledge of After Effects and Premiere Pro."
-      },
-      "strategy": {
-        "title": "Strategy & marketing planning",
-        "description": "From idea to execution. I translate business goals into creative strategies, detailed content calendars and campaigns that get things moving."
-      }
+      "note": "Riding solo doesn’t mean you’re on your own. Got a question, a tip, a “this is so me” moment, or just want to say hi? Send a DM on one of my channels, or an email. I reply as quickly as I can — sometimes there’s a ride in between."
     },
     "404": {
-      "hero_title": "Lost at sea",
+      "hero_title": "Lost on the way",
       "subtitle": "What now?",
-      "title": "Oops! You dived too deep",
-      "description_intro": "It looks like this page has drifted too far into the ocean.",
-      "description_outro": "Maybe it’ll wash up someday, but for now, you might want to return to shore.",
-      "home_button": "Return to home",
+      "title": "Oops! Dead end ahead.",
+      "description_intro": "Sorry, this page seems to have gone off the map.",
+      "description_outro": "Head back to familiar ground.",
+      "home_button": "Back to homepage",
       "back_button": "Go back"
     }
-    
   },
 
   "project_navigation": {
@@ -109,37 +72,26 @@
   
   "alt": {
     "contact": {
-      "image_1": "Cara Roggemans – Specialized in graphic design, photography, web design & development, holding a phone and ready to connect."
+      "image_1": "Cara from BikingWithC holding a phone, ready to connect."
     }
   },
 
   "meta": {
-      "home": {
-        "title": "CARA | Graphic design, web design & content creation",
-        "description": "Step into the creative world of Cara Roggemans: designer, developer and digital storyteller with a passion for branding, web design, social media and content creation."
-      }, 
-      "projects": {
-        "title": "CARA | Projects",
-        "description": "Browse creative projects by Cara Roggemans: from visual branding and website design to social media campaigns, digital storytelling and creative content solutions."
-      },
-      "expertise": {
-        "title": " CARA | Your expert in web design, branding, content & strategy",
-        "description": "Explore how I can help your brand grow with smart web design, a strong visual identity, engaging content and creative strategy. No one-size-fits-all, just tailor-made solutions with impact."
-      },
-      "blog": {
-        "title": "CARA | Blog",
-        "description": "Stay inspired with blog articles on graphic design, digital marketing, social media strategy and creative entrepreneurship."
-      },
-      "blog_detail": {
-        "description": "Dive into insights about design, content creation, social strategy and building a creative brand in the digital age."
-      },
-      "contact": {
-        "title": "CARA | Let's work together on design, web & branding strategy",
-        "description": "Have a project in mind? Get in touch with Cara Roggemans for design, social media, branding, web development and creative collaborations."
-      },
-      "404": {
-        "title": "Page not found",
-        "description": "It looks like this page has drifted too far into the ocean. Maybe it’ll wash up someday, but for now, you might want to return to shore."
+    "home": {
+      "title": "BikingWithC | Motorcycle inspiration, stories & tips",
+      "description": "Personal motorcycle stories, practical tips and inspiration for solo and two-up rides. Discover, plan and enjoy — at your own pace."
+    },
+    "blog": {
+      "title": "BikingWithC | Blog",
+      "description": "Read the latest motorcycle stories and tips: route planning, packing lists, seasonal rides and more."
+    },
+    "contact": {
+      "title": "BikingWithC | Contact",
+      "description": "Questions or just want to say hi? Send a DM or email — my inbox is always open."
+    },
+    "404": {
+      "title": "Page not found",
+      "description": "This page seems off the map. Head back to the homepage and keep exploring."
     }
   },
 

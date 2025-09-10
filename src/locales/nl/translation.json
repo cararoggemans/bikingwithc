@@ -8,7 +8,7 @@
   "hero": {
     "title": "De plek voor motorinspiratie",
     "subtitle": "Hier begint jouw rit. Klaar voor vertrek?",
-    "alt": "Creative content creator specialized in graphic design, web design, and social media strategies."
+    "alt": "Haarspeldbocht ideaal voor motorrijders in de Dolomieten."
   },
 
   "small_description": {
@@ -28,26 +28,26 @@
     "blog": {
       "hero_title": "Blog",
       "title": "Alle blogartikels",
-      "subtitle": "Ontdek mijn laatste inzichten ",
-      "hero_alt": "Inzichten en tips over contentcreatie, social media strategieën en creatief ontwerp.",
-      "description": "Inzichten, trends en gedachten over creativiteit, design en digitale marketing.",
+      "subtitle": "Ontdek mijn laatste avonturen",
+      "hero_alt": "Motorverhalen en inspiratie",
+      "description": "Voor motorrijders die willen leren, routes maken en hun ervaringen willen delen: praktische tips, persoonlijke verhalen en een hoop avontuur.",
       "see_more": "Lees meer"
     },
     "contact": {
       "title": "Wil je iets kwijt?",
       "subtitle": "Mijn inbox staat altijd open",
-      "hero_alt": "Neem contact op voor creatieve oplossingen in contentcreatie, grafisch ontwerp en webdesign.",
+      "hero_alt": "Contact opnemen met Cara van BikingWithC.",
       "email": "Stuur me een mailtje op ",
       "instagram": "Stuur me een DM op ",
       "tiktok": " of ",
       "note": "Solo rijden wil niet zeggen dat je er alleen voor staat! Heb je een vraag, een tip, een herkenbaar momentje of gewoon zin om eventjes hallo te zeggen? Stuur gerust een DM op 1 van mijn social media kanalen. Of een mailtje kan natuurlijk ook. Ik antwoord altijd zo snel mogelijk — soms zit er alleen een motorritje tussen"
     },
     "404": {
-      "hero_title": "Verloren op zee",
+      "hero_title": "Verdwaald onderweg",
       "subtitle": "Wat nu?",
-      "title": "Oeps! Je bent te diep gedoken",
+      "title": "Oeps! Deze weg loopt dood.",
       "description_intro": "Sorry, maar deze pagina lijkt spoorloos verdwenen te zijn.",
-      "description_outro": "Misschien spoelt hij ooit weer aan, maar voor nu kan je beter terugkeren naar bekend terrein.",
+      "description_outro": "Navigeer terug naar bekend terrein.",
       "home_button": "Ga terug naar de homepage",
       "back_button": "Ga terug"
     }
@@ -65,27 +65,27 @@
 
   "alt": {
     "contact": {
-    "image_1": "Cara Roggemans - Gespecialiseerd in grafisch ontwerp, fotografie, webdesign & development, met een telefoon in de hand, klaar om te connecteren."
+    "image_1": "Cara van BikingWithC met telefoon in de hand, klaar om te connecteren."
     }
   },
 
   "meta": {
-      "home": {
-        "title": "Allround digital creative: Grafisch ontwerp, webdesign & content creation",
-        "description": "Ontdek de creatieve wereld van Cara Roggemans, een grafisch ontwerper en web developer met een passie voor branding, strategie; digitale communicatie, webdesign en content creatie."
-      },
-      "blog": {
-        "title": "CARA | Blog",
-        "description": "Lees de nieuwste blogartikelen over creativiteit, design, marketing en digitale trends."
-      },
-      "contact": {
-        "title": "CARA | Neem contact op",
-        "description": "Een project in gedachten? Neem contact op met Cara Roggemans voor grafisch ontwerp, webontwikkeling en creatieve samenwerkingen."
-      },
-      "404": {
-        "title": "Pagina niet gevonden",
-        "description": "Deze pagina lijkt spoorloos verdwenen te zijn. Misschien spoelt hij ooit weer aan, maar voor nu kan je beter terugkeren naar bekend terrein."
-      }
+    "home": {
+      "title": "BikingWithC | Motorinspiratie, verhalen & tips",
+      "description": "Persoonlijke motorverhalen, praktische tips en inspiratie voor solo- en duo-ritten. Ontdek, plan en geniet — op jouw tempo."
+    },
+    "blog": {
+      "title": "BikingWithC | Blog",
+      "description": "Lees de nieuwste motorverhalen en tips: routeplanning, inpaklijsten, tips en tricks en meer."
+    },
+    "contact": {
+      "title": "BikingWithC | Contact",
+      "description": "Vragen of gewoon hallo zeggen? Stuur een mail of DM — mijn inbox staat altijd open."
+    },
+    "404": {
+      "title": "Pagina niet gevonden",
+      "description": "Deze pagina is even onvindbaar. Keer terug naar de homepage en ontdek verder."
+    }
   },
 
   "project_navigation": {
